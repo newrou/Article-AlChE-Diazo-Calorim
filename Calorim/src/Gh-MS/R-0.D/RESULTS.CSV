@@ -1,0 +1,13 @@
+[contents]
+count=2
+Name=,D:\Data\20160219\R-0.D
+1=,PBM Apex minus start of peak
+2=,INT TIC: R-0.D\data.ms
+[PBM Apex minus start of peak]
+Time=,Fri Feb 19 14:33:03 2016
+Header=,"PK","RT","Area Pct","Library/ID","Ref","CAS","Qual"
+1=,  1, 14.9122,100.0000,"Benzene, 1-iodo-4-nitro-", 97160,"000636-98-6",94
+[INT TIC: R-0.D\data.ms]
+Time=,Fri Feb 19 15:47:10 2016
+Header=,"Peak","R.T.","First","Max","Last","PK  TY","Height","Area","Pct Max","Pct Total"
+1=,  1, 14.910, 1569,1576,1585,"BB  ", 296907,  4928198,100.00,100.000

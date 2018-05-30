@@ -1,0 +1,22 @@
+
+           Data File Information
+
+     Data File     : D:\DATA\20160219\R-0.D\data.ms
+     Operator:     :  kassanova
+     Acquired On   :  19 Feb 2016  14:04    
+     Instrument    :  MSD 5975C
+     Method File   :  UNIVERSAL_ARENES.M
+     Sample Name   :   
+     Misc Info     :   
+     Vial Number   :  1
+     Sample Mult.  :  1.00
+     Sample Amount :  0.00
+     Exp. Barcode  :   
+     Act.  Barcode :   
+
+
+
+     Files in Data Directory
+
+
+     * = File time stamp is before latest quant update

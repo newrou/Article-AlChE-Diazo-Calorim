@@ -1,0 +1,55 @@
+[1] "Stat-V-Src"
+
+	One Sample t-test
+
+data:  td$P0
+t = 4.7446, df = 9, p-value = 0.001052
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+  8.636364 24.376536
+sample estimates:
+mean of x 
+ 16.50645 
+
+[1] "P0 = 16.506450 +- 7.870086 [8.636364 24.376536]"
+
+	One Sample t-test
+
+data:  td$k
+t = 25.792, df = 9, p-value = 9.542e-10
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 0.07683325 0.09160675
+sample estimates:
+mean of x 
+  0.08422 
+
+[1] "k = 0.084220 +- 0.007387 [0.076833 0.091607]"
+
+	One Sample t-test
+
+data:  td$dH
+t = 65.232, df = 9, p-value = 2.36e-13
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 226.7588 243.0512
+sample estimates:
+mean of x 
+  234.905 
+
+[1] "dH = 234.905000 +- 8.146217 [226.758783 243.051217]"
+
+	One Sample t-test
+
+data:  td$C0
+t = 5.0037, df = 9, p-value = 0.0007353
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 1.483073e-05 3.930567e-05
+sample estimates:
+  mean of x 
+2.70682e-05 
+
+[1] "C0 = 0.000027 +- 0.000012 [0.000015 0.000039]"
+null device 
+          1 

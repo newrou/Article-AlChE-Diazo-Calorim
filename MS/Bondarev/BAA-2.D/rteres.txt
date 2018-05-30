@@ -1,0 +1,27 @@
+
+  Data Path : D:\Data\20170718\
+                       benzoyl-tetra-Ac-salicin     Area Percent Report
+  Data File : BAA-2.D                                             
+  Acq On    : 18 Jul 2017  15:27
+  Operator  : fefelova
+  Sample    : BAA-2
+  Misc      :  
+  ALS Vial  : 3   Sample Multiplier: 1
+
+  Integration Parameters: autoint1.e
+  Integrator: ChemStation
+
+  Method    : C:\msdchem\1\METHODS\UNIVERSAL EXPRESS_MEDIUM_MOLECULES.M
+  Title     :  
+
+  Signal     : TIC: BAA-2.D\data.ms
+
+ peak  R.T. first  max last  PK   peak      corr.   corr.    % of
+   #   min   scan scan scan  TY  height     area    % max.   total
+ ---  ----- ----- ---- ---- ---  -------   -------  ------  -------
+  1   9.246   712  716  729 BB      5754    123852 100.00% 100.000%
+ 
+ 
+                        Sum of corrected areas:      123852
+
+UNIVERSAL E..._MOLECULES.M Fri Jul 21 15:17:33 2017 CHEMSTATION 

@@ -1,0 +1,1021 @@
+<html style="" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script async="" src="DeLos%20F.%20DeTar%20-%20Publications_files/analytics.js"></script><script id="facebook-jssdk" src="DeLos%20F.%20DeTar%20-%20Publications_files/sdk.js"></script><script language="javascript" type="text/javascript">
+
+var gPUBID=''; // global placeholder
+
+function getHttpRes() {
+  pubid=gPUBID;
+  if (http.readyState == 4) {
+    res = http.responseText;  // These following lines get the response and update the page
+    document.getElementById('div'+songid).innerHTML = res;
+  }
+}
+
+function ChangeHS(pid,pubid,score) {  // This function does the AJAX request
+  gPUBID=pubid;
+  http.open('GET','pubcommands.php?cmd=humanscore&pid='+pid+'&pubid='+pubid+'&score='+score);
+  http.onreadystatechange = getHSRes;
+  http.send(null);
+}
+
+function ChangePSS(pid,pubid,score) {  // This function does the AJAX request
+  gPUBID=pubid;
+  http.open('GET','pubcommands.php?cmd=pubsimscore&pid='+pid+'&pubid='+pubid+'&score='+score);
+  http.onreadystatechange = getHSRes;
+  http.send(null);
+}
+
+function ChangeSS(pid,pid2,score) {  // This function does the AJAX request
+  gPUBID=pid.toString() + pid2.toString();
+  http.open('GET','pubcommands.php?cmd=simscore&pid='+pid+'&pid2='+pid2+'&score='+score);
+  http.onreadystatechange = getSSRes;
+  http.send(null);
+}
+
+function AddHS(pid,pubid,score) {  // This function does the AJAX request
+  gPUBID=pubid;
+  http.open('GET','pubcommands.php?cmd=humanadd&pid='+pid+'&pubid='+pubid+'&score='+score);
+  http.onreadystatechange = getHSRes;
+  http.send(null);
+}
+
+function getHSRes() {
+  pubid=gPUBID;
+  if (http.readyState == 4) {
+    res = http.responseText;  // These following lines get the response and update the page
+    document.getElementById('pri'+pubid).innerHTML = res;
+  }
+}
+
+function getPSSRes() {
+  pubid=gPUBID;
+  if (http.readyState == 4) {
+    res = http.responseText;  // These following lines get the response and update the page
+    document.getElementById('pri'+pubid).innerHTML = res;
+  }
+}
+
+function getSSRes() {
+  pubid=gPUBID;
+  if (http.readyState == 4) {
+    res = http.responseText;  // These following lines get the response and update the page
+    //document.getElementById('pri'+pubid).innerHTML = res;
+  }
+}
+
+function getXHTTP() {
+  var xhttp;
+   try {   // The following "try" blocks get the XMLHTTP object for various browsers
+      xhttp =
+ new ActiveXObject("Msxml2.XMLHTTP");
+    } catch (e) {
+      try {
+        xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+      } catch (e2) {
+            // This block handles Mozilla/Firefox browsers...
+            try {
+              xhttp = new XMLHttpRequest();
+            } catch (e3) {
+              xhttp = false;
+            }
+      }
+    }
+  return xhttp; // Return the XMLHTTP object
+}
+
+var http = getXHTTP(); // This executes when the page first loads.
+
+</script>
+
+
+
+
+<title>DeLos F. DeTar - Publications</title>
+
+
+
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Chemistry Tree: publications by DeLos DeTar, Chemistry, Florida State University">
+    <link rel="shortcut icon" href="https://academictree.org/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="DeLos%20F.%20DeTar%20-%20Publications_files/normalize.css">
+    <link rel="stylesheet" href="DeLos%20F.%20DeTar%20-%20Publications_files/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="DeLos%20F.%20DeTar%20-%20Publications_files/custom.css">
+    <link rel="stylesheet" type="text/css" href="DeLos%20F.%20DeTar%20-%20Publications_files/jquery-ui.css">
+    <script type="text/javascript" src="DeLos%20F.%20DeTar%20-%20Publications_files/modernizr.js"></script>
+        </head><body id="home"><div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+  
+
+
+<style type="text/css">
+A{text-decoration:none; color: #0000FF}
+A:visited {text-decoration: none; color: #3333FF}A:active {text-decoration: none; color: #AAAA33}
+A:hover {color: #AAAA33; text-decoration: underline}
+body {background-color: rgb(241, 241, 241); color: #000000;}
+</style>
+                  <div class="modal fade" id="signIN" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <div class="login-choice">
+                            <h4 id="login-modal" class="entrance-selector selected">Log In</h4>
+                            <h4 id="login-sign-up" class="entrance-selector">Sign Up</h4>
+                          </div>
+                        </div>
+                        <div class="modal-body">
+        <div class="response" role="alert">
+        </div>
+
+                  <div id="login-modal-container"><p>Log in to add people &amp; connections, or <b><a href="#" class="sign-up-trig trig">click here to create an account</a></b>.</p>
+<form id="logmein" action="process.php" method="POST">
+<input placeholder="Username" class="text-input text-input-navy text-input-o" name="user" size="20" maxlength="30" type="text"> <input placeholder="Password" class="text-input text-input-navy text-input-o" name="pass" size="20" maxlength="30" value="" type="password">
+<font size="2"><input name="remember" type="checkbox"> Save login </font>
+ <input name="sublogin" value="1" type="hidden">
+<input name="refurl" value="/chemistry/publications.php?pid=72244" type="hidden">
+ - <font size="2"><a href="https://academictree.org/chemistry/forgotpass.php">Forgot password</a></font>
+</form></div><div id="sign-up-modal-container"><p>Already have an account? Log in <b><a href="#" class="sign-in-trig trig">here.</a></b></p><span>Login ID:</span><input class="text-input text-input-navy text-input-o register" name="newusername" placeholder="(Visible to the public but not directly linked to your node.)" type="TEXT"><span>Password:</span><input class="text-input text-input-navy text-input-o register" placeholder="password" name="passwd" value="" type="password"><span>Re-enter:</span><input class="text-input text-input-navy text-input-o register" placeholder="password again" name="passwd2" value="" type="password"><span>Email:</span><input class="text-input text-input-navy text-input-o register" name="email" placeholder="email" type="TEXT"><p>(Don't worry, your e-mail will not be distributed or made public. Its only purpose is for us to contact you about your account.)</p></div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-navy btn-border-o" data-dismiss="modal">Close</button>
+                          <button id="login-button" type="submit" class="btn btn-navy btn-border-o">Login</button>
+                          <button id="sign-up-button" onclick="validateNewUser(event)" type="submit" class="btn btn-navy btn-border-o">Sign Up</button>
+                        </div>
+                              
+                      </div>
+                    </div>
+                  </div>
+
+    
+     
+        <div class="wrapper" style="min-height: 828px;">
+         
+            <header>
+             <a id="menuToggle" href="#">☰</a>
+                <a id="logo" href="https://academictree.org/chemistry/index.php">Chemistry Tree</a>            <div id="navigation">
+                <form action="peoplelist.php" id="searchform" role="search"><input class="text-input text-input-o text-input-navy text_people_top ui-autocomplete-input" name="searchname" placeholder="Search" style="  width: 150px; margin: 0;" autocomplete="off" type="text"><input id="check" name="searchalltrees" value="1" type="hidden"><input id="pidconn" name="pidconn" value="-1" type="hidden">
+<input id="allfields" name="allfields" value="1" type="hidden">
+<button type="submit" class="btn btn-navy btn-border-o"><img src="DeLos%20F.%20DeTar%20-%20Publications_files/search.svg"></button></form><ul><li><a href="https://academictree.org/chemistry/tree.php?pid=72244">Tree</a></li><li><a href="https://academictree.org/chemistry/peoplelist.php?new=1">Recent Additions</a></li><li><a href="https://academictree.org/chemistry/distance.php">Distance</a></li><li><a href="https://academictree.org/chemistry/analysis.php">Analysis</a></li><li><a href="https://academictree.org/chemistry/faq.php">Help</a></li><li><a href="https://academictree.org/chemistry/reporterror.php?pid=72244&amp;refurl=https://academictree.org/chemistry/publications.php?pid=72244">Report Bug</a></li><li><a href="#" id="login-trigger" data-toggle="modal" data-target="#signIN">Sign In/Register</a></li>
+
+      
+            </ul>
+            </div>
+            </header>
+
+            <div class="main clearfix">
+<div class="container cf"> <div class="boxfloat"> <div class="boxinline">
+  <div class="personphoto noprint">
+<img src="DeLos%20F.%20DeTar%20-%20Publications_files/cache.jpg" class="img-thumbnail img-responsive"> 
+  </div>
+<!-- Begin DIV holding Person Information  -->
+  <div class="personinfo">
+          <h1 style="margin-top:0;">
+                  <a href="https://academictree.org/chemistry/peopleinfo.php?pid=72244">DeLos F. DeTar, Ph.D. </a> - Publications  </h1>
+<table cellspacing="0" border="0">
+<tbody><tr><td valign="top"><h5 style="margin:0;">Affiliations:&nbsp;</h5></td><td></td><td>Chemistry&nbsp;</td><td><a href="https://academictree.org/chemistry/inst.php?locid=71">Florida State University</a>, Tallahassee, FL, United States&nbsp;</td></tr>
+</tbody></table>
+
+                  <h5 style="display: inline-block; margin: 0;">Area:</h5> physical organic chemistry                  <br>
+
+</div> </div> </div> </div>
+<!-- Construct button container -->
+<div class="container"> <div class="btns noprint">
+<a href="https://academictree.org/chemistry/tree.php?pid=72244" class="btn btn-default">Tree</a>
+<a href="https://academictree.org/chemistry/peopleinfo.php?pid=72244" class="btn btn-default">Info</a>
+<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?CMD=search&amp;DB=pubmed&amp;term=DeTar%2BDF[au]" target="_blank" class="btn btn-default">PubMed</a> <a href="https://academictree.org/chemistry/reporterror.php?pid=72244" class="btn btn-default">Report error</a> </div>
+<div class="container">
+<div class="boxfloat_compact">
+<form style="margin-bottom: 0em;" method="get">
+<input name="pid" value="72244" type="hidden">
+<p style="margin-bottom: 0em;"><b>107 high-probability publications.</b>
+We are testing a new system for linking publications to authors. You can help! If you notice any innacuracies, please
+<a href="#" data-toggle="modal" data-target="#signIN">sign in</a> and mark papers as correct or incorrect matches.
+If you identify any major omissions or other inaccuracies in the publication list, please <a href="https://academictree.org/chemistry/reporterror.php?pid=-1&amp;refurl=%2Fchemistry%2Fpublications.php%3Fpid%3D72244">let us know</a>.</p>
+</form></div></div>
+<style>
+/*  .container {
+    width: 80%;
+    text-align: center;
+    display: inline-block;
+  }*/
+</style>
+<div class="table-body">
+<table class="table table-striped table-responsive table-hover table-bordered">
+<tbody><tr>
+<th>Year</th>
+<th>Citation&nbsp;</th>
+<th>Score</th>
+
+</tr>
+
+
+<tr>
+<td valign="top">2007</td>
+<td valign="top"><b>DeTar DF</b>. Calculation of entropy and heat 
+capacity of organic compounds in the gas phase. Evaluation of a 
+consistent method without adjustable parameters. Applications to 
+hydrocarbons. <em>The Journal of Physical Chemistry. A</em>. 111: 4464-77. PMID <a href="http://www.ncbi.nlm.nih.gov/pubmed/17447733" target="_blank">17447733</a> DOI: <a href="http://doi.org/10.1021/jp066312r" target="_blank">10.1021/jp066312r</a>&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">2001</td>
+<td valign="top"><b>DeTar DF</b>. Thermochemical values of 
+oxygen-containing compounds from ab initio calculations: 2. High 
+accuracy enthalpies of formation of alcohols and ethers <em>Journal of Physical Chemistry A</em>. 105: 2073-2084.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1999</td>
+<td valign="top"><b>Detar DF</b>. Thermochemical Values of 
+Oxygen-Containing Compounds from ab Initio Calculations. 1. Enthalpies 
+of Formation of Ethers and Alcohols <em>Journal of Physical Chemistry A</em>. 103: 7055-7068.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1998</td>
+<td valign="top"><b>DeTar DF</b>. Theoretical ab initio calculation of entropy, heat capacity, and heat content <em>Journal of Physical Chemistry A</em>. 102: 5128-5141.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1995</td>
+<td valign="top"><b>DeTar DF</b>. A critical examination of the 
+calculation of ΔHf° values from ab initio energies and from steric 
+energies obtained by molecular mechanics <em>The Journal of Organic Chemistry</em>. 60: 7125-7133.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1995</td>
+<td valign="top"><b>DeTar DF</b>. Desk Top Molecular Modeller. M. James 
+C. Crabbe, John R. Appleyard and Catherine Rees Lay. Electronic 
+Publishing, Oxford University Press, Walton Street, Oxford OX2 6DP, 
+England <em>Computers and Chemistry</em>. 19: 63.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1992</td>
+<td valign="top"><b>DeTar DF</b>. Calculation of formal steric enthalpy with MM2 <em>Journal of Organic Chemistry</em>. 57: 902-910.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1991</td>
+<td valign="top"><b>DeTar DF</b>. Experimental formal steric enthalpy. 1. Alkanes and cycloalkanes <em>Journal of Organic Chemistry</em>. 56: 1463-1470.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1991</td>
+<td valign="top"><b>DeTar DF</b>. Experimental formal steric enthalpy. 3. Alcohols and ethers <em>Journal of Organic Chemistry</em>. 56: 1474-1478.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1991</td>
+<td valign="top"><b>DeTar DF</b>. Experimental formal steric enthalpy. 2. Olefins <em>Journal of Organic Chemistry</em>. 56: 1470-1474.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1991</td>
+<td valign="top"><b>DeTar DF</b>. Experimental formal steric Enthalpy. 4. Aldehydes, ketones, acids, and esters <em>Journal of Organic Chemistry</em>. 56: 1478-1481.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1989</td>
+<td valign="top"><b>Detar DF</b>. Modular molecular mechanics programs and transportable force fields-a partly implemented proposal <em>Computers and Chemistry</em>. 13: 111-116. DOI: <a href="http://doi.org/10.1016/0097-8485%2889%2980002-6" target="_blank">10.1016/0097-8485(89)80002-6</a>&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1988</td>
+<td valign="top"><b>Detar DF</b>. Procedures for defining FSE standards <em>Computers and Chemistry</em>. 12: 1-14. DOI: <a href="http://doi.org/10.1016/0097-8485%2888%2985001-0" target="_blank">10.1016/0097-8485(88)85001-0</a>&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1987</td>
+<td valign="top"><b>DeTar DF</b>. General definition of formal steric enthalpy and applications to estimating differences of enthalpies of formation <em>Journal of Organic Chemistry</em>. 52: 1851-1857.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1987</td>
+<td valign="top"><b>DeTar DF</b>, Binzet S, Darba P. Theoretical 
+calculation of effects of steric hindrance on rates of esterification 
+and of acid-catalyzed hydrolysis <em>Journal of Organic Chemistry</em>. 52: 2074-2082.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1986</td>
+<td valign="top"><b>DeTar DF</b>. Conformational populations and reaction rates <em>Journal of Organic Chemistry</em>. 51: 3749-3751.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1985</td>
+<td valign="top"><b>DeTar DF</b>, Binzet S, Darba P. Formal steric enthalpy. Alcohols, ethers, and olefins <em>Journal of Organic Chemistry</em>. 50: 5298-5303.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1985</td>
+<td valign="top"><b>DeTar DF</b>, Binzet S, Darba P. Formal steric enthalpies of crowded methyl esters <em>Journal of Organic Chemistry</em>. 50: 5304-5308.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1984</td>
+<td valign="top"><b>DeTar D</b>. Editorial: Software survey section <em>Computers and Chemistry</em>. 8: I-III.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1983</td>
+<td valign="top"><b>DeTar DF</b>, Delahunty C. Ester aminolysis: New reaction series for the quantitative measurement of steric effects <em>Journal of the American Chemical Society</em>. 105: 2734-2739.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1982</td>
+<td valign="top"><b>DeTar DF</b>. Tetrahedral intermediate in acyl 
+transfer reactions. A revaluation of the significance of rate data used 
+in deriving fundamental linear free energy relationships <em>Journal of the American Chemical Society</em>. 104: 7205-7212.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1981</td>
+<td valign="top"><b>DeTar DF</b>. Computation of enzyme-substrate specificity. <em>Biochemistry</em>. 20: 1730-43. PMID <a href="http://www.ncbi.nlm.nih.gov/pubmed/7225355" target="_blank">7225355</a>&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1981</td>
+<td valign="top"><b>DeTar DF</b>. Computation of peptide-protein interactions. Catalysis by chymotrypsin: Prediction of relative substrate reactivities <em>Journal of the American Chemical Society</em>. 103: 107-110.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1980</td>
+<td valign="top"><b>DeTar DF</b>. Taft σ* values of alkyl groups: An artifact [39] <em>Journal of the American Chemical Society</em>. 102: 7988-7990.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1980</td>
+<td valign="top"><b>DeTar DF</b>. Effects of alkyl groups on rates of acyl-transfer reactions <em>Journal of Organic Chemistry</em>. 45: 5166-5174.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1980</td>
+<td valign="top"><b>DeTar DF</b>. Effects of alkyl groups on rates of SN2 reactions <em>Journal of Organic Chemistry</em>. 45: 5174-5176.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1980</td>
+<td valign="top"><b>DeTar DF</b>, Luthra NP. Quantitative evaluation of steric effects in SN2 ring closure reactions <em>Journal of the American Chemical Society</em>. 102: 4505-4512.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1979</td>
+<td valign="top"><b>DeTar DF</b>, Luthra NP. Ring conformations of 
+proline. Solution studies based on lanthanide nuclear magnetic resonance
+ shifts and molecular mechanics <em>Journal of Organic Chemistry</em>. 44: 3299-3305.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1979</td>
+<td valign="top"><b>DeTar DF</b>. A new model for estimating concentrations of substances emitted from a line source <em>Journal of the Air Pollution Control Association</em>. 29: 138-141.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1978</td>
+<td valign="top"><b>Detar DF</b>. Calculator least squares evaluation of k, yo, and y∞ for the first order rate equation <em>Computers and Chemistry</em>. 2: 99-104. DOI: <a href="http://doi.org/10.1016/0097-8485%2878%2987009-0" target="_blank">10.1016/0097-8485(78)87009-0</a>&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1978</td>
+<td valign="top"><b>Detar DF</b>. Calculator algorithms (AESHK) for 
+interconverting Arrhenius A and E to ΔH‡ and ΔS‡ and for calculating 
+interpolated rate constants <em>Computers and Chemistry</em>. 2: 149-151. DOI: <a href="http://doi.org/10.1016/0097-8485%2878%2985008-6" target="_blank">10.1016/0097-8485(78)85008-6</a>&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1978</td>
+<td valign="top"><b>Detar DF</b>. Least squares treatment of the arrhenius equation by a programmable calculator <em>Computers and Chemistry</em>. 2: 143-147. DOI: <a href="http://doi.org/10.1016/0097-8485%2878%2985007-4" target="_blank">10.1016/0097-8485(78)85007-4</a>&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1978</td>
+<td valign="top"><b>Detar DF</b>. Calculator least squares evaluation of k for the second order rate equation <em>Computers and Chemistry</em>. 2: 43-45. DOI: <a href="http://doi.org/10.1016/0097-8485%2878%2980010-2" target="_blank">10.1016/0097-8485(78)80010-2</a>&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1978</td>
+<td valign="top"><b>Detar DF</b>. Calculator least squares evaluation of k for the first order rate equation <em>Computers and Chemistry</em>. 2: 39-41. DOI: <a href="http://doi.org/10.1016/0097-8485%2878%2980009-6" target="_blank">10.1016/0097-8485(78)80009-6</a>&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1978</td>
+<td valign="top"><b>DeTar DF</b>, Brooks W. Cyclization and polymerization of ω-(bromoalkyl)dimethylamines <em>Journal of Organic Chemistry</em>. 43: 2245-2248.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1978</td>
+<td valign="top"><b>DeTar DF</b>, McMullen DF, Luthra NP. Steric effects in SN2 reactions <em>Journal of the American Chemical Society</em>. 100: 2484-2493.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1977</td>
+<td valign="top"><b>DeTar DF</b>, Luthra NP. Conformations of proline <em>Journal of the American Chemical Society</em>. 99: 1232-1244. PMID <a href="http://www.ncbi.nlm.nih.gov/pubmed/833398" target="_blank">833398</a>&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1977</td>
+<td valign="top"><b>DeTar DF</b>. Molmec, a general approach to molecular mechanics computations <em>Computers and Chemistry</em>. 1: 141-144. DOI: <a href="http://doi.org/10.1016/0097-8485%2877%2985002-X" target="_blank">10.1016/0097-8485(77)85002-X</a>&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1977</td>
+<td valign="top"><b>DeTar DF</b>. Introduction to the symposium in print on molecular mechanics <em>Computers and Chemistry</em>. 1: 139-140. DOI: <a href="http://doi.org/10.1016/0097-8485%2877%2985001-8" target="_blank">10.1016/0097-8485(77)85001-8</a>&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1977</td>
+<td valign="top"><b>DeTar DF</b>. Utility subroutines <em>Computers and Chemistry</em>. 1: 135. DOI: <a href="http://doi.org/10.1016/0097-8485%2877%2980014-4" target="_blank">10.1016/0097-8485(77)80014-4</a>&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1977</td>
+<td valign="top"><b>DeTar DF</b>. Algorithms based on solid analytical geometry <em>Computers and Chemistry</em>. 1: 129-134. DOI: <a href="http://doi.org/10.1016/0097-8485%2877%2980013-2" target="_blank">10.1016/0097-8485(77)80013-2</a>&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1977</td>
+<td valign="top"><b>DeTar DF</b>. Data base for force fields and for molecular unit definitions <em>Computers and Chemistry</em>. 1: 115-119. DOI: <a href="http://doi.org/10.1016/0097-8485%2877%2980010-7" target="_blank">10.1016/0097-8485(77)80010-7</a>&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1976</td>
+<td valign="top"><b>DeTar DF</b>. Evaluation of conformational energy populations of alkanes <em>Computers and Chemistry</em>. 1: 35-43. DOI: <a href="http://doi.org/10.1016/0097-8485%2876%2980009-5" target="_blank">10.1016/0097-8485(76)80009-5</a>&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1976</td>
+<td valign="top"><b>DeTar DF</b>, Tenpas CJ. Calculations of steric 
+hindrance in ester hydrolysis based on estimation of van der Waals 
+strain energies of alkanes <em>Journal of the American Chemical Society</em>. 98: 4567-4571.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1976</td>
+<td valign="top"><b>DeTar DF</b>, Tenpas CJ. Estimations of van der Waals strain in hydrocarbons <em>Journal of Organic Chemistry</em>. 41: 2009-2013.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1976</td>
+<td valign="top"><b>DeTar DF</b>, Tenpas CJ. Theoretical calculation of steric effects in ester hydrolysis <em>Journal of the American Chemical Society</em>. 98: 7903-7908.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1974</td>
+<td valign="top"><b>DeTar DF</b>. Quantitative predictions of steric acceleration [29] <em>Journal of the American Chemical Society</em>. 96: 1255-1256.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1974</td>
+<td valign="top"><b>DeTar DF</b>. Calculation of steric effects in reactions [28] <em>Journal of the American Chemical Society</em>. 96: 1254-1255.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1974</td>
+<td valign="top"><b>DeTar DF</b>, Coates DM. Unusual catalytic activity of thiophenoxide ions [21] <em>Journal of the American Chemical Society</em>. 96: 942-943.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1972</td>
+<td valign="top"><b>DeTar DF</b>, Albers RJ, Gilmore F. Synthesis of sequence peptide polymers related to collagen. <em>The Journal of Organic Chemistry</em>. 37: 4377-80. PMID <a href="http://www.ncbi.nlm.nih.gov/pubmed/4642610" target="_blank">4642610</a>&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1970</td>
+<td valign="top"><b>DeTar DF</b>, Novak RW. Carboxylic acid-amine equilibria in nonaqueous solvents <em>Journal of the American Chemical Society</em>. 92: 1361-1365.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1969</td>
+<td valign="top"><b>DeTar DF</b>. Suggested preliminary standards for calibration of optical rotatory dispersion and circular dichroism instruments <em>Analytical Chemistry</em>. 41: 1406-1408.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1968</td>
+<td valign="top"><b>Detar DF</b>, Novak R. Proton tunnelling in acid-base systems in nonaqueous solvents <em>Chemical Communications (London)</em>. 317-318. DOI: <a href="http://doi.org/10.1039/C19680000317" target="_blank">10.1039/C19680000317</a>&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1967</td>
+<td valign="top"><b>DeTar DF</b>, Vajda T. Sequence peptide polymers. II. Poly Glu(OH)-Gly, poly Glu(OH)-Ser(H)-Gly, and their benzyl esters. <em>Journal of the American Chemical Society</em>. 89: 998-1004. PMID <a href="http://www.ncbi.nlm.nih.gov/pubmed/6037021" target="_blank">6037021</a>&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1967</td>
+<td valign="top"><b>DeTar DF</b>, Gouge M, Honsberg W, Honsberg U. Sequence peptide polymers. I. Polymers based on aspartic acid and glycine. <em>Journal of the American Chemical Society</em>. 89: 988-98. PMID <a href="http://www.ncbi.nlm.nih.gov/pubmed/6037020" target="_blank">6037020</a>&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1967</td>
+<td valign="top"><b>DeTar DF</b>, Rogers FF, Bach H. Sequence peptide polymers. III. Poly Asp(OH)-Ser(H)-Gly and other serine-containing polymers <em>Journal of the American Chemical Society</em>. 89: 3039-3045.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1967</td>
+<td valign="top"><b>DeTar DF</b>. A computer program for making steady state calculations: Notes on effective programming techniques <em>Journal of Chemical Education</em>. 44: 193-199.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1967</td>
+<td valign="top"><b>DeTar DF</b>. A theoretical study of the elementary steps involved in the reaction of benzoyl peroxide with benzene <em>Journal of the American Chemical Society</em>. 89: 4058-4068.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1967</td>
+<td valign="top"><b>DeTar DF</b>. Simplified computer programs for treating complex reaction mechanisms <em>Journal of Chemical Education</em>. 44: 191-193.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1967</td>
+<td valign="top"><b>DeTar DF</b>, Long RAJ, Rendleman J, Bradley J, 
+Duncan P. A quantitative product study and a critical evaluation of the 
+thermal decomposition of benzoyl peroxide in benzene <em>Journal of the American Chemical Society</em>. 89: 4051-4057.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1967</td>
+<td valign="top"><b>DeTar DF</b>. Significant figures and correlation of parameters <em>Journal of Chemical Education</em>. 44: 759-761.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1966</td>
+<td valign="top"><b>DeTar DF</b>, Silverstein R. Reactions of 
+carbodiimides. II. The reactions of dicyclohexylcarbodiimide with 
+carboxylic acids in the presence of amines and phenols <em>Journal of the American Chemical Society</em>. 88: 1020-1023.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1966</td>
+<td valign="top"><b>DeTar DF</b>, Estrin NF. An optically pure sequence peptide, Poly.Gly.Gly.Phe. <em>Tetrahedron Letters</em>. 7: 5985-5989.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1966</td>
+<td valign="top"><b>Detar DF</b>. Computer techniques for making beer's law calculations of concentrations from spectral data [18] <em>Analytical Chemistry</em>. 38: 1794-1796.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1966</td>
+<td valign="top"><b>DeTar DF</b>, Silverstein R, Rogers FF. Reactions of carbodiimides. III. The reactions of carbodiimides with peptide acids <em>Journal of the American Chemical Society</em>. 88: 1024-1030.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1966</td>
+<td valign="top"><b>Detar DF</b>, <a href="https://academictree.org/chemistry/publications.php?pid=59706">Detar CE</a>.
+ General computer techniques for evaluating the time-concentration 
+relationships predicted by reaction mechanisms, including complex enzyme
+ mechanisms <em>Journal of Physical Chemistry</em>. 70: 3842-3847.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1966</td>
+<td valign="top"><b>DeTar DF</b>, Silverstein R. Reactions of carbodiimides. I. The mechanisms of the reactions of acetic acid with dicyclohexylcarbodiimide <em>Journal of the American Chemical Society</em>. 88: 1013-1019.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1966</td>
+<td valign="top"><b>DeTar DF</b>, Day VM. The use of the first-order rate equation in treating kinetic data <em>Journal of Physical Chemistry</em>. 70: 495-500.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1963</td>
+<td valign="top"><b>DeTar DF</b>, Honsberg W, Honsberg U, Wieland A, 
+Gouge M, Bach H, Tahara A, Brinigar WS, Rogers FF. Synthesis of peptide 
+polymers with repeating sequences [25] <em>Journal of the American Chemical Society</em>. 85: 2873-2874.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1960</td>
+<td valign="top"><b>Detar DF</b>. The reactivity of the 1-hexyl radical in abstracting hydrogen and halogen atoms <em>Journal of American Chemical Society</em>. 82: 5839-5846.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1960</td>
+<td valign="top"><b>DeTar DF</b>, Chu CC. Intramolecular free radical arylation and related reactions <em>Journal of the American Chemical Society</em>. 82: 4969-4974.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1959</td>
+<td valign="top"><b>DeTar DF</b>, Lamb RC. Diacyl peroxide reactions. V.
+ Simultaneous rupture of two or three bonds in the initial cleavage of 
+δ-phenylvaleryl peroxide <em>Journal of the American Chemical Society</em>. 81: 122-126.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1959</td>
+<td valign="top"><b>DeTar DF</b>, <a href="https://academictree.org/chemistry/publications.php?pid=37472">Westheimer FH</a>. The role of thiamin in carboxylase <em>Journal of the American Chemical Society</em>. 81: 175-178.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1958</td>
+<td valign="top"><b>DeTar DF</b>, Kosuge T. Mechanisms of diazonium salt
+ reactions. VI. The reactions of diazonium salts with alcohols under 
+acidic conditions ; Evidence for hydride transfer <em>Journal of the American Chemical Society</em>. 80: 6072-6077.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1958</td>
+<td valign="top"><b>DeTar DF</b>, Long RAJ. New products from the reaction of benzoyl peroxide with benzene [5] <em>Journal of the American Chemical Society</em>. 80: 4742-4743.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1957</td>
+<td valign="top"><b>DeTar DF</b>, Whiteley TE. Intramolecular reactions. V. Factors affecting the yield in diazonium cyclization reactions <em>Journal of the American Chemical Society</em>. 79: 2498-2502.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1957</td>
+<td valign="top"><b>DeTar DF</b>, Weis C. Diacyl peroxide reactions. III. The behavior of the optically active 3-phenyl-2-propyl free radical <em>Journal of the American Chemical Society</em>. 79: 3045-3049.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1957</td>
+<td valign="top"><b>DeTar DF</b>, Weis C. Diacyl peroxide reactions. II. The reaction of δ-phenylvaleryl peroxide with carbon tetrachloride <em>Journal of the American Chemical Society</em>. 79: 3041-3044.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1956</td>
+<td valign="top"><b>Detar DF</b>, Relyea DI. Intramolecular reactions. 
+IV. Chain transfer reaction involving an aromatic hydrogen atom and 
+related reactions of 2-(4′-methylbenzoyl)-benzenediazonium salts <em>Journal of the American Chemical Society</em>. 78: 4302-4305.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1956</td>
+<td valign="top"><b>Detar DF</b>, Ballentine AR. The mechanisms of 
+diazonium salt reactions. II. A redetermination of the rates of the 
+thermal decomposition of six diazonium salts in aqueous solution <em>Journal of the American Chemical Society</em>. 78: 3916-3920.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1956</td>
+<td valign="top"><b>Detar DF</b>, Turetzky MN. The mechanisms of 
+diazonium salt reactions. V. A kinetic study of the reactions of 
+benzenediazonium fluoborate with methanol in the presence of oxygen <em>Journal of the American Chemical Society</em>. 78: 3928-3932.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1956</td>
+<td valign="top"><b>Detar DF</b>, Carpino LA. The preparation of and the spectral characteristics of some 2-substituted cis- and trans-stilbenes <em>Journal of the American Chemical Society</em>. 78: 475-479.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1956</td>
+<td valign="top"><b>Detar DF</b>, Kwong S. The mechanism of diazonium 
+salt reactions. III. The kinetics of the thermal decomposition of α- and
+ β-naphthalenediazonium fluoborates in aqueous solution <em>Journal of the American Chemical Society</em>. 78: 3921-3925.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1956</td>
+<td valign="top"><b>Detar DF</b>. The precise manometric determination of rate data <em>Journal of the American Chemical Society</em>. 78: 3911-3915.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1956</td>
+<td valign="top"><b>Detar DF</b>, Turetzky MN. The mechanisms of 
+diazonium salt reactions. IV. A kinetic study of the reactions of 
+benzenediazonium fluoborate with methanol in the absence of oxygen <em>Journal of the American Chemical Society</em>. 78: 3925-3928.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1956</td>
+<td valign="top"><b>Detar DF</b>, Weis C. The products of the thermal decomposition of bis-δ-phenylvaleryl peroxide in carbon tetrachloride and in benzene <em>Journal of the American Chemical Society</em>. 78: 4296-4301.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1955</td>
+<td valign="top"><b>DeTar DF</b>, Chu YW. The preparation of cis-2-chlorostilbene and its reaction with lithium <em>Journal of the American Chemical Society</em>. 77: 4410-4411.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1955</td>
+<td valign="top"><b>DeTar DF</b>, Howard JC. Some reactions of an optically active diazonium salt and of an optically active diacyl peroxide <em>Journal of the American Chemical Society</em>. 77: 4393-4398.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1955</td>
+<td valign="top"><b>DeTar DF</b>, Hlynsky A. The thermal decomposition of 2-phenoxybenzoyl peroxide <em>Journal of the American Chemical Society</em>. 77: 4411-4412.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1955</td>
+<td valign="top"><b>DeTar DF</b>, Turetzky MN. The mechanisms of 
+diazonium salt reactions. I. The products of the reactions of 
+benzenediazonium salts with methanol <em>Journal of the American Chemical Society</em>. 77: 1745-1750.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1955</td>
+<td valign="top"><b>DeTar DF</b>. Methods of obtaining rate constants for reactions of half order and of mixed half plus first order followed manometrically <em>Journal of the American Chemical Society</em>. 77: 2013-2015.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1955</td>
+<td valign="top"><b>Detar DF</b>, Kazimi AA. Dinitrobiphenyls obtained by the gomberg-bachmann reaction: A quantitative study <em>Journal of the American Chemical Society</em>. 77: 3842-3844.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1955</td>
+<td valign="top"><b>DeTar DF</b>, Carpino LA. A new method for the preparation of diacyl peroxides <em>Journal of the American Chemical Society</em>. 77: 6370-6371.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1954</td>
+<td valign="top"><b>DeTar DF</b>, Relyea DI. Intramolecular reactions. II. The mechanism of the cyclization of diazotized 2-aminobenzophenones <em>Journal of the American Chemical Society</em>. 76: 1680-1685.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1954</td>
+<td valign="top"><b>DeTar DF</b>, Chu YW. Intramolecular reactions. III. Reactions of diazotized cis- and trans-2-aminostilbene <em>Journal of the American Chemical Society</em>. 76: 1686-1688.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1954</td>
+<td valign="top">Relyea DI, <b>Detar DF</b>. A new type of chain transfer reaction [5] <em>Journal of the American Chemical Society</em>. 76: 1202.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1953</td>
+<td valign="top"><b>DeTar DF</b>, Savat CS. N-nitrosoacetanilide as polymerization initiator <em>Journal of the American Chemical Society</em>. 75: 5116-5117.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1953</td>
+<td valign="top"><b>DeTar DF</b>, <a href="https://academictree.org/chemistry/publications.php?pid=55501">Cain CK</a>, Meeks BS. Spectrophotometric determination of the lonization constants of pteridine, 2-aminopteridine and 4-aminopteridine <em>Journal of the American Chemical Society</em>. 75: 5118-5119.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1953</td>
+<td valign="top"><b>DeTar DF</b>, Savat CS. Reactions of N-nitroso-2-acetamidobenzophenone <em>Journal of the American Chemical Society</em>. 75: 5117-5118.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1951</td>
+<td valign="top"><b>Detar DF</b>, Scheifele HJ. A quantitative study of 
+the orienting influence of the nitro group in the formation of 
+nitrobiphenyls by reaction of nitrobenzene with N-nitrosoacetanilide, 
+with benzoyl peroxide, and with benzenediazonium chloride and alkali <em>Journal of the American Chemical Society</em>. 73: 1442-1445.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1951</td>
+<td valign="top"><b>Detar DF</b>. The mechanism of the reaction of N-nitrosoacetanilide with methanol <em>Journal of the American Chemical Society</em>. 73: 1446-1449.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1950</td>
+<td valign="top"><b>DeTar DF</b>, Sagmanli SV. The mechanism of the cyclization reaction in the decomposition of diazonium salts <em>Journal of the American Chemical Society</em>. 72: 965-969.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1950</td>
+<td valign="top"><b>Detar DF</b>, Broderick E, Foster G, Hilton BD. Attempted rearrangement of 9-bromomethylenefluorene into 9-bromophenanthrene <em>Journal of the American Chemical Society</em>. 72: 2183-2184.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1950</td>
+<td valign="top"><b>DeTar DF</b>. The formation of biphenyl in the decomposition of benzoyl peroxide in nitrobenzene <em>Journal of the American Chemical Society</em>. 72: 1028.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1947</td>
+<td valign="top"><a href="https://academictree.org/chemistry/publications.php?pid=35761">Marvel CS</a>, Prill EJ, <b>Detar DF</b>. Vinyl polymers. XXIV. The reaction of benzoyl peroxide and maleic ester <em>Journal of the American Chemical Society</em>. 69: 52-58.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1946</td>
+<td valign="top"><b>Detar DF</b>, <a href="https://academictree.org/chemistry/publications.php?pid=63178">Carmack M</a>. The Willgerodt reaction. II. A study of reaction conditions with acetophenone and other ketones <em>Journal of the American Chemical Society</em>. 68: 2025-2029.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">1946</td>
+<td valign="top"><a href="https://academictree.org/chemistry/publications.php?pid=63178">Carmack M</a>, <b>Detar DF</b>. The Willgerodt and Kindler reactions. III. Amides from acetylenes and olefins; studies relating to the reaction mechanisms <em>Journal of the American Chemical Society</em>. 68: 2029-2033.&nbsp;</td>
+<td valign="top">1</td>
+<td valign="top"></td>
+</tr>
+<tr><td colspan="6"><a href="https://academictree.org/chemistry/publications.php?pid=72244&amp;searchstring=&amp;showfilter=all" rel="nofollow">Show low-probability matches.</a></td></tr>
+	</tbody></table>
+</div>
+  </div>
+  </div><!-- /main -->
+  </div> <!-- /wrapper -->
+
+
+  <footer>
+  <div class="footer-container">
+
+      <div class="footer-bottom">
+
+      
+Is someone missing from the tree? <a href="#" data-toggle="modal" data-target="#signIN">Register/sign in</a> to make changes.<br>
+<img src="DeLos%20F.%20DeTar%20-%20Publications_files/sess_align.png">Question? Ideas? Want to start a new tree? Contact <em>admin at neurotree dot org</em>
+ - <a href="https://academictree.org/chemistry/reporterror.php?pid=72244&amp;refurl=https%3A%2F%2Facademictree.org%2Fchemistry%2Fpublications.php%3Fpid%3D72244">Report bug/error</a><br>©2005-2017 The Academic Family Tree - <a href="https://academictree.org/chemistry/faq.php#license">Data licensed for re-use with attribution to this site (CC-BY 3.0).</a>
+<span style="position: absolute; right: 0;">
+<iframe src="https://platform.twitter.com/widgets/tweet_button.html?size=s&amp;url=https%3A%2F%2Facademictree.org%2Fchemistry%2Fpublications.php%3Fpid%3D72244text=Academic%20Family%20Tree&amp;hashtags=academictree" size="small" scrolling="no" title="" style="border: 0; overflow: hidden;" width="60" height="25"></iframe>
+<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Facademictree.org%2Fchemistry%2Fpublications.php%3Fpid%3D72244&amp;layout=button&amp;size=small&amp;mobile_iframe=true&amp;width=60&amp;height=25&amp;appId" style="border:none;overflow:hidden;" scrolling="no" allowtransparency="true" width="60" height="25" frameborder="0"></iframe>
+</span>
+</div>
+            </div>
+            </footer>
+    <script type="text/javascript" src="DeLos%20F.%20DeTar%20-%20Publications_files/jquery_002.js"></script>
+    <script type="text/javascript" src="DeLos%20F.%20DeTar%20-%20Publications_files/jquery-ui.js"></script>
+    <script type="text/javascript" src="DeLos%20F.%20DeTar%20-%20Publications_files/jquery.js"></script>
+    <script type="text/javascript" src="DeLos%20F.%20DeTar%20-%20Publications_files/aComplete.js"></script>
+    <script type="text/javascript" src="DeLos%20F.%20DeTar%20-%20Publications_files/bootstrap.js"></script>
+    <script type="text/javascript" src="DeLos%20F.%20DeTar%20-%20Publications_files/submital.js"></script>
+    <script>
+          $( "#sign-in" ).click(function() {
+          $( ".login-container" ).toggle("fast");
+          });
+          $( "#sign-in2" ).click(function() {
+          $( ".login-container" ).toggle("fast");
+          });
+          $(document).ready(function() {  
+  //navigation toggle
+  var menuToggle = $("#menuToggle");
+  var menu = $("#navigation");
+  var menuItem = $("#navigation ul li");
+  
+  menuToggle.click(function() {
+    menu.toggleClass("active");
+  });
+  
+  menuItem.click(function() {
+    menu.removeClass("active");
+    menuItem.removeClass("current-page");
+    $(this).addClass("current-page");
+  });
+
+	h=$('.wrapper').height();
+	//console.log(h);
+	hwrap = h-78;
+	$('.wrapper').css('min-height',hwrap);
+
+
+// login js
+
+$('.sign-in-trig').click(function() {
+  $('#login-modal').addClass('selected');
+  $('#login-modal-container').css('display','block');
+  $('#login-button').css('display','inline-block');
+  $('#login-sign-up').removeClass('selected');
+  $('.response').html("");
+  $('#sign-up-modal-container').css('display','none');
+  $('#sign-up-button').css('display','none');
+});
+
+$('.sign-up-trig').click(function() {
+  $('#login-sign-up').addClass('selected');
+  $('#sign-up-modal-container').css('display','block');
+  $('#sign-up-button').css('display','inline-block');
+  $('#login-modal').removeClass('selected');
+  $('#login-modal-container').css('display','none');
+  $('.response').html("");
+  $('#login-button').css('display','none');
+});
+
+});
+
+  $(window).resize(function() {
+  
+	h=$('.wrapper').height();
+	console.log('wrapper' + h);
+	w=$(window).height();
+	console.log('widow' + w);
+	hwrap = w-84;
+	$('.wrapper').css('min-height',hwrap);
+});
+
+</script>
+  
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61671548-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-1" tabindex="0" style="display: none;"></ul><span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span></body></html>

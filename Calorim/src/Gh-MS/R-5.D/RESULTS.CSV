@@ -1,0 +1,15 @@
+[contents]
+count=2
+Name=,D:\Data\20160219\R-5.D
+1=,PBM Apex minus start of peak
+2=,INT TIC: R-5.D\data.ms
+[PBM Apex minus start of peak]
+Time=,Fri Feb 19 15:44:28 2016
+Header=,"PK","RT","Area Pct","Library/ID","Ref","CAS","Qual"
+1=,  1, 13.3139,55.6909,"4-Nitrophenyl trifluoromethanesulfonate",114532,"017763-80-3",55
+2=,  2, 14.9121,44.3091,"Benzene, 1-iodo-4-nitro-", 97160,"000636-98-6",94
+[INT TIC: R-5.D\data.ms]
+Time=,Fri Feb 19 15:53:47 2016
+Header=,"Peak","R.T.","First","Max","Last","PK  TY","Height","Area","Pct Max","Pct Total"
+1=,  1, 13.316, 1358,1363,1370,"BB  ", 292045,  4269229,100.00, 55.597
+2=,  2, 14.913, 1569,1576,1584,"BB  ", 205879,  3409668, 79.87, 44.403

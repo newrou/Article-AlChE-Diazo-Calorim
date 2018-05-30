@@ -1,0 +1,8 @@
+[contents]
+count=1
+Name=,D:\Data\20170718\BAA-4-1.D
+1=,INT TIC: BAA-4-1.D\data.ms
+[INT TIC: BAA-4-1.D\data.ms]
+Time=,Fri Jul 21 15:08:07 2017
+Header=,"Peak","R.T.","First","Max","Last","PK  TY","Height","Area","Pct Max","Pct Total"
+1=,  1,  8.337,  597, 601, 614,"BB  ",   8974,   152867,100.00,100.000

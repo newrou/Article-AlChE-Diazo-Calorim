@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<gcp:chemistry xmlns:gcp="http://www.nongnu.org/gchempaint" creation="05/30/2017" revision="05/30/2017">
+  <generator>GChemPaint 0.14.14</generator>
+  <theme name="GChemPaint" bond-length="140" bond-angle="120" bond-dist="5" bond-width="1" arrow-length="200" arrow-head-a="6" arrow-head-b="8" arrow-head-c="4" arrow-dist="5" arrow-width="1" arrow-padding="16" hash-width="1" hash-dist="2" stereo-bond-width="5" zoom-factor="4" padding="2" stoichiometry-padding="1" object-padding="16" sign-padding="8" charge-sign-size="9" font-family="Bitstream Vera Sans" font-style="normal" font-weight="normal" font-variant="normal" font-stretch="normal" font-size="12288" text-font-family="Bitstream Vera Serif" text-font-style="normal" text-font-weight="normal" text-font-variant="normal" text-font-stretch="normal" text-font-size="12288"/>
+  <molecule id="m1">
+    <atom id="a1" element="C">
+      <position x="267.64990234375" y="507.33642578125"/>
+    </atom>
+    <atom id="a2" element="C">
+      <position x="407.64990234375" y="507.33642578125"/>
+    </atom>
+    <atom id="a3" element="C">
+      <position x="477.64990234375" y="628.57998231107138"/>
+    </atom>
+    <atom id="a4" element="C">
+      <position x="407.64990234375" y="749.82353884089275"/>
+    </atom>
+    <atom id="a5" element="C">
+      <position x="267.64990234375" y="749.82353884089275"/>
+    </atom>
+    <atom id="a6" element="C">
+      <position x="197.64990234375" y="628.57998231107138"/>
+    </atom>
+    <bond id="b1" order="1" begin="a1" end="a2"/>
+    <bond id="b2" order="2" begin="a2" end="a3"/>
+    <bond id="b3" order="1" begin="a3" end="a4"/>
+    <bond id="b4" order="2" begin="a4" end="a5"/>
+    <bond id="b5" order="1" begin="a5" end="a6"/>
+    <bond id="b6" order="2" begin="a6" end="a1"/>
+    <bond id="b7" order="1" begin="a3" end="a7"/>
+    <fragment id="f1">
+      <atom id="a7">N</atom>
+      <stoichiometry value="2"/>
+      <position x="593.64990234375" y="628.57998231107138"/>
+    </fragment>
+  </molecule>
+  <molecule id="m2">
+    <fragment id="f2">O<residue id="a8" raw="C1H13F3O2S1" generic="false">Tf<symbols>Tf</symbols><name>Triflyl</name><name xml:lang="de">Triflyl</name><name xml:lang="el">&#x3A4;&#x3C1;&#x3B9;&#x3C6;&#x3BB;&#x3C5;&#x3BB;&#x3BF;</name><name xml:lang="es">Triflilo</name><name xml:lang="eu">Trifliloa</name><name xml:lang="fr">Triflyle</name><name xml:lang="pl">Triflyl</name><name xml:lang="zh_CN">&#x4E09;&#x6C1F;&#x7532;&#x78FA;&#x9170;&#x57FA;</name><name xml:lang="zh_TW">Triflyl</name><molecule id="m3"><pseudo-atom id="a1"><position x="30" y="900"/></pseudo-atom><atom id="a2" element="S"><position x="170" y="900"/></atom><atom id="a3" element="O"><position x="170" y="760"/></atom><atom id="a4" element="O"><position x="170" y="1040"/></atom><atom id="a5" element="C"><position x="310" y="900"/></atom><atom id="a6" element="F"><position x="310" y="760"/></atom><atom id="a7" element="F"><position x="450" y="900"/></atom><atom id="a8" element="F"><position x="310" y="1040"/></atom><bond id="b1" order="1" begin="a1" end="a2"/><bond id="b2" order="2" begin="a3" end="a2"/><bond id="b3" order="2" begin="a4" end="a2"/><bond id="b4" order="1" begin="a2" end="a5"/><bond id="b5" order="1" begin="a5" end="a6"/><bond id="b6" order="1" begin="a5" end="a7"/><bond id="b7" order="1" begin="a5" end="a8"/></molecule></residue><position x="764.98486328125" y="629.17919921875"/></fragment>
+  </molecule>
+  <molecule id="m3">
+    <atom id="a9" element="C">
+      <position x="334.488525390625" y="632.377197265625"/>
+    </atom>
+    <bond id="b8" order="1" begin="a9" end="a10"/>
+    <fragment id="f3">
+      <residue id="a10" raw="H1C0Cl1" generic="true">X<symbols>X</symbols><name>Halogen</name><name xml:lang="de">Halogen</name><name xml:lang="el">&#x391;&#x3BB;&#x3BF;&#x3B3;&#x3CC;&#x3BD;&#x3BF;</name><name xml:lang="es">Hal&#xF3;geno</name><name xml:lang="eu">Halogenoa</name><name xml:lang="fr">Halog&#xE8;ne</name><name xml:lang="pl">Halogen</name><name xml:lang="zh_CN">&#x5364;&#x7D20;</name><name xml:lang="zh_TW">Halogen &#x9E75;&#x7D20;</name><molecule id="m1"><pseudo-atom id="a1"><position x="24" y="600"/></pseudo-atom><atom id="a2" element="Cl"><position x="164" y="600"/></atom><bond id="b1" order="1" begin="a1" end="a2"/></molecule></residue>
+      <position x="159.80723919016611" y="516.0764961764786"/>
+    </fragment>
+  </molecule>
+  <molecule id="m4">
+    <atom id="a11" element="C">
+      <position x="1214.77392578125" y="636.25390625"/>
+    </atom>
+    <atom id="a12" element="C">
+      <position x="1284.77392578125" y="515.01034972017862"/>
+    </atom>
+    <atom id="a13" element="C">
+      <position x="1424.77392578125" y="515.01034972017862"/>
+    </atom>
+    <atom id="a14" element="C">
+      <position x="1494.77392578125" y="636.25390625"/>
+    </atom>
+    <atom id="a15" element="C">
+      <position x="1424.77392578125" y="757.49746277982138"/>
+    </atom>
+    <atom id="a16" element="C">
+      <position x="1284.77392578125" y="757.49746277982138"/>
+    </atom>
+    <bond id="b10" order="1" begin="a12" end="a13"/>
+    <bond id="b11" order="2" begin="a13" end="a14"/>
+    <bond id="b12" order="1" begin="a14" end="a15"/>
+    <bond id="b13" order="2" begin="a15" end="a16"/>
+    <bond id="b14" order="1" begin="a16" end="a11"/>
+    <bond id="b16" order="1" begin="a14" end="a19"/>
+    <bond id="b9" order="2" begin="a11" end="a12"/>
+    <fragment id="f5"><atom id="a19">C</atom>OTf<position x="1634.77392578125" y="636.25390625"/></fragment>
+  </molecule>
+  <molecule id="m5">
+    <atom id="a17" element="C">
+      <position x="1355.588134765625" y="639.26318359375"/>
+    </atom>
+    <bond id="b15" order="1" begin="a17" end="a18"/>
+    <fragment id="f4">
+      <residue id="a18">X</residue>
+      <position x="1194.3445782358035" y="533.26318359375"/>
+    </fragment>
+  </molecule>
+  <molecule id="m6">
+    <fragment id="f6">
+      <atom id="a20">N</atom>
+      <stoichiometry value="2"/>
+      <position x="1892.603515625" y="632.7138671875"/>
+    </fragment>
+  </molecule>
+  <molecule id="m7">
+    <fragment id="f7">
+      <position x="1888.646484375" y="741.7218017578125"/>
+    </fragment>
+  </molecule>
+  <text id="o1">
+    <position x="696.94482421875" y="566.074951171875"/>
+    <font name="Bitstream Vera Serif, 12">-</font>
+  </text>
+  <text id="o2">
+    <position x="609.533447265625" y="562.90625"/>
+    <font name="Bitstream Vera Serif, 10">+</font>
+  </text>
+  <text id="o3">
+    <position x="1791.334228515625" y="630.865478515625"/>
+    <font name="Bitstream Vera Serif, 12">+</font>
+  </text>
+  <reaction-arrow id="ra1" type="single">
+    <start x="910.334228515625" y="627.250244140625"/>
+    <end x="1110.334228515625" y="627.250244140625"/>
+  </reaction-arrow>
+</gcp:chemistry>

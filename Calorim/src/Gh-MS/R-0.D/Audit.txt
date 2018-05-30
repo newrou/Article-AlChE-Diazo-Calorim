@@ -1,0 +1,12 @@
+D:\DATA\20160219\R-0.D\Audit.txt 
+Created Fri Feb 19 14:33:03 2016
+
+
+ Modified : Fri Feb 19 14:33:03 2016
+ Event    : Quantitation 
+ Message  : Calculation using initial calibration
+ QuantFile: UNIVERSAL_ARENES.RES
+ User     : Sequence:  
+ Why      : Sequence 
+ Severity : 0
+

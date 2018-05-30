@@ -1,0 +1,27 @@
+
+  Data Path : D:\Data\20160219\
+                       benzoyl-tetra-Ac-salicin     Area Percent Report
+  Data File : R-0.D                                               
+  Acq On    : 19 Feb 2016  14:04
+  Operator  : kassanova
+  Sample    :  
+  Misc      :  
+  ALS Vial  : 1   Sample Multiplier: 1
+
+  Integration Parameters: autoint1.e
+  Integrator: ChemStation
+
+  Method    : C:\msdchem\1\METHODS\pyridines.M
+  Title     :  
+
+  Signal     : TIC: R-0.D\data.ms
+
+ peak  R.T. first  max last  PK   peak      corr.   corr.    % of
+   #   min   scan scan scan  TY  height     area    % max.   total
+ ---  ----- ----- ---- ---- ---  -------   -------  ------  -------
+  1  14.910  1569 1576 1585 BB    296907   4928198 100.00% 100.000%
+ 
+ 
+                        Sum of corrected areas:     4928198
+
+pyridines.M Fri Feb 19 15:47:10 2016   

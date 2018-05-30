@@ -1,0 +1,24 @@
+                      benzoyl-tetra-Ac-salicin     Library Search Report
+
+  Data Path : D:\DATA\20160219\
+  Data File : R-0.D                                               
+  Acq On    : 19 Feb 2016  14:04
+  Operator  : kassanova
+  Sample    :  
+  Misc      :  
+  ALS Vial  : 1   Sample Multiplier: 1
+
+  Search Libraries:   C:\Database\NIST08.L              Minimum Quality:   0
+
+  Unknown Spectrum:   Apex minus start of peak
+  Integration Events: ChemStation Integrator - autoint1.e
+
+Pk#     RT  Area%          Library/ID                 Ref#     CAS#   Qual
+_____________________________________________________________________________
+  1  14.912 100.00 C:\Database\NIST08.L
+                 Benzene, 1-iodo-4-nitro-            97160 000636-98-6 94
+                 Benzene, 1-iodo-3-nitro-            97165 000645-00-1 94
+                 Benzene, 1-iodo-2-nitro-            97166 000609-73-4 74
+ 
+
+UNIVERSAL_ARENES.M Fri Feb 19 14:33:03 2016   

@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<gcp:chemistry xmlns:gcp="http://www.nongnu.org/gchempaint" creation="04/09/2017" revision="04/09/2017">
+  <generator>GChemPaint 0.14.14</generator>
+  <theme name="GChemPaint" bond-length="140" bond-angle="120" bond-dist="5" bond-width="1" arrow-length="200" arrow-head-a="6" arrow-head-b="8" arrow-head-c="4" arrow-dist="5" arrow-width="1" arrow-padding="16" hash-width="1" hash-dist="2" stereo-bond-width="5" zoom-factor="4" padding="2" stoichiometry-padding="1" object-padding="16" sign-padding="8" charge-sign-size="9" font-family="Bitstream Vera Sans" font-style="normal" font-weight="normal" font-variant="normal" font-stretch="normal" font-size="12288" text-font-family="Bitstream Vera Serif" text-font-style="normal" text-font-weight="normal" text-font-variant="normal" text-font-stretch="normal" text-font-size="12288"/>
+  <molecule id="m1">
+    <atom id="a1" element="C">
+      <position x="974.08740234375" y="990.213623046875"/>
+    </atom>
+    <atom id="a2" element="C">
+      <position x="974.08740234375" y="850.213623046875"/>
+    </atom>
+    <atom id="a3" element="C">
+      <position x="1095.08740234375" y="780.213623046875"/>
+    </atom>
+    <atom id="a4" element="C">
+      <position x="1216.08740234375" y="850.213623046875"/>
+    </atom>
+    <atom id="a5" element="C">
+      <position x="1216.08740234375" y="990.213623046875"/>
+    </atom>
+    <atom id="a6" element="C">
+      <position x="1095.08740234375" y="1060.213623046875"/>
+    </atom>
+    <bond id="b1" order="1" begin="a1" end="a2"/>
+    <bond id="b2" order="2" begin="a2" end="a3"/>
+    <bond id="b3" order="1" begin="a3" end="a4"/>
+    <bond id="b4" order="2" begin="a4" end="a5"/>
+    <bond id="b5" order="1" begin="a5" end="a6"/>
+    <bond id="b6" order="2" begin="a6" end="a1"/>
+    <bond id="b7" order="1" begin="a2" end="a7"/>
+    <bond id="b8" order="1" begin="a3" end="a8"/>
+    <fragment id="f1">O<stoichiometry value="2"/><atom id="a7">N</atom><position x="852.81336682060635" y="780.2664407738821"/></fragment>
+    <fragment id="f2">
+      <atom id="a8">N</atom>
+      <stoichiometry value="2"/>
+      <charge value="1"/>
+      <position x="1095.08740234375" y="640.213623046875"/>
+    </fragment>
+  </molecule>
+  <molecule id="m2">
+    <fragment id="f3"><charge value="-1"/><atom id="a9">O</atom><charge value="-1"/>OTf<position x="1224.2119140625" y="634.0831298828125"/></fragment>
+  </molecule>
+  <molecule id="m3">
+    <atom id="a10" element="C">
+      <position x="1784.264892578125" y="1006.06689453125"/>
+    </atom>
+    <atom id="a11" element="C">
+      <position x="1784.264892578125" y="866.06689453125"/>
+    </atom>
+    <atom id="a12" element="C">
+      <position x="1905.264892578125" y="796.06689453125"/>
+    </atom>
+    <atom id="a13" element="C">
+      <position x="2026.264892578125" y="866.06689453125"/>
+    </atom>
+    <atom id="a14" element="C">
+      <position x="2026.264892578125" y="1006.06689453125"/>
+    </atom>
+    <atom id="a15" element="C">
+      <position x="1905.264892578125" y="1076.06689453125"/>
+    </atom>
+    <bond id="b10" order="2" begin="a11" end="a12"/>
+    <bond id="b11" order="1" begin="a12" end="a13"/>
+    <bond id="b12" order="3" begin="a13" end="a14"/>
+    <bond id="b13" order="1" begin="a14" end="a15"/>
+    <bond id="b14" order="2" begin="a15" end="a10"/>
+    <bond id="b15" order="1" begin="a12" end="a16"/>
+    <bond id="b9" order="1" begin="a10" end="a11"/>
+    <fragment id="f4"><atom id="a16">N</atom>O<stoichiometry value="2"/><position x="1905.264892578125" y="656.06689453125"/></fragment>
+  </molecule>
+  <molecule id="m4">
+    <fragment id="f5">
+      <atom id="a17">N</atom>
+      <stoichiometry value="2"/>
+      <position x="2269.29345703125" y="926.746826171875"/>
+    </fragment>
+  </molecule>
+  <text id="o1">
+    <position x="1510.160400390625" y="843.7685546875"/>
+    <font name="Bitstream Vera Serif, 12">t</font>
+  </text>
+  <text id="o2">
+    <position x="2149.541015625" y="927.917724609375"/>
+    <font name="Bitstream Vera Serif, 12">+</font>
+  </text>
+  <text id="o3">
+    <position x="2502.42041015625" y="928.68115234375"/>
+    <font name="Bitstream Vera Serif, 12">HOTf</font>
+  </text>
+  <text id="o4">
+    <position x="2387.1728515625" y="932.835693359375"/>
+    <font name="Bitstream Vera Serif, 12">+</font>
+  </text>
+  <text id="o5">
+    <position x="1869.72998046875" y="1180.543701171875"/>
+    <font name="Bitstream Vera Serif, 12">(1)</font>
+  </text>
+  <reaction-arrow id="ra1" type="single">
+    <start x="1444.81396484375" y="912.029052734375"/>
+    <end x="1644.81396484375" y="912.029052734375"/>
+  </reaction-arrow>
+</gcp:chemistry>

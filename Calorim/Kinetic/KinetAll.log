@@ -1,0 +1,55 @@
+[1] "KinetAll"
+
+	One Sample t-test
+
+data:  td$P0
+t = 4.0749, df = 45, p-value = 0.0001846
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 10.03712 29.65635
+sample estimates:
+mean of x 
+ 19.84673 
+
+[1] "P0 = 19.846735 +- 9.809613 [10.037122 29.656348]"
+
+	One Sample t-test
+
+data:  td$k
+t = 12.7724, df = 45, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 0.05598229 0.07694363
+sample estimates:
+ mean of x 
+0.06646296 
+
+[1] "k = 0.066463 +- 0.010481 [0.055982 0.076944]"
+
+	One Sample t-test
+
+data:  td$dH
+t = 35.1028, df = 45, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 215.9608 242.2518
+sample estimates:
+mean of x 
+ 229.1063 
+
+[1] "dH = 229.106304 +- 13.145515 [215.960790 242.251819]"
+
+	One Sample t-test
+
+data:  td$C0
+t = 2.6419, df = 45, p-value = 0.0113
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 2.022019e-05 1.499678e-04
+sample estimates:
+   mean of x 
+8.509401e-05 
+
+[1] "C0 = 0.000085 +- 0.000065 [0.000020 0.000150]"
+null device 
+          1 
