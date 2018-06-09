@@ -1,5 +1,5 @@
 N2-RB3LYP-aug-cc-pVDZ-T298.log
- OpenBabel05121723103D
+ OpenBabel06091809193D
 Gaussian home/ubuntu/g09/g09 #p opt=(verytight,maxcycles=1000) int=(grid=ultrafi
   2  1  0  0  0  0  0  0  0  0999 V2000
     0.0000    0.0000    0.5522 N   0  0  0  0  0  0  0  0  0  0  0  0
