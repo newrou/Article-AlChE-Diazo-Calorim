@@ -59,26 +59,26 @@ plot  "eval-o-NO2-Ph-N2-OTf.csv" using (($1)/86400):(1000*($2)) with lines lines
  "eval-m-NO2-Ph-N2-OTf.csv" using (($1)/86400):(1000*($2)) with lines linestyle 2 ti "3-NO2-Ph-N2+ -OTf", \
  "eval-p-NO2-Ph-N2-OTf.csv" using (($1)/86400):(1000*($2)) with lines linestyle 3 ti "4-NO2-Ph-N2+ -OTf"
 
-set xrange [0:96]
+set xrange [0:35000]
 set output "eval-p-NO2-Ph-N2-Ax-black.svg"
 set style line 1 lt 1 lw 3 pt 6 linecolor rgb "black"
 set style line 2 lt 2 lw 3 pt 7 linecolor rgb "black"
 set style line 3 lt 3 lw 3 pt 8 linecolor rgb "black"
-set label "(3)" at 7.94,5.0
-set label "(2)" at 5.48,32.0
-set label "(1c)" at 54.8,4.0
-plot  "eval-p-NO2-Ph-N2-BF4.csv" using (($1)/86400/365.25):(1e12*($2)) with lines linestyle 1 ti "4-NO_2-Ph-N@_2^+ BF@_4^- (3)", \
- "eval-p-NO2-Ph-N2-OTs.csv" using (($1)/86400/365.25):(1e12*($2)) with lines linestyle 2 ti "4-NO_2-Ph-N@_2^+ ^-OTs (2)", \
- "eval-p-NO2-Ph-N2-OTf.csv" using (($1)/86400/365.25):(1e12*($2)) with lines linestyle 3 ti "4-NO_2-Ph-N@_2^+ ^-OTf (1c)"
+set label "(3)" at 2900,5.0e-9
+set label "(2)" at 2000,3.2e-8
+set label "(1c)" at 20000,4.0e-9
+plot  "eval-p-NO2-Ph-N2-BF4.csv" using (($1)/86400):(1000*($2)) with lines linestyle 1 ti "4-NO_2-Ph-N@_2^+ BF@_4^- (3)", \
+ "eval-p-NO2-Ph-N2-OTs.csv" using (($1)/86400):(1000*($2)) with lines linestyle 2 ti "4-NO_2-Ph-N@_2^+ ^-OTs (2)", \
+ "eval-p-NO2-Ph-N2-OTf.csv" using (($1)/86400):(1000*($2)) with lines linestyle 3 ti "4-NO_2-Ph-N@_2^+ ^-OTf (1c)"
 
-set xrange [0:164]
+set xrange [0:60000]
 set output "eval-omp-NO2-Ph-N2-OTf-black.svg"
-set label "(1a)" at 21.9,2.3
-set label "(1b)" at 109.5,1.1
-set label "(1c)" at 54.7,3.3
-plot  "eval-o-NO2-Ph-N2-OTf.csv" using (($1)/86400/365.25):(1e12*($2)) with lines linestyle 1 ti "2-NO_2-Ph-N@_2^+ ^-OTf (1a)", \
- "eval-m-NO2-Ph-N2-OTf.csv" using (($1)/86400/365.25):(1e12*($2)) with lines linestyle 2 ti "3-NO_2-Ph-N@_2^+ ^-OTf (1b)", \
- "eval-p-NO2-Ph-N2-OTf.csv" using (($1)/86400/365.25):(1e12*($2)) with lines linestyle 3 ti "4-NO_2-Ph-N@_2^+ ^-OTf (1c)"
+set label "(1a)" at 8000,2.3e-9
+set label "(1b)" at 40000,1.1e-9
+set label "(1c)" at 20000,3.3e-9
+plot  "eval-o-NO2-Ph-N2-OTf.csv" using (($1)/86400):(1000*($2)) with lines linestyle 1 ti "2-NO_2-Ph-N@_2^+ ^-OTf (1a)", \
+ "eval-m-NO2-Ph-N2-OTf.csv" using (($1)/86400):(1000*($2)) with lines linestyle 2 ti "3-NO_2-Ph-N@_2^+ ^-OTf (1b)", \
+ "eval-p-NO2-Ph-N2-OTf.csv" using (($1)/86400):(1000*($2)) with lines linestyle 3 ti "4-NO_2-Ph-N@_2^+ ^-OTf (1c)"
 
 quit
 

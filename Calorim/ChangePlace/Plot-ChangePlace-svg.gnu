@@ -2,7 +2,7 @@
 set terminal postscript eps color
 set key inside right top vertical Right noreverse enhanced autotitles box linetype -1 linewidth 0.200
 #set title "TD spectr" 
-set ylabel "Heat flow, mW/g" font "Helvetica-Bold,18"
+set ylabel "Heat flow (P), mW/g" font "Helvetica-Bold,18"
 set xlabel "Time, h" font "Helvetica-Bold,18"
 set bars small
 set xrange [0:50]
@@ -30,6 +30,7 @@ set output "ChangePlace.svg"
 set xrange [0:100]
 plot "Ampoule (7-1-16) o-NO2-Ph-N2-OTf-85.dat" using (($1)/3600):(1000*($5)) with lines linestyle 1 ti " o", \
  "Ampoule (7-21-16) m-NO2-Ph-N2-OTf-85.dat" using (($1)/3600):(1000*($5)) with lines linestyle 2 ti " m", \
- "Ampoule (8-15-16) p-NO2-Ph-N2-OTf-85.dat" using (($1)/3600):(1000*($5)) with lines linestyle 3 ti " p"
+ "Ampoule (2-9-16) NO2-Ph-N2-OTf-85.dat" using (($1)/3600):(1000*($5)) with lines linestyle 3 ti " p"
+# "Ampoule (8-15-16) p-NO2-Ph-N2-OTf-85.dat" using (($1)/3600):(1000*($5)) with lines linestyle 3 ti " p"
 
 quit

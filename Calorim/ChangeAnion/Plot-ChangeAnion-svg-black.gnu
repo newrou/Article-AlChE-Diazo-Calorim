@@ -3,7 +3,7 @@ set terminal postscript eps color
 #set terminal postscript eps mono
 set key inside right top vertical Right noreverse enhanced autotitles box linetype -1 linewidth 0.200
 #set title "TD spectr" 
-set ylabel "Heat flow, mW/g" font "Helvetica-Bold,28"
+set ylabel "Heat flow (P), mW/g" font "Helvetica-Bold,28"
 set xlabel "Time, h" font "Helvetica-Bold,28"
 set bars small
 #set xrange [0:100]
