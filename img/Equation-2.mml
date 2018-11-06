@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+ <semantics>
+  <mtable>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <mi>d</mi>
+        <mi>C</mi>
+       </mrow>
+       <mrow>
+        <mi>d</mi>
+        <mi>t</mi>
+       </mrow>
+      </mfrac>
+      <mo stretchy="false">=</mo>
+      <mrow>
+       <mi>k</mi>
+       <mo stretchy="false">⋅</mo>
+       <mrow>
+        <mo fence="true" stretchy="true">(</mo>
+        <mrow>
+         <mrow>
+          <msub>
+           <mi>A</mi>
+           <mn>0</mn>
+          </msub>
+          <mo stretchy="false">−</mo>
+          <mrow>
+           <mfrac>
+            <mi>a</mi>
+            <mi>c</mi>
+           </mfrac>
+           <mo stretchy="false">⋅</mo>
+           <mrow>
+            <mo fence="true" stretchy="true">(</mo>
+            <mrow>
+             <mrow>
+              <mi>C</mi>
+              <mo stretchy="false">−</mo>
+              <msub>
+               <mi>C</mi>
+               <mn>0</mn>
+              </msub>
+             </mrow>
+            </mrow>
+            <mo fence="true" stretchy="true">)</mo>
+           </mrow>
+          </mrow>
+         </mrow>
+        </mrow>
+        <mo fence="true" stretchy="true">)</mo>
+       </mrow>
+       <mo stretchy="false">⋅</mo>
+       <msub>
+        <mi>C</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <mrow>
+       <msub>
+        <mi>P</mi>
+        <mn>0</mn>
+       </msub>
+       <mo stretchy="false">=</mo>
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>C</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo stretchy="false">⋅</mo>
+        <mi mathvariant="normal">Δ</mi>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mi>H</mi>
+       <mo stretchy="false">=</mo>
+       <mrow>
+        <mi>k</mi>
+        <mo stretchy="false">⋅</mo>
+        <msub>
+         <mi>A</mi>
+         <mn>0</mn>
+        </msub>
+        <mo stretchy="false">⋅</mo>
+        <msub>
+         <mi>C</mi>
+         <mn>0</mn>
+        </msub>
+        <mo stretchy="false">⋅</mo>
+        <mi mathvariant="normal">Δ</mi>
+       </mrow>
+      </mrow>
+      <mi>H</mi>
+     </mrow>
+    </mtd>
+   </mtr>
+  </mtable>
+  <annotation encoding="StarMath 5.0">{d C} over {d t}  = k cdot left ( A_0 - {a} over {c}  cdot  left ( C - C_0  right ) right ) cdot C_0 newline  P_0 = {d C} over {d t} cdot %DELTA H = k cdot A_0 cdot C_0 cdot %DELTA H
+
+</annotation>
+ </semantics>
+</math>

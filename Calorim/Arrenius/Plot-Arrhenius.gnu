@@ -2,15 +2,15 @@
 set terminal postscript eps color
 set key inside right top vertical Right noreverse enhanced autotitles box linetype -1 linewidth 0.200
 #set title "TD spectr" 
-set ylabel "-ln(k)" font "Helvetica-Bold,28"
-set xlabel "1/T" font "Helvetica-Bold,28"
+set ylabel "-ln(k)" font "Helvetica-Bold,26"
+set xlabel "1/T" font "Helvetica-Bold,26"
 set bars small
 #set xrange [0:50]
 #set yrange [-100:0]
 #set size 0.5,0.5
 #set terminal postscript enhanced "Courier" 20
 
-set terminal svg size 1200,1200 font "Helvetica,28"
+set terminal svg size 1200,1200 font "Helvetica,26"
 set key autotitle columnhead
 set datafile separator ";"
 
@@ -58,11 +58,12 @@ set label "(1c)" at 0.0028,1.5
 set label "(1b)" at 0.0028,3.8
 set label "(1a)" at 0.0028,7.8
 set label "(1d)" at 0.0028,5.2
-plot "Arrhenius.dat" using 1:2 with points linestyle 1 ti " 4-NO_2-Ph-N@_2^+ BF@_4^- (3)", f1(x) with line linestyle 1, \
- "Arrhenius.dat" using 1:3 with points linestyle 2 ti " 4-NO_2-Ph-N@_2^+ TsO^- (2)", f2(x) with line linestyle 2, \
- "Arrhenius.dat" using 1:4 with points linestyle 3 ti " 4-NO_2-Ph-N@_2^+ TfO^- (1c)", f3(x) with line linestyle 3, \
- "Arrhenius.dat" using 1:6 with points linestyle 5 ti " 3-NO_2-Ph-N@_2^+ TfO^- (1b)", f5(x) with line linestyle 5, \
- "Arrhenius.dat" using 1:7 with points linestyle 6 ti " 2-NO_2-Ph-N@_2^+ TfO^- (1a)", f6(x) with line linestyle 6, \
- "Arrhenius.dat" using 1:5 with points linestyle 4 ti " 4-CH_3O-Ph-N@_2^+ TfO^- (1d)", f4(x) with line linestyle 4
+set key samplen -1 spacing 1.3 font ",26" box lw 0
+plot "Arrhenius.dat" using 1:7 with points linestyle 6 ti " 2-NO_2C_6H_4N@_2^+ TfO^- (1a)", f6(x) with line linestyle 6, \
+ "Arrhenius.dat" using 1:6 with points linestyle 5 ti " 3-NO_2C_6H_4N@_2^+ TfO^- (1b)", f5(x) with line linestyle 5, \
+ "Arrhenius.dat" using 1:4 with points linestyle 3 ti " 4-NO_2C_6H_4N@_2^+ TfO^- (1c)", f3(x) with line linestyle 3, \
+ "Arrhenius.dat" using 1:5 with points linestyle 4 ti " 4-CH_3OC_6H_4N@_2^+ TfO^- (1d)", f4(x) with line linestyle 4, \
+ "Arrhenius.dat" using 1:3 with points linestyle 2 ti " 4-NO_2C_6H_4N@_2^+ TsO^- (2)", f2(x) with line linestyle 2, \
+ "Arrhenius.dat" using 1:2 with points linestyle 1 ti " 4-NO_2C_6H_4N@_2^+ BF@_4^- (3)", f1(x) with line linestyle 1
 
 quit

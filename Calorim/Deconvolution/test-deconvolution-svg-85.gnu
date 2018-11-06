@@ -34,14 +34,16 @@ set style line 1 lt 1 lw 3 pt 5 linecolor rgb "black"
 set style line 2 lt 2 lw 3 pt 6 linecolor rgb "black"
 set style line 3 lt 3 lw 3 pt 7 linecolor rgb "gray"
 set style line 4 lt 14 lw 3 pt 8 linecolor rgb "gray"
-set label "(Hf1)" at 50,-0.5
-set label "(Hf2)" at 2,2.2
-set label "(Hf)" at 50,1.7
-set label "(Hf-exp)" at 260,0.75
-plot "test-deconvolution-85.csv" using (($1)/3600):(1000*($8)) with lines linestyle 4 ti "Hf1", \
- "test-deconvolution-85.csv" using (($1)/3600):(1000*($9)) with lines linestyle 3 ti "Hf2", \
- "test-deconvolution-85.csv" using (($1)/3600):(1000*($10)) with lines linestyle 1 ti "Hf", \
- "o-NO2-Ph-N2-OTf-85.dat" using (($1)/3600):(1000*($5)) with lines linestyle 2 ti "Hf-exp"
+set label "P_1" at 50,0.0
+set label "P_2" at 2,2.2
+set label "P_{Sum}" at 50,1.7
+set label "P_{Exp}" at 260,0.75
+set nokey
+#set key samplen -1 spacing 1.3 font ",26" box lw 0
+plot "test-deconvolution-85.csv" using (($1)/3600):(1000*($8)) with lines linestyle 4 ti "P_1", \
+ "test-deconvolution-85.csv" using (($1)/3600):(1000*($9)) with lines linestyle 3 ti "P_2", \
+ "test-deconvolution-85.csv" using (($1)/3600):(1000*($10)) with lines linestyle 1 ti "P_{Sum}", \
+ "o-NO2-Ph-N2-OTf-85.dat" using (($1)/3600):(1000*($5)) with lines linestyle 2 ti "P_{Exp}"
 
 
 
