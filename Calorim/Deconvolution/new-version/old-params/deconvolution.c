@@ -153,7 +153,7 @@ while(fabs((Qmin-Qold)/Qmin) > Accuracy) {
 //      printf("%e  %f  %f  %f  %f\n",Q,k1,k2,C01,C02);
        }
  k1avg=k1opt;k2avg=k2opt;C01avg=C01opt;C02avg=C02opt;H1avg=H1opt;H2avg=H2opt;
- Dp=Dp/1.5;
+ Dp=Dp/2;
  deep++;
 }
  printf("\n### Qopt=%e  k1=%e  k2=%e  C01=%e  C02=%e  H1=%e  H2=%e\n",Qmin,k1opt,k2opt,C01opt,C02opt,H1opt,H2opt);
