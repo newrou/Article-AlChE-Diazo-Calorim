@@ -8,31 +8,16 @@ import scipy.optimize
 
 # Objective function
 def f(x):
-    return x[0]**2 - x[0]*x[1] + x[1]**2 + 9*x[0] - 7.11*x[1] + 20
-
+    return x[0]**2 - x[0]*x[1] + x[1]**2 + 17*x[0] - 6*x[1] + 20
 
 # Derivative
 def f1(x):
-    return np.array([2*x[0] - x[1] + 9, -x[0] + 2*x[1] - 7.11])
+    return np.array([2 * x[0] - x[1] + 17, -x[0] + 2*x[1] - 6])
 
 
 def bfgs_method(f, fprime, x0, maxiter=None, epsi=10e-3):
-    """
-    Minimize a function func using the BFGS algorithm.
-    
-    Parameters
-    ----------
-    func : f(x)
-        Function to minimise.
-    x0 : ndarray
-        Initial guess.
-    fprime : fprime(x)
-        The gradient of `func`.
-    """
-    
     if maxiter is None:
         maxiter = len(x0) * 200
-
     # initial values
     k = 0
     gfk = fprime(x0)
@@ -76,7 +61,7 @@ def bfgs_method(f, fprime, x0, maxiter=None, epsi=10e-3):
     return (xk, k)
 
 
-result, k = bfgs_method(f, f1, np.array([1, 1]))
+result, k = bfgs_method(f, f1, np.array([1.1, 0.1]))
 
 print('Result of BFGS method:')
 print('Final Result (best point): %s' % (result))
