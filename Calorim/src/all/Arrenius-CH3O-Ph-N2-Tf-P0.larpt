@@ -1,0 +1,2020 @@
+Lab Assistant Report
+version:0.93
+checksum:13c619a4
+{
+	string	"id" = "5ac3bd24-c6e4-40eb-a4aa-7b1131010698"
+	string	"revisionId" = "0c216782-a542-4ca6-a06d-ba5acdf3fd62"
+}
+{
+	dataset	"layout" = {
+		int	"nPages" = 1
+		dataset	Point	"paperExtent" = {
+			float	"x" = 209.990972222222
+			float	"y" = 296.985972222222
+		}
+		vector	"layoutObjects" = {
+			dataset	PaperSpaceLayoutBox:LayoutBox	"[ 0 ]" = {
+				string	"name" = "object1"
+				dataset	RTFLabelLayoutObjectInfo	"info" = {
+					int	"defaultTextColor" = -16777216
+					dataset	"defaultFont" = {
+						string	"name" = "Arial"
+						int	"size" = 318
+						int	"weight" = 700
+						int	"style" = 0
+						int	"pitchAndFamily" = 0
+						int	"charSet" = 0
+					}
+					bool	"xTrim" = false
+					bool	"yTrim" = true
+					string	"rtfLabel" = "{\\rtf1\\ansi\\deff0\n{\\fonttbl\\f0\\fcharset0 Arial;\\f1\\fcharset0 Times New Roman;}\n\\deftab720\\pard\\widctlpar\\keepn\\sb240\\sa60\\plain\\f0\\fs22\\b TAM Assistant Analysis Report\\plain\\f1\\fs24 \\line \n\\plain\\f0\\fs28\\b\\i Arrhenius\\par \n}"
+				}
+				dataset	"appearance" = {
+					bool	"isOpaque" = true
+					int	"fillColor" = -1
+					bool	"hasEdge" = false
+					dataset	PenInfo	"edgePen" = {
+						float	"width" = 0.264583319425583
+						int	"color" = -16777216
+					}
+					bool	"hasRoundedCorners" = false
+					int	"cornerRadius" = 4
+					bool	"hasShadow" = false
+					float	"shadowLength" = 2.5
+				}
+				int	"indexPage" = 0
+				dataset	Point	"topLeft" = {
+					float	"x" = 25
+					float	"y" = 25
+				}
+				dataset	Point	"currentExtent" = {
+					float	"x" = 160
+					float	"y" = 17.897160466512
+				}
+				dataset	InitialBoxGenerationData	"generationData" = {
+					vector	"flowDependencies" = {
+						dataset	FlowDependency	"[ 0 ]" = {
+							string	"name" = undefined
+							int	"distance" = 0
+						}
+					}
+				}
+			}
+			dataset	PaperSpaceLayoutBox:LayoutBox	"[ 1 ]" = {
+				string	"name" = "object2"
+				dataset	RTFLabelLayoutObjectInfo	"info" = {
+					int	"defaultTextColor" = -16777216
+					dataset	"defaultFont" = {
+						string	"name" = "Arial"
+						int	"size" = 318
+						int	"weight" = 700
+						int	"style" = 0
+						int	"pitchAndFamily" = 0
+						int	"charSet" = 0
+					}
+					bool	"xTrim" = false
+					bool	"yTrim" = true
+					string	"rtfLabel" = "{\\rtf1\\ansi\\deff0\n{\\fonttbl\\f0\\fcharset0 Arial;\\f1\\fcharset0 Times New Roman;}\n\\deftab720\\pard\\widctlpar\\keepn\\sb240\\sa60\\plain\\f0\\fs22\\b Regression Input\\par \n\\pard\\widctlpar\\sb120\\tx0\\tx2400\\tx3400\\tx4400\\tx5400\\tx6400\\tx7400\\plain\\f1\\fs20\\b Temperature\\tab Po\\par \n\\pard\\widctlpar\\tx0\\tx2400\\tx3400\\tx4400\\tx5400\\tx6400\\tx7400\\plain\\f1\\fs20 75\\'b0C\\tab 1.4768\\'b5W/g\\par \n80\\'b0C\\tab 3.1995\\'b5W/g\\par \n85\\'b0C\\tab 11.379\\'b5W/g\\par \n\\pard\\widctlpar\\keepn\\sb240\\sa60\\plain\\f0\\fs22\\b Regression Results\\par \n\\pard\\widctlpar\\fi-4000\\li4000\\tx0\\tx4000\\plain\\f1\\fs20 Ea:\\tab 210\\~kJ/mol \\'b1 22\\~kJ/mol\\par \ndH A:\\tab 7e25W/g \\'b1 05e26W/g\\par \nStandard deviation:\\tab 1.1492\\'b5W/g\\par \nNDF:\\tab 1\\par \n}"
+				}
+				dataset	"appearance" = {
+					bool	"isOpaque" = true
+					int	"fillColor" = -1
+					bool	"hasEdge" = false
+					dataset	PenInfo	"edgePen" = {
+						float	"width" = 0.264583319425583
+						int	"color" = -16777216
+					}
+					bool	"hasRoundedCorners" = false
+					int	"cornerRadius" = 4
+					bool	"hasShadow" = false
+					float	"shadowLength" = 2.5
+				}
+				int	"indexPage" = 0
+				dataset	Point	"topLeft" = {
+					float	"x" = 25
+					float	"y" = 42.897160466512
+				}
+				dataset	Point	"currentExtent" = {
+					float	"x" = 160
+					float	"y" = 56.135649617513
+				}
+				dataset	InitialBoxGenerationData	"generationData" = {
+					bool	"keepWithNext" = true
+					vector	"flowDependencies" = {
+						dataset	FlowDependency	"[ 0 ]" = {
+							string	"name" = undefined
+							int	"distance" = 0
+						}
+					}
+				}
+			}
+			dataset	PaperSpaceLayoutBox:LayoutBox	"[ 2 ]" = {
+				string	"name" = "object3"
+				string	"localizedName" = "Arrhenius graph"
+				dataset	GraphLayoutObjectInfo	"info" = {
+					dataset	"appearance" = {
+						int	"plotAreaFillColor" = 15790320
+					}
+					dataset	"template" = {
+						dataset	"axes" = {
+							dataset	"xAxis" = {
+								int	"axisType" = 0
+								dataset	"scaling" = {
+									int	"scalingType" = 0
+									int	"logBase" = 2
+									int	"absoluteTimeScaling" = 1
+									int	"relativeTimeScaling" = 1
+								}
+								dataset	"quantityAndUnit" = {
+									int	"quantityAndUnit" = 1
+									bool	"showLeftBottom" = true
+									bool	"showMiddle" = false
+									bool	"showRightTop" = true
+									dataset	Font	"font" = {
+										string	"name" = "Times New Roman"
+										int	"size" = 240
+										int	"weight" = 400
+										int	"style" = 0
+										int	"pitchAndFamily" = 0
+										int	"charSet" = 1
+										int	"color" = 0
+										float	"orientation" = 90
+									}
+								}
+								dataset	"axisLines" = {
+									bool	"showLeftBottom" = true
+									bool	"showMiddle" = false
+									bool	"showRightTop" = false
+									bool	"alternating" = true
+									int	"middleAxisLinePlacement" = 0
+									float	"middleAxisLinePercent" = 50
+									float	"middleAxisLinePosition" = 0
+									string	"middleAxisLineReferenceAxis" = undefined
+									dataset	PenDescr	"line" = {
+										int	"width" = 45
+										int	"color" = 0
+										int	"style" = 0
+									}
+								}
+								dataset	"axisLabel" = {
+									bool	"useQuantityAndUnitAsLabel" = true
+									int	"quantityAndUnitFormat" = 0
+									string	"specifiedAxisLabel" = undefined
+									bool	"showLeftBottom" = true
+									bool	"showRightTop" = true
+									dataset	"font" = {
+										string	"name" = "Times New Roman"
+										int	"size" = 240
+										int	"weight" = 700
+										int	"style" = 0
+										int	"pitchAndFamily" = 0
+										int	"charSet" = 1
+										int	"color" = 0
+									}
+								}
+								dataset	"majorTicks" = {
+									int	"numTicks" = 7
+									int	"thickness" = 15
+									int	"length" = 105
+									int	"leftBottomDirection" = 1
+									int	"middleDirection" = 0
+									int	"rightTopDirection" = 1
+									bool	"drawGridLines" = false
+									dataset	PenDescr	"gridLine" = {
+										int	"width" = 15
+										int	"color" = 128
+										int	"style" = 0
+									}
+								}
+								dataset	"minorTicks" = {
+									int	"numTicks" = 3
+									int	"thickness" = 15
+									int	"length" = 75
+									int	"leftBottomDirection" = 1
+									int	"middleDirection" = 0
+									int	"rightTopDirection" = 1
+									bool	"drawGridLines" = false
+									dataset	PenDescr	"gridLine" = {
+										int	"width" = 15
+										int	"color" = 128
+										int	"style" = 0
+									}
+								}
+								dataset	"customTicks" = {
+									int	"thickness" = 15
+									int	"length" = 105
+									int	"leftBottomDirection" = 0
+									int	"middleDirection" = 0
+									int	"topRightDirection" = 0
+									bool	"drawGridLines" = false
+									dataset	PenDescr	"gridLine" = {
+										int	"width" = 15
+										int	"color" = 128
+										int	"style" = 0
+									}
+								}
+								dataset	"majorTickLabels" = {
+									int	"format" = 0
+									bool	"useOffset" = true
+									bool	"hideFactorOne" = true
+									bool	"hideExponentZero" = true
+									bool	"usePrefix" = true
+									bool	"individualOffsetPrefix" = true
+									int	"maxDigits" = 15
+									int	"showLeftBottom" = 2
+									int	"showMiddle" = 0
+									int	"showRightTop" = 2
+									dataset	"font" = {
+										string	"name" = "Times New Roman"
+										int	"size" = 200
+										int	"weight" = 700
+										int	"style" = 0
+										int	"pitchAndFamily" = 0
+										int	"charSet" = 1
+										float	"orientation" = 0
+										int	"color" = 0
+									}
+									bool	"useDifferentOffsetOrientation" = false
+									float	"offsetOrientation" = 0
+								}
+								dataset	"customTickLabels" = {
+									bool	"showLeftBottom" = true
+									bool	"showMiddle" = false
+									bool	"showRightTop" = false
+									dataset	"font" = {
+										bool	"useDefaultFont" = true
+										dataset	"data" = {
+											string	"name" = "Times New Roman"
+											int	"size" = 240
+											int	"weight" = 700
+											int	"style" = 0
+											int	"pitchAndFamily" = 0
+											int	"charSet" = 1
+											float	"orientation" = 0
+										}
+									}
+								}
+							}
+							dataset	"yAxis" = {
+								int	"axisType" = 1
+								dataset	"scaling" = {
+									int	"scalingType" = 0
+									int	"logBase" = 2
+									int	"absoluteTimeScaling" = 0
+									int	"relativeTimeScaling" = 1
+								}
+								dataset	"quantityAndUnit" = {
+									int	"quantityAndUnit" = 1
+									bool	"showLeftBottom" = true
+									bool	"showMiddle" = false
+									bool	"showRightTop" = true
+									dataset	Font	"font" = {
+										string	"name" = "Times New Roman"
+										int	"size" = 240
+										int	"weight" = 400
+										int	"style" = 0
+										int	"pitchAndFamily" = 0
+										int	"charSet" = 1
+										int	"color" = 0
+										float	"orientation" = 90
+									}
+								}
+								dataset	"axisLines" = {
+									bool	"showLeftBottom" = true
+									bool	"showMiddle" = false
+									bool	"showRightTop" = false
+									bool	"alternating" = true
+									int	"middleAxisLinePlacement" = 0
+									float	"middleAxisLinePercent" = 50
+									float	"middleAxisLinePosition" = 0
+									string	"middleAxisLineReferenceAxis" = undefined
+									dataset	PenDescr	"line" = {
+										int	"width" = 45
+										int	"color" = 0
+										int	"style" = 0
+									}
+								}
+								dataset	"axisLabel" = {
+									bool	"useQuantityAndUnitAsLabel" = true
+									int	"quantityAndUnitFormat" = 0
+									string	"specifiedAxisLabel" = undefined
+									bool	"showLeftBottom" = true
+									bool	"showRightTop" = true
+									dataset	"font" = {
+										string	"name" = "Times New Roman"
+										int	"size" = 240
+										int	"weight" = 700
+										int	"style" = 0
+										int	"pitchAndFamily" = 0
+										int	"charSet" = 1
+										int	"color" = 0
+									}
+								}
+								dataset	"majorTicks" = {
+									int	"numTicks" = 7
+									int	"thickness" = 15
+									int	"length" = 105
+									int	"leftBottomDirection" = 1
+									int	"middleDirection" = 0
+									int	"rightTopDirection" = 1
+									bool	"drawGridLines" = false
+									dataset	PenDescr	"gridLine" = {
+										int	"width" = 15
+										int	"color" = 128
+										int	"style" = 0
+									}
+								}
+								dataset	"minorTicks" = {
+									int	"numTicks" = 3
+									int	"thickness" = 15
+									int	"length" = 75
+									int	"leftBottomDirection" = 1
+									int	"middleDirection" = 0
+									int	"rightTopDirection" = 1
+									bool	"drawGridLines" = false
+									dataset	PenDescr	"gridLine" = {
+										int	"width" = 15
+										int	"color" = 128
+										int	"style" = 0
+									}
+								}
+								dataset	"customTicks" = {
+									int	"thickness" = 15
+									int	"length" = 105
+									int	"leftBottomDirection" = 0
+									int	"middleDirection" = 0
+									int	"topRightDirection" = 0
+									bool	"drawGridLines" = false
+									dataset	PenDescr	"gridLine" = {
+										int	"width" = 15
+										int	"color" = 128
+										int	"style" = 0
+									}
+								}
+								dataset	"majorTickLabels" = {
+									int	"format" = 0
+									bool	"useOffset" = true
+									bool	"hideFactorOne" = true
+									bool	"hideExponentZero" = true
+									bool	"usePrefix" = true
+									bool	"individualOffsetPrefix" = true
+									int	"maxDigits" = 15
+									int	"showLeftBottom" = 2
+									int	"showMiddle" = 0
+									int	"showRightTop" = 2
+									dataset	"font" = {
+										string	"name" = "Times New Roman"
+										int	"size" = 200
+										int	"weight" = 700
+										int	"style" = 0
+										int	"pitchAndFamily" = 0
+										int	"charSet" = 1
+										float	"orientation" = 0
+										int	"color" = 0
+									}
+									bool	"useDifferentOffsetOrientation" = false
+									float	"offsetOrientation" = 0
+								}
+								dataset	"customTickLabels" = {
+									bool	"showLeftBottom" = true
+									bool	"showMiddle" = false
+									bool	"showRightTop" = false
+									dataset	"font" = {
+										bool	"useDefaultFont" = true
+										dataset	"data" = {
+											string	"name" = "Times New Roman"
+											int	"size" = 240
+											int	"weight" = 700
+											int	"style" = 0
+											int	"pitchAndFamily" = 0
+											int	"charSet" = 1
+											float	"orientation" = 0
+										}
+									}
+								}
+							}
+						}
+						dataset	"plots" = {
+							dataset	"plot1" = {
+								int	"plotType" = 0
+								string	"name" = "Line"
+								dataset	"appearance" = {
+									bool	"showLine" = true
+									int	"lineType" = 1
+									bool	"useSectionColors" = false
+									dataset	"color" = {
+										string	"palette" = "incrementing"
+									}
+									int	"ignoredData" = 3
+									int	"ignoredColor" = undefined
+									int	"mainColor" = undefined
+									int	"ignoredMainColor" = undefined
+									int	"baselineColor" = undefined
+									int	"ignoredBaselineColor" = undefined
+									int	"otherColor" = undefined
+									int	"ignoredOtherColor" = undefined
+									int	"thickness" = 20
+								}
+								dataset	"symbol" = {
+									bool	"show" = false
+									int	"type" = 5
+									int	"width" = 100
+									int	"height" = 100
+									int	"borderColor" = -16777216
+									int	"borderThickness" = 20
+									int	"fillColor" = 0
+								}
+								int	"useCount" = 2
+							}
+							dataset	"plot2" = {
+								int	"plotType" = 0
+								string	"name" = "Line/Scatter"
+								dataset	"appearance" = {
+									bool	"showLine" = true
+									int	"lineType" = 1
+									bool	"useSectionColors" = false
+									dataset	"color" = {
+										string	"palette" = "incrementing"
+									}
+									int	"ignoredData" = 3
+									int	"ignoredColor" = undefined
+									int	"mainColor" = undefined
+									int	"ignoredMainColor" = undefined
+									int	"baselineColor" = undefined
+									int	"ignoredBaselineColor" = undefined
+									int	"otherColor" = undefined
+									int	"ignoredOtherColor" = undefined
+									int	"thickness" = 20
+								}
+								dataset	"symbol" = {
+									bool	"show" = true
+									int	"type" = 5
+									int	"width" = 100
+									int	"height" = 100
+									int	"borderColor" = -65536
+									int	"borderThickness" = 15
+									int	"fillColor" = 0
+								}
+								int	"useCount" = 0
+							}
+						}
+					}
+					dataset	"data" = {
+						dataset	"axes" = {
+							dataset	"axis1" = {
+								int	"axisType" = 0
+								dataset	"scaling" = {
+									int	"scalingType" = 0
+									int	"logBase" = 2
+									int	"rescale" = 1
+									int	"mergeType" = 0
+									float	"rangeLength" = 2
+									float	"rangeFrom" = -1
+									float	"rangeTo" = 1
+									bool	"allowInteractiveRescale" = true
+								}
+								dataset	"quantityAndUnit" = {
+									int	"quantityAndUnit" = 1
+									bool	"showLeftBottom" = true
+									bool	"showMiddle" = false
+									bool	"showRightTop" = true
+									dataset	Font	"font" = {
+										string	"name" = "Times New Roman"
+										int	"size" = 240
+										int	"weight" = 400
+										int	"style" = 0
+										int	"pitchAndFamily" = 0
+										int	"charSet" = 1
+										int	"color" = 0
+										float	"orientation" = 90
+									}
+									string	"quantity" = "Temperature"
+									string	"unit" = "°C"
+								}
+								dataset	"axisLines" = {
+									bool	"showLeftBottom" = true
+									bool	"showMiddle" = false
+									bool	"showRightTop" = false
+									int	"middleAxisLinePlacement" = 0
+									float	"middleAxisLinePercent" = 50
+									float	"middleAxisLinePosition" = 0
+									string	"middleAxisLineReferenceAxis" = undefined
+									dataset	PenDescr	"line" = {
+										int	"width" = 45
+										int	"color" = 0
+										int	"style" = 0
+									}
+								}
+								dataset	"axisLabel" = {
+									bool	"useQuantityAndUnitAsLabel" = true
+									int	"quantityAndUnitFormat" = 0
+									string	"specifiedAxisLabel" = undefined
+									bool	"showLeftBottom" = true
+									bool	"showRightTop" = true
+									dataset	"font" = {
+										string	"name" = "Times New Roman"
+										int	"size" = 240
+										int	"weight" = 700
+										int	"style" = 0
+										int	"pitchAndFamily" = 0
+										int	"charSet" = 1
+										int	"color" = 0
+									}
+								}
+								dataset	"majorTicks" = {
+									int	"numTicks" = 7
+									int	"thickness" = 15
+									int	"length" = 105
+									int	"leftBottomDirection" = 1
+									int	"middleDirection" = 0
+									int	"rightTopDirection" = 1
+									bool	"drawGridLines" = false
+									dataset	PenDescr	"gridLine" = {
+										int	"width" = 15
+										int	"color" = 128
+										int	"style" = 0
+									}
+								}
+								dataset	"minorTicks" = {
+									int	"numTicks" = 3
+									int	"thickness" = 15
+									int	"length" = 75
+									int	"leftBottomDirection" = 1
+									int	"middleDirection" = 0
+									int	"rightTopDirection" = 1
+									bool	"drawGridLines" = false
+									dataset	PenDescr	"gridLine" = {
+										int	"width" = 15
+										int	"color" = 128
+										int	"style" = 0
+									}
+								}
+								dataset	"customTicks" = {
+									int	"thickness" = 15
+									int	"length" = 105
+									int	"leftBottomDirection" = 0
+									int	"middleDirection" = 0
+									int	"topRightDirection" = 0
+									bool	"drawGridLines" = false
+									dataset	PenDescr	"gridLine" = {
+										int	"width" = 15
+										int	"color" = 128
+										int	"style" = 0
+									}
+								}
+								dataset	"majorTickLabels" = {
+									int	"format" = 0
+									bool	"useOffset" = true
+									bool	"hideFactorOne" = true
+									bool	"hideExponentZero" = true
+									bool	"usePrefix" = true
+									bool	"individualOffsetPrefix" = true
+									int	"maxDigits" = 15
+									int	"showLeftBottom" = 2
+									int	"showMiddle" = 0
+									int	"showRightTop" = 2
+									dataset	"font" = {
+										string	"name" = "Times New Roman"
+										int	"size" = 200
+										int	"weight" = 700
+										int	"style" = 0
+										int	"pitchAndFamily" = 0
+										int	"charSet" = 1
+										float	"orientation" = 0
+										int	"color" = 0
+									}
+									bool	"useDifferentOffsetOrientation" = false
+									float	"offsetOrientation" = 0
+								}
+								dataset	"customTickLabels" = {
+									bool	"showLeftBottom" = true
+									bool	"showMiddle" = false
+									bool	"showRightTop" = false
+									dataset	"font" = {
+										bool	"useDefaultFont" = true
+										dataset	"data" = {
+											string	"name" = "Times New Roman"
+											int	"size" = 240
+											int	"weight" = 700
+											int	"style" = 0
+											int	"pitchAndFamily" = 0
+											int	"charSet" = 1
+											float	"orientation" = 0
+										}
+									}
+								}
+							}
+							dataset	"axis2" = {
+								int	"axisType" = 1
+								dataset	"scaling" = {
+									int	"scalingType" = 0
+									int	"logBase" = 2
+									int	"rescale" = 0
+									int	"mergeType" = 0
+									float	"rangeLength" = 2
+									float	"rangeFrom" = -1
+									float	"rangeTo" = 1
+									bool	"allowInteractiveRescale" = true
+								}
+								dataset	"quantityAndUnit" = {
+									int	"quantityAndUnit" = 1
+									bool	"showLeftBottom" = true
+									bool	"showMiddle" = false
+									bool	"showRightTop" = true
+									dataset	Font	"font" = {
+										string	"name" = "Times New Roman"
+										int	"size" = 240
+										int	"weight" = 400
+										int	"style" = 0
+										int	"pitchAndFamily" = 0
+										int	"charSet" = 1
+										int	"color" = 0
+										float	"orientation" = 90
+									}
+									string	"quantity" = "Normalized heatflow"
+									string	"unit" = "W/g"
+								}
+								dataset	"axisLines" = {
+									bool	"showLeftBottom" = true
+									bool	"showMiddle" = false
+									bool	"showRightTop" = false
+									int	"middleAxisLinePlacement" = 0
+									float	"middleAxisLinePercent" = 50
+									float	"middleAxisLinePosition" = 0
+									string	"middleAxisLineReferenceAxis" = undefined
+									dataset	PenDescr	"line" = {
+										int	"width" = 45
+										int	"color" = 0
+										int	"style" = 0
+									}
+								}
+								dataset	"axisLabel" = {
+									bool	"useQuantityAndUnitAsLabel" = true
+									int	"quantityAndUnitFormat" = 0
+									string	"specifiedAxisLabel" = undefined
+									bool	"showLeftBottom" = true
+									bool	"showRightTop" = true
+									dataset	"font" = {
+										string	"name" = "Times New Roman"
+										int	"size" = 240
+										int	"weight" = 700
+										int	"style" = 0
+										int	"pitchAndFamily" = 0
+										int	"charSet" = 1
+										int	"color" = 0
+									}
+								}
+								dataset	"majorTicks" = {
+									int	"numTicks" = 7
+									int	"thickness" = 15
+									int	"length" = 105
+									int	"leftBottomDirection" = 1
+									int	"middleDirection" = 0
+									int	"rightTopDirection" = 1
+									bool	"drawGridLines" = false
+									dataset	PenDescr	"gridLine" = {
+										int	"width" = 15
+										int	"color" = 128
+										int	"style" = 0
+									}
+								}
+								dataset	"minorTicks" = {
+									int	"numTicks" = 3
+									int	"thickness" = 15
+									int	"length" = 75
+									int	"leftBottomDirection" = 1
+									int	"middleDirection" = 0
+									int	"rightTopDirection" = 1
+									bool	"drawGridLines" = false
+									dataset	PenDescr	"gridLine" = {
+										int	"width" = 15
+										int	"color" = 128
+										int	"style" = 0
+									}
+								}
+								dataset	"customTicks" = {
+									int	"thickness" = 15
+									int	"length" = 105
+									int	"leftBottomDirection" = 0
+									int	"middleDirection" = 0
+									int	"topRightDirection" = 0
+									bool	"drawGridLines" = false
+									dataset	PenDescr	"gridLine" = {
+										int	"width" = 15
+										int	"color" = 128
+										int	"style" = 0
+									}
+								}
+								dataset	"majorTickLabels" = {
+									int	"format" = 0
+									bool	"useOffset" = true
+									bool	"hideFactorOne" = true
+									bool	"hideExponentZero" = true
+									bool	"usePrefix" = true
+									bool	"individualOffsetPrefix" = true
+									int	"maxDigits" = 15
+									int	"showLeftBottom" = 2
+									int	"showMiddle" = 0
+									int	"showRightTop" = 2
+									dataset	"font" = {
+										string	"name" = "Times New Roman"
+										int	"size" = 200
+										int	"weight" = 700
+										int	"style" = 0
+										int	"pitchAndFamily" = 0
+										int	"charSet" = 1
+										float	"orientation" = 0
+										int	"color" = 0
+									}
+									bool	"useDifferentOffsetOrientation" = false
+									float	"offsetOrientation" = 0
+								}
+								dataset	"customTickLabels" = {
+									bool	"showLeftBottom" = true
+									bool	"showMiddle" = false
+									bool	"showRightTop" = false
+									dataset	"font" = {
+										bool	"useDefaultFont" = true
+										dataset	"data" = {
+											string	"name" = "Times New Roman"
+											int	"size" = 240
+											int	"weight" = 700
+											int	"style" = 0
+											int	"pitchAndFamily" = 0
+											int	"charSet" = 1
+											float	"orientation" = 0
+										}
+									}
+								}
+							}
+						}
+						dataset	"plots" = {
+							dataset	"plot1" = {
+								int	"plotType" = 0
+								bool	"show" = true
+								string	"name" = "Measured"
+								dataset	"nameAssembly" = {
+									string	"specifiedName" = "Measured"
+									bool	"useAssembledName" = false
+									bool	"includeFileName" = false
+									bool	"includeTableName" = false
+									bool	"includeSampleName" = true
+									bool	"includeCurveName" = false
+									bool	"useFullPath" = false
+									string	"tableName" = undefined
+									string	"sampleName" = undefined
+									bool	"showInLegend" = true
+								}
+								dataset	"appearance" = {
+									bool	"showLine" = false
+									int	"lineType" = 1
+									bool	"useSectionColors" = false
+									int	"color" = -16777216
+									int	"ignoredColor" = undefined
+									int	"mainColor" = undefined
+									int	"ignoredMainColor" = undefined
+									int	"baselineColor" = undefined
+									int	"ignoredBaselineColor" = undefined
+									int	"otherColor" = undefined
+									int	"ignoredOtherColor" = undefined
+									int	"thickness" = 20
+									int	"ignoredData" = 1
+								}
+								dataset	"baseline" = {
+									bool	"show" = false
+									bool	"subtract" = false
+									int	"color" = -16744448
+								}
+								dataset	"symbol" = {
+									bool	"show" = true
+									int	"type" = 5
+									int	"width" = 100
+									int	"height" = 100
+									int	"borderColor" = -65536
+									int	"borderWidth" = 20
+									int	"fillColor" = 0
+								}
+								string	"xColumn" = "temperature"
+								string	"yColumn" = "p0"
+								float	"xOffset" = 0
+								float	"yOffset" = 0
+								string	AxisId	"xAxis" = "axis1"
+								string	AxisId	"yAxis" = "axis2"
+								ExternalValue	"source" = {
+									string	"localizedPath" = undefined
+									table	"internalValue" = ({
+										"bool", "connect", undefined, undefined, undefined
+									}{
+										"float", "temperature", "Temperature", "°C", "Temperature"
+									}{
+										"float", "p0", "Normalized heatflow", "W/g", "P{\\sub 0}"
+									})
+									{
+										75	1.4768e-6
+										80	3.1995e-6
+										85	1.1379e-5
+									}
+								}
+							}
+							dataset	"plot2" = {
+								int	"plotType" = 0
+								bool	"show" = true
+								string	"name" = "Calculated"
+								dataset	"nameAssembly" = {
+									string	"specifiedName" = "Calculated"
+									bool	"useAssembledName" = false
+									bool	"includeFileName" = false
+									bool	"includeTableName" = false
+									bool	"includeSampleName" = true
+									bool	"includeCurveName" = false
+									bool	"useFullPath" = false
+									string	"tableName" = undefined
+									string	"sampleName" = undefined
+									bool	"showInLegend" = true
+								}
+								dataset	"appearance" = {
+									bool	"showLine" = true
+									int	"lineType" = 1
+									bool	"useSectionColors" = false
+									int	"color" = -16744448
+									int	"ignoredColor" = undefined
+									int	"mainColor" = undefined
+									int	"ignoredMainColor" = undefined
+									int	"baselineColor" = undefined
+									int	"ignoredBaselineColor" = undefined
+									int	"otherColor" = undefined
+									int	"ignoredOtherColor" = undefined
+									int	"thickness" = 20
+									int	"ignoredData" = 1
+								}
+								dataset	"baseline" = {
+									bool	"show" = false
+									bool	"subtract" = false
+									int	"color" = -16744448
+								}
+								dataset	"symbol" = {
+									bool	"show" = false
+									int	"type" = 5
+									int	"width" = 100
+									int	"height" = 100
+									int	"borderColor" = -16777216
+									int	"borderWidth" = 20
+									int	"fillColor" = 0
+								}
+								string	"xColumn" = "temperature"
+								string	"yColumn" = "p0"
+								float	"xOffset" = 0
+								float	"yOffset" = 0
+								string	AxisId	"xAxis" = "axis1"
+								string	AxisId	"yAxis" = "axis2"
+								ExternalValue	"source" = {
+									string	"localizedPath" = undefined
+									table	"internalValue" = ({
+										"bool", "connect", undefined, undefined, undefined
+									}{
+										"float", "temperature", "Temperature", "°C", "Temperature"
+									}{
+										"float", "p0", "Normalized heatflow", "W/g", "P{\\sub 0}"
+									})
+									{
+										-5	4.65642485852936e-16
+										-4.87987987987988	4.85840501996126e-16
+										-4.75975975975976	5.06895373879831e-16
+										-4.63963963963964	5.28842626858461e-16
+										-4.51951951951952	5.51719224641209e-16
+										-4.3993993993994	5.75563626115517e-16
+										-4.27927927927928	6.00415844359274e-16
+										-4.15915915915916	6.26317507923404e-16
+										-4.03903903903904	6.53311924470008e-16
+										-3.91891891891892	6.81444146854444e-16
+										-3.7987987987988	7.10761041742483e-16
+										-3.67867867867868	7.41311360857414e-16
+										-3.55855855855856	7.73145814955223e-16
+										-3.43843843843844	8.06317150629439e-16
+										-3.31831831831832	8.4088023005138e-16
+										-3.1981981981982	8.76892113754622e-16
+										-3.07807807807808	9.14412146577312e-16
+										-2.95795795795796	9.53502046879155e-16
+										-2.83783783783784	9.94225999154943e-16
+										-2.71771771771772	1.03665075017048e-15
+										-2.5975975975976	1.08084570875112e-15
+										-2.47747747747748	1.12688304935836e-15
+										-2.35735735735736	1.17483781959423e-15
+										-2.23723723723724	1.22478805177877e-15
+										-2.11711711711712	1.27681487875078e-15
+										-1.996996996997	1.33100265404699e-15
+										-1.87687687687688	1.38743907662205e-15
+										-1.75675675675676	1.4462153202748e-15
+										-1.63663663663664	1.50742616795523e-15
+										-1.51651651651652	1.5711701511302e-15
+										-1.3963963963964	1.63754969439396e-15
+										-1.27627627627628	1.70667126551582e-15
+										-1.15615615615616	1.77864553112336e-15
+										-1.03603603603604	1.85358751822784e-15
+										-0.915915915915916	1.93161678180513e-15
+										-0.795795795795796	2.01285757865251e-15
+										-0.675675675675675	2.09743904775178e-15
+										-0.555555555555555	2.18549539737326e-15
+										-0.435435435435435	2.27716609916867e-15
+										-0.315315315315315	2.37259608950472e-15
+										-0.195195195195195	2.4719359783018e-15
+										-0.075075075075075	2.57534226564956e-15
+										0.045045045045045	2.68297756648116e-15
+										0.165165165165165	2.79501084359865e-15
+										0.285285285285285	2.91161764935099e-15
+										0.405405405405405	3.03298037627738e-15
+										0.525525525525525	3.15928851704085e-15
+										0.645645645645645	3.29073893398507e-15
+										0.765765765765765	3.42753613866436e-15
+										0.885885885885886	3.56989258170173e-15
+										1.00600600600601	3.71802895335142e-15
+										1.12612612612613	3.87217449514625e-15
+										1.24624624624625	4.03256732303025e-15
+										1.36636636636637	4.19945476238829e-15
+										1.48648648648649	4.37309369539755e-15
+										1.60660660660661	4.55375092114404e-15
+										1.72672672672673	4.74170352895946e-15
+										1.84684684684685	4.93723928544957e-15
+										1.96696696696697	5.14065703570656e-15
+										2.08708708708709	5.35226711920654e-15
+										2.20720720720721	5.57239180091959e-15
+										2.32732732732733	5.8013657181703e-15
+										2.44744744744745	6.03953634381114e-15
+										2.56756756756757	6.2872644662879e-15
+										2.68768768768769	6.54492468719561e-15
+										2.80780780780781	6.81290593694597e-15
+										2.92792792792793	7.09161200918765e-15
+										3.04804804804805	7.38146211464337e-15
+										3.16816816816817	7.68289145505049e-15
+										3.28828828828829	7.99635181791196e-15
+										3.40840840840841	8.32231219279912e-15
+										3.52852852852853	8.66125940995709e-15
+										3.64864864864865	9.01369880200729e-15
+										3.76876876876877	9.38015488955136e-15
+										3.88888888888889	9.76117209152288e-15
+										4.00900900900901	1.01573154611542e-14
+										4.12912912912913	1.05691714484549e-14
+										4.24924924924925	1.0997348690135e-14
+										4.36936936936937	1.14424788279304e-14
+										4.48948948948949	1.1905217356326e-14
+										4.60960960960961	1.23862445007065e-14
+										4.72972972972973	1.28862661269893e-14
+										4.84984984984985	1.34060146838494e-14
+										4.96996996996997	1.39462501786618e-14
+										5.09009009009009	1.45077611883408e-14
+										5.21021021021021	1.509136590629e-14
+										5.33033033033033	1.56979132267146e-14
+										5.45045045045045	1.63282838675989e-14
+										5.57057057057057	1.69833915336848e-14
+										5.69069069069069	1.76641841208384e-14
+										5.81081081081081	1.83716449632426e-14
+										5.93093093093093	1.91067941248882e-14
+										6.05105105105105	1.98706897369071e-14
+										6.17117117117117	2.06644293823111e-14
+										6.29129129129129	2.14891515297953e-14
+										6.41141141141141	2.2346037018273e-14
+										6.53153153153153	2.32363105939094e-14
+										6.65165165165165	2.41612425014421e-14
+										6.77177177177177	2.51221501316663e-14
+										6.89189189189189	2.61203997270066e-14
+										7.01201201201201	2.7157408147172e-14
+										7.13213213213213	2.82346446969414e-14
+										7.25225225225225	2.93536330182258e-14
+										7.37237237237237	3.05159530485854e-14
+										7.49249249249249	3.17232430484873e-14
+										7.61261261261261	3.29772016996402e-14
+										7.73273273273273	3.42795902768324e-14
+										7.85285285285285	3.56322348957852e-14
+										7.97297297297297	3.70370288395956e-14
+										8.09309309309309	3.84959349664527e-14
+										8.21321321321321	4.00109882013775e-14
+										8.33333333333333	4.15842981148561e-14
+										8.45345345345345	4.32180515912905e-14
+										8.57357357357357	4.4914515590322e-14
+										8.69369369369369	4.6676040004177e-14
+										8.81381381381381	4.85050606142638e-14
+										8.93393393393393	5.04041021503986e-14
+										9.05405405405405	5.23757814560921e-14
+										9.17417417417417	5.44228107635008e-14
+										9.29429429429429	5.65480010817333e-14
+										9.41441441441441	5.87542657023086e-14
+										9.53453453453453	6.10446238257245e-14
+										9.65465465465465	6.34222043132007e-14
+										9.77477477477477	6.58902495677831e-14
+										9.89489489489489	6.84521195491834e-14
+										10.015015015015	7.11112959267759e-14
+										10.1351351351351	7.38713863754385e-14
+										10.2552552552553	7.67361290189674e-14
+										10.3753753753754	7.97093970260233e-14
+										10.4954954954955	8.27952033636798e-14
+										10.6156156156156	8.5997705713836e-14
+										10.7357357357357	8.93212115579408e-14
+										10.8558558558559	9.27701834355905e-14
+										10.975975975976	9.63492443827977e-14
+										11.0960960960961	1.00063183555927e-13
+										11.2162162162162	1.03916962047406e-13
+										11.3363363363363	1.07915718899636e-13
+										11.4564564564565	1.12064777323588e-13
+										11.5765765765766	1.16369651128942e-13
+										11.6966966966967	1.20836051372703e-13
+										11.8168168168168	1.25469893233537e-13
+										11.9369369369369	1.30277303119277e-13
+										12.0570570570571	1.35264626015265e-13
+										12.1771771771772	1.40438433081511e-13
+										12.2972972972973	1.4580552950681e-13
+										12.4174174174174	1.51372962628265e-13
+										12.5375375375375	1.57148030324998e-13
+										12.6576576576577	1.63138289694954e-13
+										12.7777777777778	1.69351566024193e-13
+										12.8978978978979	1.75795962058109e-13
+										13.018018018018	1.82479867584603e-13
+										13.1381381381381	1.89411969339329e-13
+										13.2582582582583	1.96601261243527e-13
+										13.3783783783784	2.04057054985352e-13
+										13.4984984984985	2.11788990955844e-13
+										13.6186186186186	2.19807049551151e-13
+										13.7387387387387	2.28121562852878e-13
+										13.8588588588589	2.36743226698828e-13
+										13.978978978979	2.45683113156962e-13
+										14.0990990990991	2.54952683415448e-13
+										14.2192192192192	2.64563801102549e-13
+										14.3393393393393	2.74528746049991e-13
+										14.4594594594595	2.84860228514416e-13
+										14.5795795795796	2.95571403871596e-13
+										14.6996996996997	3.06675887798726e-13
+										14.8198198198198	3.18187771960508e-13
+										14.9399399399399	3.30121640215373e-13
+										15.0600600600601	3.42492585358434e-13
+										15.1801801801802	3.55316226418698e-13
+										15.3003003003003	3.68608726528015e-13
+										15.4204204204204	3.82386811380507e-13
+										15.5405405405405	3.96667788301157e-13
+										15.6606606606607	4.11469565943231e-13
+										15.7807807807808	4.26810674634624e-13
+										15.9009009009009	4.42710287393935e-13
+										16.021021021021	4.59188241637695e-13
+										16.1411411411411	4.76265061600832e-13
+										16.2612612612613	4.93961981493032e-13
+										16.3813813813814	5.12300969414749e-13
+										16.5015015015015	5.31304752056679e-13
+										16.6216216216216	5.50996840208098e-13
+										16.7417417417417	5.71401555099267e-13
+										16.8618618618619	5.92544055604941e-13
+										16.981981981982	6.14450366335956e-13
+										17.1021021021021	6.37147406647147e-13
+										17.2222222222222	6.60663020590808e-13
+										17.3423423423423	6.85026007845323e-13
+										17.4624624624625	7.10266155650155e-13
+										17.5825825825826	7.36414271778812e-13
+										17.7027027027027	7.63502218582411e-13
+										17.8228228228228	7.91562948138091e-13
+										17.9429429429429	8.20630538536522e-13
+										18.0630630630631	8.5074023134494e-13
+										18.1831831831832	8.81928470282186e-13
+										18.3033033033033	9.14232941144137e-13
+										18.4234234234234	9.47692613018878e-13
+										18.5435435435435	9.82347780831766e-13
+										18.6636636636637	1.01824010926237e-12
+										18.7837837837838	1.05541267807603e-12
+										18.9039039039039	1.09391002891453e-12
+										19.024024024024	1.13377821359134e-12
+										19.1441441441441	1.17506484393832e-12
+										19.2642642642643	1.21781914325278e-12
+										19.3843843843844	1.2620919993939e-12
+										19.5045045045045	1.30793601958118e-12
+										19.6246246246246	1.35540558694643e-12
+										19.7447447447447	1.40455691889491e-12
+										19.8648648648649	1.45544812733152e-12
+										19.984984984985	1.5081392808096e-12
+										20.1051051051051	1.56269246866239e-12
+										20.2252252252252	1.61917186717842e-12
+										20.3453453453453	1.67764380788377e-12
+										20.4654654654655	1.73817684799734e-12
+										20.5855855855856	1.80084184312468e-12
+										20.7057057057057	1.86571202226111e-12
+										20.8258258258258	1.93286306517439e-12
+										20.9459459459459	2.00237318224034e-12
+										21.0660660660661	2.07432319680742e-12
+										21.1861861861862	2.14879663016739e-12
+										21.3063063063063	2.22587978921268e-12
+										21.4264264264264	2.30566185686276e-12
+										21.5465465465465	2.38823498534416e-12
+										21.6666666666667	2.47369439241237e-12
+										21.7867867867868	2.56213846060445e-12
+										21.9069069069069	2.65366883961689e-12
+										22.027027027027	2.74839055190184e-12
+										22.1471471471471	2.84641210158263e-12
+										22.2672672672673	2.94784558678744e-12
+										22.3873873873874	3.05280681550714e-12
+										22.5075075075075	3.16141542508377e-12
+										22.6276276276276	3.2737950054396e-12
+										22.7477477477477	3.39007322616216e-12
+										22.8678678678679	3.51038196756096e-12
+										22.987987987988	3.63485745581596e-12
+										23.1081081081081	3.76364040234414e-12
+										23.2282282282282	3.89687614750927e-12
+										23.3483483483483	4.03471480880857e-12
+										23.4684684684685	4.17731143366953e-12
+										23.5885885885886	4.32482615699788e-12
+										23.7087087087087	4.47742436361954e-12
+										23.8288288288288	4.63527685576381e-12
+										23.9489489489489	4.79856002574005e-12
+										24.0690690690691	4.96745603396362e-12
+										24.1891891891892	5.14215299249323e-12
+										24.3093093093093	5.32284515424445e-12
+										24.4294294294294	5.50973310804833e-12
+										24.5495495495496	5.70302397973432e-12
+										24.6696696696697	5.90293163941321e-12
+										24.7897897897898	6.10967691515091e-12
+										24.9099099099099	6.32348781321875e-12
+										25.03003003003	6.54459974512123e-12
+										25.1501501501502	6.77325576160199e-12
+										25.2702702702703	7.00970679383552e-12
+										25.3903903903904	7.25421190202017e-12
+										25.5105105105105	7.50703853159174e-12
+										25.6306306306306	7.76846277728468e-12
+										25.7507507507508	8.03876965527609e-12
+										25.8708708708709	8.31825338364741e-12
+										25.990990990991	8.60721767141836e-12
+										26.1111111111111	8.90597601639997e-12
+										26.2312312312312	9.2148520121319e-12
+										26.3513513513514	9.53417966417333e-12
+										26.4714714714715	9.86430371601994e-12
+										26.5915915915916	1.02055799849377e-11
+										26.7117117117117	1.05583757080003e-11
+										26.8318318318318	1.09230698986335e-11
+										26.951951951952	1.13000537139778e-11
+										27.0720720720721	1.1689730833384e-11
+										27.1921921921922	1.20925178483739e-11
+										27.3123123123123	1.25088446643971e-11
+										27.4324324324324	1.29391549147372e-11
+										27.5525525525526	1.33839063869175e-11
+										27.6726726726727	1.38435714619762e-11
+										27.7927927927928	1.43186375669889e-11
+										27.9129129129129	1.48096076412201e-11
+										28.033033033033	1.53170006163104e-11
+										28.1531531531532	1.58413519109034e-11
+										28.2732732732733	1.63832139401342e-11
+										28.3933933933934	1.69431566404166e-11
+										28.5135135135135	1.75217680099686e-11
+										28.6336336336336	1.8119654665543e-11
+										28.7537537537538	1.87374424158236e-11
+										28.8738738738739	1.93757768519788e-11
+										28.993993993994	2.00353239558699e-11
+										29.1141141141141	2.07167707264216e-11
+										29.2342342342342	2.14208258246886e-11
+										29.3543543543544	2.2148220238148e-11
+										29.4744744744745	2.28997079647889e-11
+										29.5945945945946	2.36760667175568e-11
+										29.7147147147147	2.44780986497506e-11
+										29.8348348348348	2.53066311019704e-11
+										29.954954954955	2.61625173712387e-11
+										30.0750750750751	2.70466375029429e-11
+										30.1951951951952	2.79598991062351e-11
+										30.3153153153153	2.89032381935848e-11
+										30.4354354354354	2.98776200451672e-11
+										30.5555555555556	3.08840400988005e-11
+										30.6756756756757	3.19235248661703e-11
+										30.7957957957958	3.29971328760841e-11
+										30.9159159159159	3.41059556455387e-11
+										31.036036036036	3.52511186793992e-11
+										31.1561561561562	3.64337824994869e-11
+										31.2762762762763	3.76551437039412e-11
+										31.3963963963964	3.89164360577064e-11
+										31.5165165165165	4.02189316150204e-11
+										31.6366366366366	4.15639418748471e-11
+										31.7567567567568	4.29528189701446e-11
+										31.8768768768769	4.43869568919833e-11
+										31.996996996997	4.58677927494556e-11
+										32.1171171171171	4.73968080664246e-11
+										32.2372372372372	4.89755301161415e-11
+										32.3573573573574	5.06055332948094e-11
+										32.4774774774775	5.22884405351961e-11
+										32.5975975975976	5.40259247614237e-11
+										32.7177177177177	5.58197103861e-11
+										32.8378378378378	5.76715748509948e-11
+										32.957957957958	5.9583350212477e-11
+										33.0780780780781	6.15569247729788e-11
+										33.1981981981982	6.35942447597819e-11
+										33.3183183183183	6.56973160524706e-11
+										33.4384384384384	6.78682059603872e-11
+										33.5585585585586	7.01090450515261e-11
+										33.6786786786787	7.24220290343006e-11
+										33.7987987987988	7.48094206936427e-11
+										33.9189189189189	7.72735518830002e-11
+										34.039039039039	7.98168255737539e-11
+										34.1591591591592	8.24417179636773e-11
+										34.2792792792793	8.51507806461011e-11
+										34.3993993993994	8.79466428414462e-11
+										34.5195195195195	9.08320136929022e-11
+										34.6396396396396	9.38096846279972e-11
+										34.7597597597598	9.68825317879244e-11
+										34.8798798798799	1.00053518526507e-10
+										35	1.03325697980713e-10
+										35.1201201201201	1.06702215714736e-10
+										35.2402402402402	1.10186312439661e-10
+										35.3603603603604	1.13781326810826e-10
+										35.4804804804805	1.1749069830503e-10
+										35.6006006006006	1.21317970179755e-10
+										35.7207207207207	1.25266792516762e-10
+										35.8408408408408	1.29340925352285e-10
+										35.960960960961	1.33544241896288e-10
+										36.0810810810811	1.37880731843206e-10
+										36.2012012012012	1.42354504776705e-10
+										36.3213213213213	1.46969793671038e-10
+										36.4414414414414	1.5173095849167e-10
+										36.5615615615616	1.56642489897872e-10
+										36.6816816816817	1.61709013050117e-10
+										36.8018018018018	1.6693529152513e-10
+										36.9219219219219	1.72326231341558e-10
+										37.042042042042	1.77886885099247e-10
+										37.1621621621622	1.83622456235333e-10
+										37.2822822822823	1.89538303400205e-10
+										37.4024024024024	1.95639944956743e-10
+										37.5225225225225	2.01933063606099e-10
+										37.6426426426426	2.08423511143509e-10
+										37.7627627627628	2.15117313347736e-10
+										37.8828828828829	2.22020675007646e-10
+										38.003003003003	2.2913998508977e-10
+										38.1231231231231	2.36481822050655e-10
+										38.2432432432432	2.4405295929786e-10
+										38.3633633633634	2.51860370803778e-10
+										38.4834834834835	2.5991123687623e-10
+										38.6036036036036	2.68212950090273e-10
+										38.7237237237237	2.76773121385474e-10
+										38.8438438438438	2.85599586333079e-10
+										38.963963963964	2.94700411577859e-10
+										39.0840840840841	3.0408390145908e-10
+										39.2042042042042	3.1375860481567e-10
+										39.3243243243243	3.23733321980438e-10
+										39.4444444444444	3.34017111968327e-10
+										39.5645645645646	3.44619299864205e-10
+										39.6846846846847	3.55549484415234e-10
+										39.8048048048048	3.66817545833564e-10
+										39.9249249249249	3.78433653814841e-10
+										40.045045045045	3.90408275778347e-10
+										40.1651651651652	4.02752185334801e-10
+										40.2852852852853	4.15476470987759e-10
+										40.4054054054054	4.2859254507498e-10
+										40.5255255255255	4.42112152956099e-10
+										40.6456456456456	4.5604738245327e-10
+										40.7657657657658	4.704106735514e-10
+										40.8858858858859	4.85214828364928e-10
+										41.006006006006	5.00473021378428e-10
+										41.1261261261261	5.16198809967942e-10
+										41.2462462462462	5.32406145210966e-10
+										41.3663663663664	5.49109382992325e-10
+										41.4864864864865	5.6632329541404e-10
+										41.6066066066066	5.84063082517298e-10
+										41.7267267267267	6.02344384324446e-10
+										41.8468468468468	6.21183293209999e-10
+										41.966966966967	6.40596366608829e-10
+										42.0870870870871	6.60600640070803e-10
+										42.2072072072072	6.81213640670974e-10
+										42.3273273273273	7.02453400784472e-10
+										42.4474474474474	7.24338472236001e-10
+										42.5675675675676	7.46887940833661e-10
+										42.6876876876877	7.70121441297103e-10
+										42.8078078078078	7.94059172590684e-10
+										42.9279279279279	8.18721913671926e-10
+										43.048048048048	8.44131039666441e-10
+										43.1681681681682	8.70308538480282e-10
+										43.2882882882883	8.97277027861431e-10
+										43.4084084084084	9.25059772921875e-10
+										43.5285285285285	9.53680704132642e-10
+										43.6486486486486	9.83164435803905e-10
+										43.7687687687688	1.01353628506292e-9
+										43.8888888888889	1.04482229134284e-9
+										44.009009009009	1.07704923639564e-9
+										44.1291291291291	1.11024466484276e-9
+										44.2492492492492	1.14443690527762e-9
+										44.3693693693694	1.17965509193415e-9
+										44.4894894894895	1.2159291869364e-9
+										44.6096096096096	1.25329000314374e-9
+										44.7297297297297	1.29176922760757e-9
+										44.8498498498498	1.33139944565538e-9
+										44.96996996997	1.37221416561802e-9
+										45.0900900900901	1.41424784421733e-9
+										45.2102102102102	1.45753591263063e-9
+										45.3303303303303	1.50211480325011e-9
+										45.4504504504505	1.54802197715476e-9
+										45.5705705705706	1.59529595231311e-9
+										45.6906906906907	1.64397633253598e-9
+										45.8108108108108	1.69410383719805e-9
+										45.9309309309309	1.74572033174856e-9
+										46.0510510510511	1.7988688590311e-9
+										46.1711711711712	1.85359367143293e-9
+										46.2912912912913	1.90994026388625e-9
+										46.4114114114114	1.96795540774169e-9
+										46.5315315315315	2.02768718553794e-9
+										46.6516516516517	2.08918502668907e-9
+										46.7717717717718	2.15249974411389e-9
+										46.8918918918919	2.21768357183132e-9
+										47.012012012012	2.28479020354592e-9
+										47.1321321321321	2.35387483224953e-9
+										47.2522522522523	2.42499419086431e-9
+										47.3723723723724	2.49820659395385e-9
+										47.4924924924925	2.57357198053031e-9
+										47.6126126126126	2.65115195798376e-9
+										47.7327327327327	2.73100984716413e-9
+										47.8528528528529	2.81321072864342e-9
+										47.972972972973	2.89782149018961e-9
+										48.0930930930931	2.98491087548137e-9
+										48.2132132132132	3.07454953409592e-9
+										48.3333333333333	3.16681007280288e-9
+										48.4534534534535	3.26176710819527e-9
+										48.5735735735736	3.3594973206932e-9
+										48.6936936936937	3.46007950995391e-9
+										48.8138138138138	3.56359465172384e-9
+										48.9339339339339	3.67012595616956e-9
+										49.0540540540541	3.77975892772345e-9
+										49.1741741741742	3.89258142648415e-9
+										49.2942942942943	4.00868373120882e-9
+										49.4144144144144	4.12815860393885e-9
+										49.5345345345345	4.25110135629917e-9
+										49.6546546546547	4.3776099175125e-9
+										49.7747747747748	4.50778490417349e-9
+										49.8948948948949	4.64172969182491e-9
+										50.015015015015	4.77955048838056e-9
+										50.1351351351351	4.92135640944423e-9
+										50.2552552552553	5.06725955556747e-9
+										50.3753753753754	5.21737509149907e-9
+										50.4954954954955	5.37182132747195e-9
+										50.6156156156156	5.53071980258071e-9
+										50.7357357357357	5.69419537030142e-9
+										50.8558558558559	5.86237628620599e-9
+										50.975975975976	6.03539429792642e-9
+										51.0960960960961	6.21338473742456e-9
+										51.2162162162162	6.39648661562488e-9
+										51.3363363363363	6.58484271946796e-9
+										51.4564564564565	6.77859971144532e-9
+										51.5765765765766	6.97790823167673e-9
+										51.6966966966967	7.18292300259338e-9
+										51.8168168168168	7.39380293629034e-9
+										51.9369369369369	7.61071124461447e-9
+										52.0570570570571	7.83381555205546e-9
+										52.1771771771772	8.06328801150948e-9
+										52.2972972972973	8.29930542298525e-9
+										52.4174174174174	8.54204935532489e-9
+										52.5375375375375	8.79170627101477e-9
+										52.6576576576577	9.04846765416047e-9
+										52.7777777777778	9.31253014170669e-9
+										52.8978978978979	9.58409565797555e-9
+										53.018018018018	9.86337155261316e-9
+										53.1381381381381	1.01505707420187e-8
+										53.2582582582583	1.04459118543498e-8
+										53.3783783783784	1.0749619378184e-8
+										53.4984984984985	1.10619238149305e-8
+										53.6186186186186	1.13830618350825e-8
+										53.7387387387387	1.17132764384034e-8
+										53.8588588588589	1.20528171181409e-8
+										53.978978978979	1.24019400293714e-8
+										54.0990990990991	1.27609081615699e-8
+										54.2192192192192	1.31299915155142e-8
+										54.3393393393393	1.35094672846195e-8
+										54.4594594594595	1.38996200408235e-8
+										54.5795795795796	1.43007419251186e-8
+										54.6996996996997	1.47131328428544e-8
+										54.8198198198198	1.51371006639206e-8
+										54.9399399399399	1.55729614279292e-8
+										55.0600600600601	1.60210395545171e-8
+										55.1801801801802	1.6481668058895e-8
+										55.3003003003003	1.69551887727614e-8
+										55.4204204204204	1.74419525707231e-8
+										55.5405405405405	1.79423196023416e-8
+										55.6606606606607	1.84566595299531e-8
+										55.7807807807808	1.89853517723907e-8
+										55.9009009009009	1.95287857547552e-8
+										56.021021021021	2.0087361164382e-8
+										56.1411411411411	2.06614882131483e-8
+										56.2612612612613	2.1251587906273e-8
+										56.3813813813814	2.18580923177669e-8
+										56.5015015015015	2.24814448726919e-8
+										56.6216216216216	2.31221006363926e-8
+										56.7417417417417	2.37805266108598e-8
+										56.8618618618619	2.44572020384088e-8
+										56.981981981982	2.51526187128351e-8
+										57.1021021021021	2.58672812982346e-8
+										57.2222222222222	2.66017076556611e-8
+										57.3423423423423	2.73564291778174e-8
+										57.4624624624625	2.8131991131966e-8
+										57.5825825825826	2.89289530112531e-8
+										57.7027027027027	2.97478888946505e-8
+										57.8228228228228	3.05893878157121e-8
+										57.9429429429429	3.14540541403629e-8
+										58.0630630630631	3.23425079539319e-8
+										58.1831831831832	3.32553854576338e-8
+										58.3033033033033	3.4193339374751e-8
+										58.4234234234234	3.51570393667141e-8
+										58.5435435435435	3.61471724593383e-8
+										58.6636636636637	3.71644434794406e-8
+										58.7837837837838	3.82095755020872e-8
+										58.9039039039039	3.92833103087245e-8
+										59.024024024024	4.03864088564456e-8
+										59.1441441441442	4.15196517586522e-8
+										59.2642642642643	4.26838397773854e-8
+										59.3843843843844	4.38797943275921e-8
+										59.5045045045045	4.5108357993619e-8
+										59.6246246246246	4.63703950581998e-8
+										59.7447447447448	4.76667920442498e-8
+										59.8648648648649	4.89984582697563e-8
+										59.984984984985	5.0366326416067e-8
+										60.1051051051051	5.17713531099081e-8
+										60.2252252252252	5.32145195194167e-8
+										60.3453453453454	5.46968319645605e-8
+										60.4654654654655	5.62193225422434e-8
+										60.5855855855856	5.77830497664465e-8
+										60.7057057057057	5.93890992237724e-8
+										60.8258258258258	6.10385842447262e-8
+										60.945945945946	6.27326465911133e-8
+										61.0660660660661	6.44724571599304e-8
+										61.1861861861862	6.62592167041082e-8
+										61.3063063063063	6.80941565705336e-8
+										61.4264264264264	6.99785394557191e-8
+										61.5465465465466	7.19136601795463e-8
+										61.6666666666667	7.39008464774839e-8
+										61.7867867867868	7.59414598117322e-8
+										61.9069069069069	7.80368962017049e-8
+										62.027027027027	8.01885870743085e-8
+										62.1471471471472	8.23980001344682e-8
+										62.2672672672673	8.46666402563744e-8
+										62.3873873873874	8.69960503959238e-8
+										62.5075075075075	8.93878125248274e-8
+										62.6276276276276	9.18435485869053e-8
+										62.7477477477478	9.43649214770705e-8
+										62.8678678678679	9.69536360435004e-8
+										62.987987987988	9.9611440113571e-8
+										63.1081081081081	1.02340125544049e-7
+										63.2282282282282	1.05141529296125e-7
+										63.3483483483484	1.08017534535866e-7
+										63.4684684684685	1.10970071760616e-7
+										63.5885885885886	1.14001119952017e-7
+										63.7087087087087	1.17112707756159e-7
+										63.8288288288288	1.20306914691586e-7
+										63.948948948949	1.23585872385693e-7
+										64.0690690690691	1.26951765840211e-7
+										64.1891891891892	1.30406834726452e-7
+										64.3093093093093	1.33953374710944e-7
+										64.4294294294294	1.37593738812188e-7
+										64.5495495495496	1.41330338789219e-7
+										64.6696696696697	1.45165646562694e-7
+										64.7897897897898	1.49102195669256e-7
+										64.9099099099099	1.53142582749914e-7
+										65.03003003003	1.57289469073208e-7
+										65.1501501501502	1.61545582093943e-7
+										65.2702702702703	1.65913717048318e-7
+										65.3903903903904	1.7039673858623e-7
+										65.5105105105105	1.74997582441611e-7
+										65.6306306306306	1.79719257141683e-7
+										65.7507507507508	1.84564845755943e-7
+										65.8708708708709	1.89537507685824e-7
+										65.990990990991	1.94640480495917e-7
+										66.1111111111111	1.9987708178771e-7
+										66.2312312312312	2.05250711116771e-7
+										66.3513513513514	2.10764851954362e-7
+										66.4714714714715	2.16423073694473e-7
+										66.5915915915916	2.22229033707314e-7
+										66.7117117117117	2.28186479440254e-7
+										66.8318318318318	2.34299250567333e-7
+										66.951951951952	2.4057128118835e-7
+										67.0720720720721	2.47006602078724e-7
+										67.1921921921922	2.53609342991196e-7
+										67.3123123123123	2.60383735010493e-7
+										67.4324324324324	2.67334112962272e-7
+										67.5525525525526	2.74464917877376e-7
+										67.6726726726727	2.81780699512765e-7
+										67.7927927927928	2.89286118930311e-7
+										67.9129129129129	2.96985951134731e-7
+										68.033033033033	3.04885087772041e-7
+										68.1531531531532	3.12988539889786e-7
+										68.2732732732733	3.21301440760469e-7
+										68.3933933933934	3.29829048769553e-7
+										68.5135135135135	3.38576750369433e-7
+										68.6336336336336	3.47550063100931e-7
+										68.7537537537538	3.56754638683693e-7
+										68.8738738738739	3.66196266177045e-7
+										68.993993993994	3.75880875212865e-7
+										69.1141141141141	3.85814539302117e-7
+										69.2342342342342	3.96003479216519e-7
+										69.3543543543544	4.06454066447098e-7
+										69.4744744744745	4.17172826741376e-7
+										69.5945945945946	4.2816644372071e-7
+										69.7147147147147	4.39441762579807e-7
+										69.8348348348348	4.51005793869969e-7
+										69.954954954955	4.62865717368006e-7
+										70.0750750750751	4.75028886032824e-7
+										70.1951951951952	4.87502830051257e-7
+										70.3153153153153	5.00295260975502e-7
+										70.4354354354354	5.13414075953815e-7
+										70.5555555555556	5.26867362056698e-7
+										70.6756756756757	5.40663400700629e-7
+										70.7957957957958	5.54810672171316e-7
+										70.9159159159159	5.69317860248896e-7
+										71.036036036036	5.84193856937044e-7
+										71.1561561561562	5.99447767298326e-7
+										71.2762762762763	6.15088914398264e-7
+										71.3963963963964	6.31126844360161e-7
+										71.5165165165165	6.47571331533376e-7
+										71.6366366366366	6.64432383777347e-7
+										71.7567567567568	6.81720247863814e-7
+										71.8768768768769	6.9944541500003e-7
+										71.996996996997	7.17618626475309e-7
+										72.1171171171171	7.36250879433708e-7
+										72.2372372372372	7.55353432775575e-7
+										72.3573573573574	7.74937813190652e-7
+										72.4774774774775	7.95015821325645e-7
+										72.5975975975976	8.15599538089114e-7
+										72.7177177177177	8.36701331096608e-7
+										72.8378378378378	8.58333861259143e-7
+										72.957957957958	8.80510089518057e-7
+										73.0780780780781	9.03243283729228e-7
+										73.1981981981982	9.26547025700147e-7
+										73.3183183183183	9.50435218382975e-7
+										73.4384384384384	9.74922093226669e-7
+										73.5585585585586	1.00002221769219e-6
+										73.6786786786787	1.02575050293358e-6
+										73.7987987987988	1.05212221164885e-6
+										73.9189189189189	1.07915296610442e-6
+										74.039039039039	1.10685875633626e-6
+										74.1591591591592	1.13525594853214e-6
+										74.2792792792793	1.16436129359843e-6
+										74.3993993993994	1.19419193591533e-6
+										74.5195195195195	1.22476542228508e-6
+										74.6396396396396	1.25609971107633e-6
+										74.7597597597598	1.28821318156989e-6
+										74.8798798798799	1.32112464350911e-6
+										75	1.35485334686006e-6
+										75.1201201201201	1.3894189917854e-6
+										75.2402402402402	1.4248417388366e-6
+										75.3603603603604	1.46114221936942e-6
+										75.4804804804805	1.49834154618687e-6
+										75.6006006006006	1.53646132441472e-6
+										75.7207207207207	1.57552366261463e-6
+										75.8408408408408	1.61555118413938e-6
+										75.960960960961	1.65656703873591e-6
+										76.0810810810811	1.69859491440094e-6
+										76.2012012012012	1.74165904949467e-6
+										76.3213213213213	1.78578424511787e-6
+										76.4414414414414	1.83099587775808e-6
+										76.5615615615616	1.87731991221035e-6
+										76.6816816816817	1.92478291477821e-6
+										76.8018018018018	1.97341206676126e-6
+										76.9219219219219	2.02323517823447e-6
+										77.042042042042	2.07428070212633e-6
+										77.1621621621622	2.12657774860119e-6
+										77.2822822822823	2.18015609975255e-6
+										77.4024024024024	2.23504622461411e-6
+										77.5225225225225	2.29127929449426e-6
+										77.6426426426426	2.34888719864176e-6
+										77.7627627627628	2.40790256024909e-6
+										77.8828828828829	2.46835875279979e-6
+										78.003003003003	2.53028991676868e-6
+										78.1231231231231	2.59373097668007e-6
+										78.2432432432432	2.65871765853347e-6
+										78.3633633633634	2.72528650760302e-6
+										78.4834834834835	2.79347490661843e-6
+										78.6036036036036	2.86332109433667e-6
+										78.7237237237237	2.93486418451073e-6
+										78.8438438438438	3.00814418526468e-6
+										78.963963963964	3.08320201888337e-6
+										79.0840840840841	3.16007954202496e-6
+										79.2042042042042	3.23881956636508e-6
+										79.3243243243243	3.31946587968208e-6
+										79.4444444444444	3.40206326739135e-6
+										79.5645645645646	3.48665753453886e-6
+										79.6846846846847	3.5732955282633e-6
+										79.8048048048048	3.66202516073584e-6
+										79.9249249249249	3.75289543258772e-6
+										80.045045045045	3.8459564568359e-6
+										80.1651651651652	3.94125948331619e-6
+										80.2852852852853	4.03885692363573e-6
+										80.4054054054054	4.13880237665308e-6
+										80.5255255255255	4.24115065449908e-6
+										80.6456456456456	4.34595780914872e-6
+										80.7657657657658	4.45328115955387e-6
+										80.8858858858859	4.56317931935099e-6
+										81.006006006006	4.67571222515298e-6
+										81.1261261261261	4.79094116543844e-6
+										81.2462462462462	4.90892881005089e-6
+										81.3663663663664	5.02973924031825e-6
+										81.4864864864865	5.153437979808e-6
+										81.6066066066066	5.2800920257289e-6
+										81.7267267267267	5.40976988099235e-6
+										81.8468468468468	5.54254158694902e-6
+										81.966966966967	5.678478756811e-6
+										82.0870870870871	5.81765460977679e-6
+										82.2072072072072	5.96014400587052e-6
+										82.3273273273273	6.10602348151108e-6
+										82.4474474474474	6.25537128582712e-6
+										82.5675675675676	6.40826741772982e-6
+										82.6876876876877	6.56479366376242e-6
+										82.8078078078078	6.72503363673827e-6
+										82.9279279279279	6.88907281518758e-6
+										83.048048048048	7.05699858362522e-6
+										83.1681681681682	7.22890027365808e-6
+										83.2882882882883	7.40486920594898e-6
+										83.4084084084084	7.58499873305322e-6
+										83.5285285285285	7.76938428314669e-6
+										83.6486486486486	7.95812340466132e-6
+										83.7687687687688	8.15131581184879e-6
+										83.8888888888889	8.34906343128827e-6
+										84.009009009009	8.55147044935939e-6
+										84.1291291291291	8.75864336069865e-6
+										84.2492492492492	8.970691017658e-6
+										84.3693693693694	9.18772468078728e-6
+										84.4894894894895	9.40985807036126e-6
+										84.6096096096096	9.63720741896829e-6
+										84.7297297297297	9.86989152518723e-6
+										84.8498498498498	1.01080318083703e-5
+										84.96996996997	1.03517523645544e-5
+										85.0900900900901	1.06011800235257e-5
+										85.2102102102102	1.08564444070563e-5
+										85.3303303303303	1.11176779883412e-5
+										85.4504504504504	1.13850161526542e-5
+										85.5705705705706	1.16585972592507e-5
+										85.6906906906907	1.19385627045411e-5
+										85.8108108108108	1.22250569865578e-5
+										85.9309309309309	1.25182277707453e-5
+										86.051051051051	1.28182259570951e-5
+										86.1711711711712	1.31252057486567e-5
+										86.2912912912913	1.34393247214463e-5
+										86.4114114114114	1.37607438957855e-5
+										86.5315315315315	1.40896278090972e-5
+										86.6516516516516	1.4426144590183e-5
+										86.7717717717718	1.47704660350195e-5
+										86.8918918918919	1.51227676840939e-5
+										87.012012012012	1.54832289013166e-5
+										87.1321321321321	1.58520329545386e-5
+										87.2522522522522	1.62293670977029e-5
+										87.3723723723724	1.66154226546683e-5
+										87.4924924924925	1.70103951047317e-5
+										87.6126126126126	1.7414484169884e-5
+										87.7327327327327	1.78278939038376e-5
+										87.8528528528528	1.82508327828525e-5
+										87.972972972973	1.86835137984053e-5
+										88.0930930930931	1.91261545517261e-5
+										88.2132132132132	1.95789773502517e-5
+										88.3333333333333	2.00422093060207e-5
+										88.4534534534534	2.0516082436057e-5
+										88.5735735735736	2.10008337647784e-5
+										88.6936936936937	2.14967054284636e-5
+										88.8138138138138	2.20039447818271e-5
+										88.9339339339339	2.25228045067364e-5
+										89.054054054054	2.30535427231123e-5
+										89.1741741741742	2.35964231020629e-5
+										89.2942942942943	2.41517149812805e-5
+										89.4144144144144	2.47196934827609e-5
+										89.5345345345345	2.53006396328768e-5
+										89.6546546546546	2.58948404848593e-5
+										89.7747747747748	2.65025892437291e-5
+										89.8948948948949	2.71241853937275e-5
+										90.015015015015	2.7759934828293e-5
+										90.1351351351351	2.84101499826355e-5
+										90.2552552552553	2.90751499689529e-5
+										90.3753753753754	2.97552607143493e-5
+										90.4954954954955	3.04508151014943e-5
+										90.6156156156156	3.11621531120924e-5
+										90.7357357357357	3.18896219731984e-5
+										90.8558558558559	3.26335763064485e-5
+										90.975975975976	3.3394378280252e-5
+										91.0960960960961	3.41723977650081e-5
+										91.2162162162162	3.49680124914019e-5
+										91.3363363363363	3.57816082118344e-5
+										91.4564564564565	3.66135788650594e-5
+										91.5765765765766	3.74643267440704e-5
+										91.6966966966967	3.83342626673146e-5
+										91.8168168168168	3.92238061532911e-5
+										91.9369369369369	4.01333855985954e-5
+										92.0570570570571	4.10634384594817e-5
+										92.1771771771772	4.20144114370049e-5
+										92.2972972972973	4.29867606658112e-5
+										92.4174174174174	4.39809519066515e-5
+										92.5375375375375	4.49974607426766e-5
+										92.6576576576577	4.60367727796027e-5
+										92.7777777777778	4.7099383849804e-5
+										92.8978978978979	4.81858002204139e-5
+										93.018018018018	4.92965388055155e-5
+										93.1381381381381	5.04321273824904e-5
+										93.2582582582583	5.1593104812605e-5
+										93.3783783783784	5.27800212659211e-5
+										93.4984984984985	5.39934384506066e-5
+										93.6186186186186	5.52339298467282e-5
+										93.7387387387387	5.6502080944616e-5
+										93.8588588588589	5.77984894878809e-5
+										93.978978978979	5.91237657211699e-5
+										94.0990990990991	6.04785326427656e-5
+										94.2192192192192	6.18634262620906e-5
+										94.3393393393393	6.32790958622369e-5
+										94.4594594594595	6.47262042676012e-5
+										94.5795795795796	6.62054281167191e-5
+										94.6996996996997	6.77174581404099e-5
+										94.8198198198198	6.92629994453111e-5
+										94.9399399399399	7.08427718029155e-5
+										95.0600600600601	7.24575099442268e-5
+										95.1801801801802	7.41079638600908e-5
+										95.3003003003003	7.57948991073844e-5
+										95.4204204204204	7.75190971210874e-5
+										95.5405405405405	7.92813555324112e-5
+										95.6606606606607	8.10824884930685e-5
+										95.7807807807808	8.29233270057941e-5
+										95.9009009009009	8.48047192612525e-5
+										96.021021021021	8.67275309814289e-5
+										96.1411411411411	8.86926457696494e-5
+										96.2612612612613	9.07009654673224e-5
+										96.3813813813814	9.27534105175494e-5
+										96.5015015015015	9.48509203357229e-5
+										96.6216216216216	9.69944536872519e-5
+										96.7417417417417	9.91849890725158e-5
+										96.8618618618619	1.01423525119224e-4
+										96.981981981982	1.03711080982282e-4
+										97.1021021021021	1.06048696751318e-4
+										97.2222222222222	1.08437433866011e-4
+										97.3423423423423	1.10878375539367e-4
+										97.4624624624625	1.13372627189068e-4
+										97.5825825825826	1.15921316877075e-4
+										97.7027027027027	1.18525595757615e-4
+										97.8228228228228	1.21186638533707e-4
+										97.9429429429429	1.23905643922392e-4
+										98.0630630630631	1.26683835128817e-4
+										98.1831831831832	1.2952246032936e-4
+										98.3033033033033	1.3242279316391e-4
+										98.4234234234234	1.35386133237514e-4
+										98.5435435435435	1.38413806631581e-4
+										98.6636636636637	1.41507166424721e-4
+										98.7837837837838	1.44667593223527e-4
+										98.9039039039039	1.47896495703372e-4
+										99.024024024024	1.51195311159448e-4
+										99.1441441441442	1.54565506068272e-4
+										99.2642642642643	1.58008576659734e-4
+										99.3843843843844	1.61526049500039e-4
+										99.5045045045045	1.65119482085588e-4
+										99.6246246246246	1.68790463448091e-4
+										99.7447447447448	1.72540614771101e-4
+										99.8648648648649	1.76371590018126e-4
+										99.984984984985	1.80285076572616e-4
+										100.105105105105	1.84282795889945e-4
+										100.225225225225	1.88366504161676e-4
+										100.345345345345	1.92537992992297e-4
+										100.465465465465	1.96799090088671e-4
+										100.585585585586	2.01151659962396e-4
+										100.705705705706	2.05597604645375e-4
+										100.825825825826	2.10138864418728e-4
+										100.945945945946	2.14777418555431e-4
+										101.066066066066	2.1951528607676e-4
+										101.186186186186	2.24354526522953e-4
+										101.306306306306	2.29297240738208e-4
+										101.426426426426	2.3434557167038e-4
+										101.546546546547	2.39501705185575e-4
+										101.666666666667	2.44767870897901e-4
+										101.786786786787	2.50146343014754e-4
+										101.906906906907	2.55639441197744e-4
+										102.027027027027	2.61249531439713e-4
+										102.147147147147	2.66979026958002e-4
+										102.267267267267	2.72830389104331e-4
+										102.387387387387	2.78806128291601e-4
+										102.507507507508	2.84908804937804e-4
+										102.627627627628	2.91141030427518e-4
+										102.747747747748	2.97505468091157e-4
+										102.867867867868	3.04004834202359e-4
+										102.987987987988	3.10641898993856e-4
+										103.108108108108	3.17419487692038e-4
+										103.228228228228	3.2434048157072e-4
+										103.348348348348	3.31407819024322e-4
+										103.468468468468	3.38624496660801e-4
+										103.588588588589	3.4599357041479e-4
+										103.708708708709	3.53518156681216e-4
+										103.828828828829	3.61201433469771e-4
+										103.948948948949	3.69046641580633e-4
+										104.069069069069	3.77057085801798e-4
+										104.189189189189	3.85236136128374e-4
+										104.309309309309	3.9358722900429e-4
+										104.429429429429	4.02113868586771e-4
+										104.54954954955	4.10819628033944e-4
+										104.66966966967	4.19708150816122e-4
+										104.78978978979	4.28783152050987e-4
+										104.90990990991	4.38048419863244e-4
+										105.03003003003	4.47507816769118e-4
+										105.15015015015	4.57165281086128e-4
+										105.27027027027	4.67024828368626e-4
+										105.39039039039	4.77090552869459e-4
+										105.510510510511	4.87366629028295e-4
+										105.630630630631	4.97857312987095e-4
+										105.750750750751	5.08566944133098e-4
+										105.870870870871	5.19499946669932e-4
+										105.990990990991	5.30660831217236e-4
+										106.111111111111	5.42054196439312e-4
+										106.231231231231	5.53684730703464e-4
+										106.351351351351	5.65557213768199e-4
+										106.471471471471	5.77676518502241e-4
+										106.591591591592	5.9004761263453e-4
+										106.711711711712	6.02675560535958e-4
+										106.831831831832	6.15565525033346e-4
+										106.951951951952	6.28722769256113e-4
+										107.072072072072	6.42152658516384e-4
+										107.192192192192	6.55860662223032e-4
+										107.312312312312	6.69852355830169e-4
+										107.432432432432	6.84133422820805e-4
+										107.552552552553	6.98709656726241e-4
+										107.672672672673	7.13586963181755e-4
+										107.792792792793	7.2877136201935e-4
+										107.912912912913	7.44268989397969e-4
+										108.033033033033	7.60086099972137e-4
+										108.153153153153	7.76229069099368e-4
+										108.273273273273	7.92704395087328e-4
+										108.393393393393	8.09518701481046e-4
+										108.513513513514	8.26678739391358e-4
+										108.633633633634	8.44191389864787e-4
+										108.753753753754	8.62063666295973e-4
+										108.873873873874	8.80302716883114e-4
+										108.993993993994	8.98915827127298e-4
+										109.114114114114	9.17910422376508e-4
+										109.234234234234	9.37294070414827e-4
+										109.354354354354	9.57074484097989e-4
+										109.474474474474	9.77259524035766e-4
+										109.594594594595	9.97857201322068e-4
+										109.714714714715	0.00101887568031372
+										109.834834834835	0.00104032328145843
+										109.954954954955	0.00106220848417324
+										110.075075075075	0.00108453992977386
+										110.195195195195	0.00110732642445601
+										110.315315315315	0.00113057694232967
+										110.435435435435	0.00115430062850694
+										110.555555555556	0.00117850680224477
+										110.675675675676	0.00120320496014308
+										110.795795795796	0.0012284047793994
+										110.915915915916	0.00125411612112116
+										111.036036036036	0.00128034903369634
+										111.156156156156	0.00130711375622352
+										111.276276276276	0.00133442072200257
+										111.396396396396	0.00136228056208655
+										111.516516516517	0.00139070410889641
+										111.636636636637	0.00141970239989915
+										111.756756756757	0.00144928668135054
+										111.876876876877	0.00147946841210371
+										111.996996996997	0.00151025926748465
+										112.117117117117	0.00154167114323552
+										112.237237237237	0.00157371615952706
+										112.357357357357	0.00160640666504161
+										112.477477477477	0.00163975524112715
+										112.597597597598	0.00167377470602447
+										112.717717717718	0.0017084781191678
+										112.837837837838	0.00174387878556081
+										112.957957957958	0.00177999026022903
+										113.078078078078	0.00181682635274981
+										113.198198198198	0.00185440113186129
+										113.318318318318	0.00189272893015178
+										113.438438438438	0.00193182434883044
+										113.558558558559	0.00197170226258156
+										113.678678678679	0.00201237782450243
+										113.798798798799	0.00205386647112772
+										113.918918918919	0.00209618392754075
+										114.039039039039	0.00213934621257337
+										114.159159159159	0.00218336964409615
+										114.279279279279	0.00222827084440014
+										114.399399399399	0.00227406674567192
+										114.51951951952	0.0023207745955632
+										114.63963963964	0.00236841196285684
+										114.75975975976	0.00241699674323068
+										114.87987987988	0.00246654716512108
+										115	0.00251708179568732
+									}
+								}
+							}
+						}
+					}
+				}
+				dataset	"appearance" = {
+					bool	"isOpaque" = true
+					int	"fillColor" = -1
+					bool	"hasEdge" = false
+					dataset	PenInfo	"edgePen" = {
+						float	"width" = 0.0176388882100582
+						int	"color" = -16777216
+					}
+					bool	"hasRoundedCorners" = false
+					int	"cornerRadius" = 4
+					bool	"hasShadow" = false
+					float	"shadowLength" = 2.5
+				}
+				int	"indexPage" = 0
+				dataset	Point	"topLeft" = {
+					float	"x" = 25
+					float	"y" = 105.589060084025
+				}
+				dataset	Point	"currentExtent" = {
+					float	"x" = 160
+					float	"y" = 90
+				}
+				dataset	InitialBoxGenerationData	"generationData" = {
+					vector	"flowDependencies" = {
+						dataset	FlowDependency	"[ 0 ]" = {
+							string	"name" = "object4"
+							int	"distance" = 0
+						}
+					}
+				}
+			}
+			dataset	PaperSpaceLayoutBox:LayoutBox	"[ 3 ]" = {
+				string	"name" = "object4"
+				dataset	LegendLayoutObjectInfo	"info" = {
+					string	"graphName" = "object3"
+					int	"layoutType" = 2
+					dataset	"font" = {
+						string	"name" = "Times New Roman"
+						int	"size" = 218
+						int	"weight" = 700
+						int	"style" = 0
+						int	"pitchAndFamily" = 0
+						int	"charSet" = 0
+					}
+				}
+				dataset	"appearance" = {
+					bool	"isOpaque" = true
+					int	"fillColor" = -1
+					bool	"hasEdge" = false
+					dataset	PenInfo	"edgePen" = {
+						float	"width" = 1
+						int	"color" = -16777216
+					}
+					bool	"hasRoundedCorners" = false
+					int	"cornerRadius" = 4
+					bool	"hasShadow" = false
+					float	"shadowLength" = 2.5
+				}
+				int	"indexPage" = 0
+				dataset	Point	"topLeft" = {
+					float	"x" = 25
+					float	"y" = 99.0328100840251
+				}
+				dataset	Point	"currentExtent" = {
+					float	"x" = 160
+					float	"y" = 6.55625000000001
+				}
+				dataset	InitialBoxGenerationData	"generationData" = {
+					bool	"keepWithNext" = true
+					vector	"flowDependencies" = {
+						dataset	FlowDependency	"[ 0 ]" = {
+							string	"name" = undefined
+							int	"distance" = 0
+						}
+					}
+				}
+			}
+			dataset	PaperSpaceLayoutBox:LayoutBox	"[ 4 ]" = {
+				string	"name" = "object5"
+				dataset	RTFLabelLayoutObjectInfo	"info" = {
+					int	"defaultTextColor" = -16777216
+					dataset	"defaultFont" = {
+						string	"name" = "Arial"
+						int	"size" = 318
+						int	"weight" = 700
+						int	"style" = 0
+						int	"pitchAndFamily" = 0
+						int	"charSet" = 0
+					}
+					bool	"xTrim" = false
+					bool	"yTrim" = true
+					string	"rtfLabel" = "{\\rtf1\\ansi\\deff0\n{\\fonttbl\\f0\\fcharset0 Arial;\\f1\\fcharset0 Times New Roman;}\n\\deftab720\\pard\\widctlpar\\keepn\\sb240\\sa60\\plain\\f0\\fs22\\b Rate Constants Calculation Input\\par \n\\pard\\widctlpar\\fi-4000\\li4000\\tx0\\tx4000\\plain\\f1\\fs20 dH:\\tab 525J/g\\par \n\\pard\\widctlpar\\keepn\\sb240\\sa60\\plain\\f0\\fs22\\b Rate Constants Calculation Results\\par \n\\pard\\widctlpar\\sb120\\tx0\\tx2400\\tx3400\\tx4400\\tx5400\\tx6400\\tx7400\\plain\\f1\\fs20\\b Temperature\\tab k\\par \n\\pard\\widctlpar\\tx0\\tx2400\\tx3400\\tx4400\\tx5400\\tx6400\\tx7400\\plain\\f1\\fs20 25\\'b0C\\tab 0.0000000000000123591/s\\par \n}"
+				}
+				dataset	"appearance" = {
+					bool	"isOpaque" = true
+					int	"fillColor" = -1
+					bool	"hasEdge" = false
+					dataset	PenInfo	"edgePen" = {
+						float	"width" = 0.264583319425583
+						int	"color" = -16777216
+					}
+					bool	"hasRoundedCorners" = false
+					int	"cornerRadius" = 4
+					bool	"hasShadow" = false
+					float	"shadowLength" = 2.5
+				}
+				int	"indexPage" = 0
+				dataset	Point	"topLeft" = {
+					float	"x" = 25
+					float	"y" = 195.589060084025
+				}
+				dataset	Point	"currentExtent" = {
+					float	"x" = 160
+					float	"y" = 35.8526486714681
+				}
+				dataset	InitialBoxGenerationData	"generationData" = {
+					vector	"flowDependencies" = {
+						dataset	FlowDependency	"[ 0 ]" = {
+							string	"name" = undefined
+							int	"distance" = 0
+						}
+					}
+				}
+			}
+		}
+		dataset	"additionalData" = {
+
+		}
+	}
+	dataset	ReportData	"data" = {
+		vector	"dataObjects" = {
+
+		}
+	}
+}
