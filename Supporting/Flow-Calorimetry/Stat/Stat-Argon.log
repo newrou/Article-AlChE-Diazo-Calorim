@@ -1,0 +1,53 @@
+[1] "Stat-Argon"
+
+	One Sample t-test
+
+data:  td$P0
+t = 14.669, df = 4, p-value = 0.0001257
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 10.39451 15.24801
+sample estimates:
+mean of x 
+ 12.82126 
+
+[1] "P0 = 12.821260 +- 2.426747 [10.394513 15.248007]"
+
+	One Sample t-test
+
+data:  td$k
+t = 24.578, df = 4, p-value = 1.626e-05
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 0.08892714 0.11157686
+sample estimates:
+mean of x 
+ 0.100252 
+
+[1] "k = 0.100252 +- 0.011325 [0.088927 0.111577]"
+
+	One Sample t-test
+
+data:  td$dH
+t = 84.1, df = 4, p-value = 1.198e-07
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 234.2814 250.2786
+sample estimates:
+mean of x 
+   242.28 
+
+[1] "dH = 242.280000 +- 7.998572 [234.281428 250.278572]"
+
+	One Sample t-test
+
+data:  td$C0
+t = 16.568, df = 4, p-value = 7.774e-05
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 1.413445e-05 1.982555e-05
+sample estimates:
+mean of x 
+1.698e-05 
+
+[1] "C0 = 0.000017 +- 0.000003 [0.000014 0.000020]"

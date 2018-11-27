@@ -1,0 +1,53 @@
+[1] "Stat-Nitrogen"
+
+	One Sample t-test
+
+data:  td$P0
+t = 10.852, df = 11, p-value = 3.246e-07
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+  8.899758 13.428159
+sample estimates:
+mean of x 
+ 11.16396 
+
+[1] "P0 = 11.163958 +- 2.264201 [8.899758 13.428159]"
+
+	One Sample t-test
+
+data:  td$k
+t = 31.035, df = 11, p-value = 4.609e-12
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 0.0778686 0.0897564
+sample estimates:
+mean of x 
+0.0838125 
+
+[1] "k = 0.083812 +- 0.005944 [0.077869 0.089756]"
+
+	One Sample t-test
+
+data:  td$dH
+t = 67.505, df = 11, p-value = 9.355e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 231.0986 246.6764
+sample estimates:
+mean of x 
+ 238.8875 
+
+[1] "dH = 238.887500 +- 7.788872 [231.098628 246.676372]"
+
+	One Sample t-test
+
+data:  td$C0
+t = 9.2733, df = 11, p-value = 1.563e-06
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 1.404439e-05 2.278594e-05
+sample estimates:
+   mean of x 
+1.841517e-05 
+
+[1] "C0 = 0.000018 +- 0.000004 [0.000014 0.000023]"
