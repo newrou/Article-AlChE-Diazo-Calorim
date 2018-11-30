@@ -1,0 +1,53 @@
+[1] "Stat-Air"
+
+	One Sample t-test
+
+data:  td$P0
+t = 4.4084, df = 2, p-value = 0.0478
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+  0.2095296 17.2582038
+sample estimates:
+mean of x 
+ 8.733867 
+
+[1] "P0 = 8.733867 +- 8.524337 [0.209530 17.258204]"
+
+	One Sample t-test
+
+data:  td$k
+t = 34.759, df = 2, p-value = 0.0008267
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 0.07552081 0.09685919
+sample estimates:
+mean of x 
+  0.08619 
+
+[1] "k = 0.086190 +- 0.010669 [0.075521 0.096859]"
+
+	One Sample t-test
+
+data:  td$dH
+t = 34.043, df = 2, p-value = 0.0008618
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 200.0569 257.9431
+sample estimates:
+mean of x 
+      229 
+
+[1] "dH = 229.000000 +- 28.943136 [200.056864 257.943136]"
+
+	One Sample t-test
+
+data:  td$C0
+t = 5.1499, df = 2, p-value = 0.0357
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 2.316848e-06 2.584982e-05
+sample estimates:
+   mean of x 
+1.408333e-05 
+
+[1] "C0 = 0.000014 +- 0.000012 [0.000002 0.000026]"

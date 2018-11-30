@@ -1,0 +1,53 @@
+[1] "Stat-Reprecipitation2"
+
+	One Sample t-test
+
+data:  td$P0
+t = 11.361, df = 9, p-value = 1.225e-06
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+  9.044526 13.541714
+sample estimates:
+mean of x 
+ 11.29312 
+
+[1] "P0 = 11.293120 +- 2.248594 [9.044526 13.541714]"
+
+	One Sample t-test
+
+data:  td$k
+t = 29.616, df = 9, p-value = 2.786e-10
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 0.08595082 0.10016718
+sample estimates:
+mean of x 
+ 0.093059 
+
+[1] "k = 0.093059 +- 0.007108 [0.085951 0.100167]"
+
+	One Sample t-test
+
+data:  td$dH
+t = 79.394, df = 9, p-value = 4.039e-14
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 231.2964 244.8636
+sample estimates:
+mean of x 
+   238.08 
+
+[1] "dH = 238.080000 +- 6.783605 [231.296395 244.863605]"
+
+	One Sample t-test
+
+data:  td$C0
+t = 13.734, df = 9, p-value = 2.42e-07
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 1.355257e-05 1.889743e-05
+sample estimates:
+ mean of x 
+1.6225e-05 
+
+[1] "C0 = 0.000016 +- 0.000003 [0.000014 0.000019]"
