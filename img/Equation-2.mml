@@ -6,6 +6,19 @@
    <mtr>
     <mtd>
      <mrow>
+      <mi>a</mi>
+      <mrow>
+       <mi>A</mi>
+       <mo stretchy="false">=</mo>
+       <mi>b</mi>
+      </mrow>
+      <mi>B</mi>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
       <mfrac>
        <mrow>
         <mi>d</mi>
@@ -67,10 +80,7 @@
     <mtd>
      <mrow>
       <mrow>
-       <msub>
-        <mi>P</mi>
-        <mn>0</mn>
-       </msub>
+       <mi>P</mi>
        <mo stretchy="false">=</mo>
        <mrow>
         <mfrac>
@@ -87,8 +97,14 @@
         <mi mathvariant="normal">Δ</mi>
        </mrow>
       </mrow>
+      <mi>H</mi>
+      <mi>;</mi>
+      <mspace width="4em"/>
       <mrow>
-       <mi>H</mi>
+       <msub>
+        <mi>P</mi>
+        <mn>0</mn>
+       </msub>
        <mo stretchy="false">=</mo>
        <mrow>
         <mi>k</mi>
@@ -107,11 +123,14 @@
        </mrow>
       </mrow>
       <mi>H</mi>
+      <mi>;</mi>
      </mrow>
     </mtd>
    </mtr>
   </mtable>
-  <annotation encoding="StarMath 5.0">{d C} over {d t}  = k cdot left ( A_0 - {a} over {c}  cdot  left ( C - C_0  right ) right ) cdot C_0 newline  P_0 = {d C} over {d t} cdot %DELTA H = k cdot A_0 cdot C_0 cdot %DELTA H
+  <annotation encoding="StarMath 5.0">a A = b B newline
+{d C} over {d t}  = k cdot left ( A_0 - {a} over {c}  cdot  left ( C - C_0  right ) right ) cdot C_0 newline  
+P = {d C} over {d t} cdot %DELTA H; ~~ P_0 = k cdot A_0 cdot C_0 cdot %DELTA H; 
 
 </annotation>
  </semantics>
