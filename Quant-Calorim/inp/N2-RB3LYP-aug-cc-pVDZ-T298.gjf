@@ -1,0 +1,12 @@
+%mem=500MW
+%nproc=7
+#p opt=(verytight,maxcycles=1000) int=(grid=ultrafine) CPHF=(grid=fine) freq rb3lyp/aug-cc-pvdz
+
+N2-RB3LYP-aug-cc-pVDZ
+
+0 1
+N          -1.21660         0.13350         0.00000
+N          -2.30860         0.13350         0.00000
+
+
+nprocshared=7

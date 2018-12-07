@@ -49,33 +49,25 @@ function get_reaction($str) {
 $mt=array();
 
 function read_td($name) {
-    global $mt,$mmt,$eh,$BASIS;
+    global $mt,$eh,$BASIS;
     $td=array();
 //    $f = fopen("td/$name-RB3LYP-aug-cc-pVDZ.td","r");
-    printf("read td [%s]\n",$name);
-    foreach ($mmt as $T) {
-//      printf("T=%s\n",$T);
-      $fname=sprintf("td/$name-%s-T%.0f.td",$BASIS,$T);
-//      printf("fname=%s\n",$fname);
-      $f = fopen($fname,"r");
-      if(!$f) return array();
-      $nT=0;$mtd[$name]=array();
-      while (!feof ($f)) {
-        $s = fgets($f); if(strlen($s)<1) continue; $hE0 = floatval(substr($s,4,18)); $E0 = $eh*$hE0;
-        $s = fgets($f); if(strlen($s)<1) continue; $Tr = floatval(substr($s,3,18));
-        $s = fgets($f); if(strlen($s)<1) continue; $hH = floatval(substr($s,3,18)); $H = $eh*$hH;
-        $s = fgets($f); if(strlen($s)<1) continue; $S = floatval(substr($s,3,18)); $ST = $Tr*$S/1000.0;
-        $s = fgets($f); if(strlen($s)<1) continue; $hG = floatval(substr($s,3,18)); $G = $eh*$hG;
+    $f = fopen("td/$name-".$BASIS.".td","r");
+    if(!$f) return array();
+    $nT=0;$mtd[$name]=array();
+    while (!feof ($f)) {
+      $s = fgets($f); if(strlen($s)<1) continue; $hE0 = floatval(substr($s,4,18)); $E0 = $eh*$hE0;
+      $s = fgets($f); if(strlen($s)<1) continue; $T = floatval(substr($s,3,18));
+      $s = fgets($f); if(strlen($s)<1) continue; $hH = floatval(substr($s,3,18)); $H = $eh*$hH;
+      $s = fgets($f); if(strlen($s)<1) continue; $S = floatval(substr($s,3,18)); $ST = $T*$S/1000.0;
+      $s = fgets($f); if(strlen($s)<1) continue; $hG = floatval(substr($s,3,18)); $G = $eh*$hG;
 #      $s = fgets($f); if(strlen($s)<1) continue; $hGE = floatval(substr($s,3,18)); $GE = $eh*$hGE;
-      echo "$name \t$Tr \t$H \t$ST \t$G \t$E0\n";
-        $td[$T]=array('H'=>$H,'ST'=>$ST,'G'=>$G,'GE'=>$E0);
-        $mt[$T]=$T;
-        $nT++;
-      }
-      fclose($f);
+#      echo "$name \t$T \t$hH \t$hST \t$hG \t$hGE\n";
+      $td[$T]=array('H'=>$H,'ST'=>$ST,'G'=>$G,'GE'=>$E0);
+      $mt[$T]=$T;
+      $nT++;
     }
-//var_dump($td);
-//var_dump($mt);
+    fclose($f);
     return $td;
 }
 
@@ -163,8 +155,8 @@ function reaction_td($s, $reac, $htm ,$htmft) {
 
     fprintf($htmft,"</table><br>\n");
     fclose($fp);
-    $last_line = system("./make-fT.sh \"$s.fT\"", $retval);
-    fprintf($htmft,"<img src=\"img/%s-fT.gif\" width=\"37%%\"><br><br>\n\n",$s);
+###    $last_line = system("./make-fT.sh \"$s.fT\"", $retval);
+###    fprintf($htmft,"<img src=\"img/%s-fT.gif\" width=\"67%%\"><br><br>\n\n",$s);
     echo "\n";
     fprintf($htm,"</tr>\n");
 }
@@ -193,7 +185,7 @@ function read_reactions($fname,$xmt) {
     fclose($fr);
     fclose($htmft);
     fprintf($htm,"</table>\n");
-//    foreach ($xmt as $T) {fprintf($htm," <h3>Thermodinamics at %.2f</h3> <img src=\"img/%s-%.0f.gif\" width=\"67%%\"><br>\n",$T,$fname,$T);}
+###    foreach ($xmt as $T) {fprintf($htm," <h3>Thermodinamics at %.2f</h3> <img src=\"img/%s-%.0f.gif\" width=\"67%%\"><br>\n",$T,$fname,$T);}
     fclose($htm);
 }
 

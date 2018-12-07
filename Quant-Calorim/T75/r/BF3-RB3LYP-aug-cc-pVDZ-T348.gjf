@@ -1,0 +1,14 @@
+%mem=500MW
+%nproc=7
+#p Temperature=348.15 int=(grid=ultrafine) CPHF=(grid=fine) freq rb3lyp/aug-cc-pvdz
+
+BF3-RB3LYP-aug-cc-pVDZ--
+
+0 1
+B           0.00000        -0.00000         0.00000
+F           0.00000         1.32716         0.00000
+F           0.00000        -0.66358         1.14936
+F           0.00000        -0.66358        -1.14936
+
+
+nprocshared=7

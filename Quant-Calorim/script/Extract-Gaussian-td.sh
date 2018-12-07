@@ -32,7 +32,7 @@ do
 # grep "Sum of electronic and thermal Energies=" <$i | awk '{print $7}' >> $Name
 
  echo -n "T; " >> $Name
- grep " Temperature " <$i | awk '{print $2}' >> $Name
+ grep " Temperature" <$i | awk '{print $2}' >> $Name
 
  echo -n "H; " >> $Name
  grep "Sum of electronic and thermal Enthalpies=" <$i | awk '{print $7}' >> $Name
