@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1200"
+   height="900"
+   viewBox="0 0 1200 900"
+   version="1.1"
+   id="svg316"
+   sodipodi:docname="Cover-Image.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata322">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnuplot</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs320">
+    <defs
+       id="defs34">
+      <circle
+         stroke-width="0.5"
+         r="0.5"
+         id="gpDot" />
+      <path
+         d="M-1,0 h2 M0,-1 v2"
+         stroke="currentColor"
+         stroke-width="0.103"
+         id="gpPt0" />
+      <path
+         d="M-1,-1 L1,1 M1,-1 L-1,1"
+         stroke="currentColor"
+         stroke-width="0.103"
+         id="gpPt1" />
+      <path
+         d="M-1,0 L1,0 M0,-1 L0,1 M-1,-1 L1,1 M-1,1 L1,-1"
+         stroke="currentColor"
+         stroke-width="0.103"
+         id="gpPt2" />
+      <rect
+         height="2"
+         width="2"
+         y="-1"
+         x="-1"
+         stroke="currentColor"
+         stroke-width="0.103"
+         id="gpPt3" />
+      <rect
+         height="2"
+         width="2"
+         y="-1"
+         x="-1"
+         fill="currentColor"
+         stroke="currentColor"
+         stroke-width="0.103"
+         id="gpPt4" />
+      <circle
+         r="1"
+         cy="0"
+         cx="0"
+         stroke="currentColor"
+         stroke-width="0.103"
+         id="gpPt5" />
+      <use
+         stroke="none"
+         fill="currentColor"
+         id="gpPt6"
+         xlink:href="#gpPt5" />
+      <path
+         d="M0,-1.33 L-1.33,0.67 L1.33,0.67 z"
+         stroke="currentColor"
+         stroke-width="0.103"
+         id="gpPt7" />
+      <use
+         stroke="none"
+         fill="currentColor"
+         id="gpPt8"
+         xlink:href="#gpPt7" />
+      <use
+         transform="rotate(180)"
+         stroke="currentColor"
+         id="gpPt9"
+         xlink:href="#gpPt7" />
+      <use
+         stroke="none"
+         fill="currentColor"
+         id="gpPt10"
+         xlink:href="#gpPt9" />
+      <use
+         transform="rotate(45)"
+         stroke="currentColor"
+         id="gpPt11"
+         xlink:href="#gpPt3" />
+      <use
+         stroke="none"
+         fill="currentColor"
+         id="gpPt12"
+         xlink:href="#gpPt11" />
+      <path
+         d="M0,1.330 L1.265,0.411 L0.782,-1.067 L-0.782,-1.076 L-1.265,0.411 z"
+         stroke="currentColor"
+         stroke-width="0.103"
+         id="gpPt13" />
+      <use
+         stroke="none"
+         fill="currentColor"
+         id="gpPt14"
+         xlink:href="#gpPt13" />
+      <filter
+         width="1"
+         height="1"
+         y="0"
+         x="0"
+         filterUnits="objectBoundingBox"
+         id="textbox">
+        <feFlood
+           id="feFlood24"
+           result="bgnd"
+           flood-opacity="1"
+           flood-color="white" />
+        <feComposite
+           id="feComposite26"
+           operator="atop"
+           in2="bgnd"
+           in="SourceGraphic" />
+      </filter>
+      <filter
+         width="1"
+         height="1"
+         y="0"
+         x="0"
+         filterUnits="objectBoundingBox"
+         id="greybox">
+        <feFlood
+           id="feFlood29"
+           result="grey"
+           flood-opacity="1"
+           flood-color="lightgrey" />
+        <feComposite
+           id="feComposite31"
+           operator="atop"
+           in2="grey"
+           in="SourceGraphic" />
+      </filter>
+    </defs>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1918"
+     inkscape:window-height="985"
+     id="namedview318"
+     showgrid="false"
+     inkscape:zoom="0.78"
+     inkscape:cx="607.17326"
+     inkscape:cy="448.71735"
+     inkscape:window-x="0"
+     inkscape:window-y="40"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g266" />
+  <title
+     id="title2">Gnuplot</title>
+  <desc
+     id="desc4">Produced by GNUPLOT 5.0 patchlevel 5 </desc>
+  <rect
+     style="fill:none"
+     id="rect6"
+     height="900"
+     width="1200"
+     y="0"
+     x="0" />
+  <g
+     style="color:#ffffff;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+     id="g36" />
+  <path
+     d="m 230.1,775.2 h 19.5 m 895.7,0 h -19.5"
+     id="path38"
+     inkscape:connector-curvature="0"
+     style="color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <path
+     d="m 230.1,669.7 h 19.5 m 895.7,0 h -19.5"
+     id="path48"
+     inkscape:connector-curvature="0"
+     style="color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <path
+     d="m 230.1,564.1 h 19.5 m 895.7,0 h -19.5"
+     id="path62"
+     inkscape:connector-curvature="0"
+     style="color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <path
+     d="m 230.1,458.6 h 19.5 m 895.7,0 h -19.5"
+     id="path76"
+     inkscape:connector-curvature="0"
+     style="color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <path
+     d="m 230.1,353.1 h 19.5 m 895.7,0 h -19.5"
+     id="path90"
+     inkscape:connector-curvature="0"
+     style="color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <path
+     d="m 230.1,247.6 h 19.5 m 895.7,0 h -19.5"
+     id="path104"
+     inkscape:connector-curvature="0"
+     style="color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <path
+     d="m 230.1,142 h 19.5 m 895.7,0 h -19.5"
+     id="path118"
+     inkscape:connector-curvature="0"
+     style="color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <path
+     d="m 230.1,36.5 h 19.5 m 895.7,0 h -19.5"
+     id="path132"
+     inkscape:connector-curvature="0"
+     style="color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+     id="g154">
+    <path
+       style="stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path146"
+       d="m 230.1,775.2 v -19.5 m 0,-719.2 V 56" />
+    <g
+       style="font-size:26px;font-family:Helvetica;text-anchor:middle;fill:#000000;stroke:none"
+       id="g152"
+       font-size="26.00"
+       transform="translate(230.1,822.7)">
+      <text
+         id="text150">
+        <tspan
+           style="font-family:Helvetica"
+           id="tspan148">0</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+     id="g164">
+    <path
+       style="stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path156"
+       d="m 360.8,775.2 v -19.5 m 0,-719.2 V 56" />
+    <g
+       style="font-size:26px;font-family:Helvetica;text-anchor:middle;fill:#000000;stroke:none"
+       id="g162"
+       font-size="26.00"
+       transform="translate(360.8,822.7)">
+      <text
+         id="text160">
+        <tspan
+           style="font-family:Helvetica"
+           id="tspan158">5000</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+     id="g174">
+    <path
+       style="stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path166"
+       d="m 491.6,775.2 v -19.5 m 0,-719.2 V 56" />
+    <g
+       style="font-size:26px;font-family:Helvetica;text-anchor:middle;fill:#000000;stroke:none"
+       id="g172"
+       font-size="26.00"
+       transform="translate(491.6,822.7)">
+      <text
+         id="text170">
+        <tspan
+           style="font-family:Helvetica"
+           id="tspan168">10000</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+     id="g184">
+    <path
+       style="stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path176"
+       d="m 622.3,775.2 v -19.5 m 0,-719.2 V 56" />
+    <g
+       style="font-size:26px;font-family:Helvetica;text-anchor:middle;fill:#000000;stroke:none"
+       id="g182"
+       font-size="26.00"
+       transform="translate(622.3,822.7)">
+      <text
+         id="text180">
+        <tspan
+           style="font-family:Helvetica"
+           id="tspan178">15000</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+     id="g194">
+    <path
+       style="stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path186"
+       d="m 753.1,775.2 v -19.5 m 0,-719.2 V 56" />
+    <g
+       style="font-size:26px;font-family:Helvetica;text-anchor:middle;fill:#000000;stroke:none"
+       id="g192"
+       font-size="26.00"
+       transform="translate(753.1,822.7)">
+      <text
+         id="text190">
+        <tspan
+           style="font-family:Helvetica"
+           id="tspan188">20000</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+     id="g204">
+    <path
+       style="stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path196"
+       d="m 883.8,775.2 v -19.5 m 0,-719.2 V 56" />
+    <g
+       style="font-size:26px;font-family:Helvetica;text-anchor:middle;fill:#000000;stroke:none"
+       id="g202"
+       font-size="26.00"
+       transform="translate(883.8,822.7)">
+      <text
+         id="text200">
+        <tspan
+           style="font-family:Helvetica"
+           id="tspan198">25000</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+     id="g214">
+    <path
+       style="stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path206"
+       d="m 1014.6,775.2 v -19.5 m 0,-719.2 V 56" />
+    <g
+       style="font-size:26px;font-family:Helvetica;text-anchor:middle;fill:#000000;stroke:none"
+       id="g212"
+       font-size="26.00"
+       transform="translate(1014.6,822.7)">
+      <text
+         id="text210">
+        <tspan
+           style="font-family:Helvetica"
+           id="tspan208">30000</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+     id="g224">
+    <path
+       style="stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path216"
+       d="m 1145.3,775.2 v -19.5 m 0,-719.2 V 56" />
+    <g
+       style="font-size:26px;font-family:Helvetica;text-anchor:middle;fill:#000000;stroke:none"
+       id="g222"
+       font-size="26.00"
+       transform="translate(1145.3,822.7)">
+      <text
+         id="text220">
+        <tspan
+           style="font-family:Helvetica"
+           id="tspan218">35000</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+     id="g226" />
+  <g
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+     id="g230">
+    <path
+       style="stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path228"
+       d="m 230.1,36.5 v 738.7 h 915.2 V 36.5 Z" />
+  </g>
+  <g
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+     id="g238"
+     transform="translate(168)">
+    <text
+       style="font-size:32.63423538px;font-family:Helvetica-Bold;text-anchor:middle;fill:#000000;stroke:none;stroke-width:2.71951938"
+       id="text234"
+       transform="matrix(0,-1.0237013,0.97684748,0,0,0)"
+       x="-359.3381"
+       y="45.7784">
+      <tspan
+         id="tspan232"
+         style="font-family:Helvetica-Bold;stroke-width:2.71951938">Heat flow</tspan>
+    </text>
+  </g>
+  <g
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+     id="g246">
+    <g
+       style="font-size:26px;font-family:Helvetica-Bold;text-anchor:middle;fill:#000000;stroke:none"
+       id="g244"
+       font-size="26.00"
+       transform="translate(687.7,881.2)">
+      <text
+         id="text242">
+        <tspan
+           style="font-family:Helvetica-Bold"
+           id="tspan240">Time, year</tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+     id="g248" />
+  <g
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter"
+     id="g250" />
+  <g
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter"
+     id="g254">
+    <path
+       style="stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path252"
+       d="M 689,173 V 56 h 438.1 v 117 z" />
+  </g>
+  <g
+     id="g258"
+     style="color:#ffffff;fill:none;stroke:#ff2a2a;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter" />
+  <g
+     id="g266"
+     style="color:#000000;fill:none;stroke:#ff2a2a;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter"
+     transform="translate(-147.4359,385.89744)">
+    <text
+       id="text262"
+       style="font-size:51.90138245px;font-family:Helvetica;text-anchor:end;fill:#000000;stroke:#ff2a2a;stroke-width:12.97534561"
+       x="1254.5487"
+       y="92.794899"
+       transform="scale(0.927798,1.0778208)">
+      <tspan
+         style="font-family:Helvetica;stroke:#ff2a2a;stroke-width:12.97534561"
+         id="tspan260">4-NO2-Ph-N2+ -BF4</tspan>
+    </text>
+  </g>
+  <path
+     style="color:#000000;fill:none;stroke:#ff2a2a;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter"
+     inkscape:connector-curvature="0"
+     id="path268"
+     d="m 1016.6,75.5 h 92.3 m -878.8,507.9 0.3,-3.9 0.3,-4 0.3,-4 0.3,-4.1 0.3,-4.1 0.3,-4.2 0.3,-4.2 0.3,-4.3 0.3,-4.4 0.3,-4.4 0.3,-4.5 0.3,-4.6 0.3,-4.6 0.3,-4.6 0.3,-4.8 0.3,-4.7 0.3,-4.9 0.3,-4.8 0.4,-5 0.3,-4.9 0.3,-5.1 0.3,-5.1 0.3,-5.1 0.3,-5.2 0.3,-5.2 0.3,-5.3 0.3,-5.3 0.3,-5.3 0.3,-5.4 0.3,-5.4 0.3,-5.5 0.3,-5.5 0.3,-5.5 0.3,-5.6 0.3,-5.5 0.3,-5.6 0.3,-5.6 0.3,-5.7 0.3,-5.6 0.3,-5.7 0.3,-5.6 0.3,-5.7 0.3,-5.7 0.3,-5.6 0.3,-5.7 0.3,-5.6 0.3,-5.7 0.3,-5.6 0.3,-5.6 0.3,-5.5 0.3,-5.6 0.3,-5.5 0.3,-5.5 0.3,-5.4 0.3,-5.4 0.3,-5.3 0.4,-5.3 0.3,-5.2 0.3,-5.2 0.3,-5.1 0.3,-5 0.3,-4.9 0.3,-4.9 0.3,-4.8 0.3,-4.7 0.3,-4.5 0.3,-4.5 0.3,-4.4 0.3,-4.3 0.3,-4.2 0.3,-4 0.3,-3.9 0.3,-3.8 0.3,-3.7 0.3,-3.5 0.3,-3.4 0.3,-3.3 0.3,-3.1 0.3,-2.9 0.3,-2.8 0.3,-2.7 0.3,-2.5 0.3,-2.3 0.3,-2.2 0.3,-2 0.3,-1.8 0.3,-1.7 0.3,-1.5 0.3,-1.3 0.3,-1.1 0.3,-1 0.3,-0.7 0.3,-0.6 0.3,-0.4 0.4,-0.3 h 0.3 l 0.3,0.1 0.3,0.3 0.3,0.5 0.3,0.7 0.3,0.9 0.3,1 0.3,1.2 0.3,1.4 0.3,1.6 0.3,1.8 0.3,1.9 0.3,2.1 0.3,2.2 0.3,2.5 0.3,2.6 0.3,2.7 0.3,2.9 0.3,3.1 0.3,3.2 0.3,3.3 0.3,3.5 0.3,3.6 0.3,3.8 0.3,3.9 0.3,4 0.3,4.2 0.3,4.2 0.3,4.4 0.3,4.5 0.3,4.6 0.3,4.7 0.3,4.8 0.3,4.8 0.3,5 0.3,5 0.3,5.2 0.4,5.2 0.3,5.2 0.3,5.3 0.3,5.4 0.3,5.4 0.3,5.5 0.3,5.6 0.3,5.5 0.3,5.6 0.3,5.7 0.3,5.6 0.3,5.7 0.3,5.7 0.3,5.8 0.3,5.7 0.3,5.7 0.3,5.8 0.3,5.7 0.3,5.8 0.3,5.7 0.3,5.7 0.3,5.8 0.3,5.7 0.3,5.6 0.3,5.7 0.3,5.6 0.3,5.6 0.3,5.6 0.3,5.6 0.3,5.5 0.3,5.5 0.3,5.4 0.3,5.4 0.3,5.3 0.3,5.3 0.3,5.3 0.3,5.2 0.3,5.2 0.4,5.1 0.3,5.1 0.3,5 0.3,4.9 0.3,4.9 0.3,4.9 0.3,4.8 0.3,4.7 0.3,4.6 0.3,4.7 0.3,4.5 0.3,4.5 0.3,4.4 0.3,4.4 0.3,4.3 0.3,4.2 0.3,4.2 0.3,4.1 0.3,4.1 0.3,4 0.3,3.9 0.3,3.9 0.3,3.8 0.3,3.8 0.3,3.7 0.3,3.6 0.3,3.6 0.3,3.5 0.3,3.4 0.3,3.4 0.3,3.3 0.3,3.3 0.3,3.2 0.3,3.2 0.3,3 0.3,3.1 0.3,3 0.4,2.9 0.3,2.9 0.3,2.8 0.3,2.8 0.3,2.7 0.3,2.6 0.3,2.6 0.3,2.6 0.3,2.5 0.3,2.5 0.3,2.4 0.3,2.3 0.3,2.3 0.3,2.3 0.3,2.2 0.3,2.2 0.3,2.1 0.3,2.1 0.3,2.1 0.3,2 0.3,1.9 0.3,1.9 0.3,1.9 0.3,1.9 0.3,1.8 0.3,1.7 0.3,1.7 0.3,1.7 0.3,1.7 0.3,1.6 0.3,1.6 0.3,1.5 0.3,1.5 0.3,1.5 0.3,1.4 0.3,1.5 0.3,1.3 0.3,1.4 0.4,1.3 0.3,1.3 0.3,1.3 0.3,1.2 0.3,1.2 0.3,1.2 0.3,1.1 0.3,1.2 0.3,1.1 0.3,1 0.3,1.1 0.3,1 0.3,1 0.3,1 0.3,0.9 0.3,1 0.3,0.9 0.3,0.9 0.3,0.9 0.3,0.8 0.3,0.8 0.3,0.9 0.3,0.8 0.3,0.7 0.3,0.8 0.3,0.7 0.3,0.8 0.3,0.7 0.3,0.6 0.3,0.7 0.3,0.7 0.3,0.6 0.3,0.6 0.3,0.7 0.3,0.6 0.3,0.5 0.3,0.6 0.3,0.6 0.4,0.5 0.3,0.5 0.3,0.6 0.3,0.5 0.3,0.5 0.3,0.4 0.3,0.5 0.3,0.5 0.3,0.4 0.3,0.4 0.3,0.5 0.3,0.4 0.3,0.4 0.3,0.4 0.3,0.4 0.3,0.4 0.3,0.3 0.3,0.4 0.3,0.3 0.3,0.4 0.3,0.3 0.3,0.3 0.3,0.4 0.3,0.3 0.3,0.3 0.3,0.3 0.3,0.3 0.3,0.2 0.3,0.3 0.3,0.3 0.3,0.2 0.3,0.3 0.3,0.2 0.3,0.3 0.3,0.2 0.3,0.3 0.3,0.2 0.3,0.2 0.4,0.2 0.3,0.2 0.3,0.2 0.3,0.2 0.3,0.2 0.3,0.2 0.3,0.2 0.3,0.2 0.3,0.2 0.3,0.1 0.3,0.2 0.3,0.2 0.3,0.1 0.3,0.2 0.3,0.1 0.3,0.2 0.3,0.1 0.3,0.2 0.3,0.1 0.3,0.1 0.3,0.2 0.3,0.1 0.3,0.1 0.3,0.2 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.4,0.1 h 0.3 l 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 h 0.3 l 0.3,0.1 0.3,0.1 h 0.3 l 0.3,0.1 0.3,0.1 h 0.3 l 0.3,0.1 h 0.3 l 0.3,0.1 0.3,0.1 h 0.3 l 0.3,0.1 h 0.3 l 0.3,0.1 h 0.3 l 0.3,0.1 h 0.3 l 0.3,0.1 h 0.3 l 0.3,0.1 h 0.3 0.3 l 0.3,0.1 h 0.3 l 0.3,0.1 h 0.3 0.3 l 0.3,0.1 h 0.3 0.3 l 0.4,0.1 h 0.3 0.3 l 0.3,0.1 h 0.3 0.3 l 0.3,0.1 h 0.3 0.3 0.3 l 0.3,0.1 h 0.3 0.3 0.3 l 0.3,0.1 h 0.3 0.3 0.3 l 0.3,0.1 h 0.3 0.3 0.3 0.3 l 0.3,0.1 h 0.3 0.3 0.3 0.3 0.3 l 0.3,0.1 h 0.3 0.3 0.3 0.3 0.3 0.3 l 0.3,0.1 h 0.3 0.4 0.3 0.3 0.3 0.3 0.3 l 0.3,0.1 h 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 l 0.3,0.1 h 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 l 0.3,0.1 h 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 l 0.3,0.1 h 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 l 0.3,0.1 h 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3" />
+  <g
+     id="gnuplot_plot_2"
+     style="stroke:#ff6600">
+    <title
+       id="title273">4-NO2-Ph-N2+ -OTs</title>
+    <g
+       style="color:#000000;fill:none;stroke:#ff6600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter"
+       id="g281">
+      <g
+         style="font-size:26px;font-family:Helvetica;text-anchor:end;fill:#000000;stroke:#ff6600"
+         id="g279"
+         font-size="26.00"
+         transform="translate(998.4,123)">
+        <text
+           id="text277"
+           style="stroke:#ff6600">
+          <tspan
+             style="font-family:Helvetica;stroke:#ff6600"
+             id="tspan275">4-NO2-Ph-N2+ -OTs</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       style="color:#000000;fill:none;stroke:#ff6600;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter"
+       id="g285">
+      <path
+         style="stroke:#ff6600"
+         inkscape:connector-curvature="0"
+         id="path283"
+         d="m 1016.6,114.5 h 92.3 m -878.8,640.6 0.3,-0.8 0.3,-0.9 0.3,-1 0.3,-1 0.3,-1 0.3,-1 0.3,-1.1 0.3,-1.2 0.3,-1.2 0.3,-1.2 0.3,-1.3 0.3,-1.4 0.3,-1.4 0.3,-1.5 0.3,-1.5 0.3,-1.6 0.3,-1.7 0.3,-1.7 0.4,-1.8 0.3,-1.9 0.3,-1.9 0.3,-2 0.3,-2.2 0.3,-2.2 0.3,-2.2 0.3,-2.4 0.3,-2.5 0.3,-2.5 0.3,-2.7 0.3,-2.8 0.3,-2.9 0.3,-3 0.3,-3.1 0.3,-3.2 0.3,-3.4 0.3,-3.4 0.3,-3.7 0.3,-3.7 0.3,-3.9 0.3,-4 0.3,-4.2 0.3,-4.4 0.3,-4.5 0.3,-4.6 0.3,-4.8 0.3,-5 0.3,-5.2 0.3,-5.4 0.3,-5.5 0.3,-5.7 0.3,-5.9 0.3,-6.1 0.3,-6.3 0.3,-6.5 0.3,-6.8 0.3,-6.9 0.4,-7.1 0.3,-7.4 0.3,-7.5 0.3,-7.8 0.3,-8 0.3,-8.2 0.3,-8.5 0.3,-8.6 0.3,-8.9 0.3,-9.1 0.3,-9.3 0.3,-9.6 0.3,-9.7 0.3,-10 0.3,-10.1 0.3,-10.4 0.3,-10.6 0.3,-10.7 0.3,-10.9 0.3,-11.1 0.3,-11.2 0.3,-11.4 0.3,-11.4 0.3,-11.7 0.3,-11.7 0.3,-11.8 0.3,-11.8 0.3,-11.9 0.3,-11.9 0.3,-12 0.3,-11.9 0.3,-11.9 0.3,-11.8 0.3,-11.7 0.3,-11.6 0.3,-11.4 0.3,-11.3 0.3,-11 0.4,-10.9 0.3,-10.5 0.3,-10.3 0.3,-10 0.3,-9.6 0.3,-9.2 0.3,-8.8 0.3,-8.4 0.3,-7.9 0.3,-7.4 0.3,-6.9 0.3,-6.4 0.3,-5.7 0.3,-5.2 0.3,-4.6 0.3,-4 0.3,-3.3 0.3,-2.7 0.3,-2 0.3,-1.3 0.3,-0.6 h 0.3 l 0.3,0.7 0.3,1.4 0.3,2.1 0.3,2.7 0.3,3.5 0.3,4 0.3,4.7 0.3,5.3 0.3,5.9 0.3,6.5 0.3,7.1 0.3,7.6 0.3,8.1 0.3,8.5 0.3,9 0.3,9.5 0.4,9.8 0.3,10.2 0.3,10.6 0.3,10.8 0.3,11.1 0.3,11.4 0.3,11.6 0.3,11.7 0.3,11.9 0.3,12 0.3,12.1 0.3,12.2 0.3,12.2 0.3,12.3 0.3,12.2 0.3,12.2 0.3,12.1 0.3,12.1 0.3,12 0.3,11.9 0.3,11.7 0.3,11.6 0.3,11.5 0.3,11.2 0.3,11.1 0.3,11 0.3,10.7 0.3,10.5 0.3,10.3 0.3,10.1 0.3,9.8 0.3,9.7 0.3,9.4 0.3,9.1 0.3,9 0.3,8.7 0.3,8.5 0.3,8.2 0.4,8 0.3,7.8 0.3,7.5 0.3,7.3 0.3,7.1 0.3,6.9 0.3,6.6 0.3,6.4 0.3,6.3 0.3,6 0.3,5.8 0.3,5.6 0.3,5.4 0.3,5.2 0.3,5.1 0.3,4.9 0.3,4.6 0.3,4.6 0.3,4.3 0.3,4.2 0.3,4 0.3,3.9 0.3,3.8 0.3,3.6 0.3,3.4 0.3,3.4 0.3,3.2 0.3,3 0.3,3 0.3,2.8 0.3,2.8 0.3,2.6 0.3,2.5 0.3,2.4 0.3,2.3 0.3,2.2 0.3,2.2 0.4,2 0.3,2 0.3,1.9 0.3,1.8 0.3,1.7 0.3,1.7 0.3,1.6 0.3,1.5 0.3,1.5 0.3,1.4 0.3,1.3 0.3,1.3 0.3,1.2 0.3,1.2 0.3,1.1 0.3,1.1 0.3,1.1 0.3,1 0.3,0.9 0.3,0.9 0.3,0.9 0.3,0.8 0.3,0.8 0.3,0.8 0.3,0.7 0.3,0.8 0.3,0.6 0.3,0.7 0.3,0.6 0.3,0.6 0.3,0.6 0.3,0.5 0.3,0.5 0.3,0.5 0.3,0.5 0.3,0.4 0.3,0.5 0.3,0.4 0.4,0.4 0.3,0.4 0.3,0.3 0.3,0.4 0.3,0.3 0.3,0.3 0.3,0.3 0.3,0.3 0.3,0.3 0.3,0.3 0.3,0.2 0.3,0.3 0.3,0.2 0.3,0.2 0.3,0.3 0.3,0.2 0.3,0.2 0.3,0.2 0.3,0.1 0.3,0.2 0.3,0.2 0.3,0.1 0.3,0.2 0.3,0.1 0.3,0.2 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.2 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 0.3,0.1 h 0.3 l 0.3,0.1 0.3,0.1 0.4,0.1 h 0.3 l 0.3,0.1 0.3,0.1 h 0.3 l 0.3,0.1 0.3,0.1 h 0.3 l 0.3,0.1 h 0.3 l 0.3,0.1 h 0.3 0.3 l 0.3,0.1 h 0.3 l 0.3,0.1 h 0.3 0.3 l 0.3,0.1 h 0.3 0.3 l 0.3,0.1 h 0.3 0.3 0.3 l 0.3,0.1 h 0.3 0.3 0.3 l 0.3,0.1 h 0.3 0.3 0.3 0.3 0.3 l 0.3,0.1 h 0.3 0.3 0.4 0.3 0.3 0.3 0.3 l 0.3,0.1 h 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 l 0.3,0.1 h 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 l 0.3,0.1 h 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.4 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3" />
+    </g>
+  </g>
+  <g
+     id="gnuplot_plot_3">
+    <title
+       id="title288">4-NO2-Ph-N2+ -OTf</title>
+    <g
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter"
+       id="g296">
+      <g
+         style="font-size:26px;font-family:Helvetica;text-anchor:end;fill:#000000;stroke:none"
+         id="g294"
+         font-size="26.00"
+         transform="translate(998.4,162)">
+        <text
+           id="text292">
+          <tspan
+             style="font-family:Helvetica"
+             id="tspan290">4-NO2-Ph-N2+ -OTf</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       style="color:#000000;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter"
+       id="g300">
+      <path
+         style="stroke:#008000"
+         inkscape:connector-curvature="0"
+         id="path298"
+         d="m 1016.6,153.5 h 92.3 M 230.1,774.7 h 3 3.1 3 l 3,-0.1 h 3 3.1 3 l 3,-0.1 h 3 3.1 l 3,-0.1 h 3 3 l 3.1,-0.1 h 3 3 l 3,-0.1 h 3.1 l 3,-0.1 h 3 l 3.1,-0.1 h 3 l 3,-0.1 h 3 l 3.1,-0.1 3,-0.1 h 3 l 3,-0.1 3.1,-0.1 h 3 l 3,-0.1 3,-0.1 3.1,-0.1 3,-0.1 h 3 l 3.1,-0.1 3,-0.1 3,-0.1 3,-0.1 3.1,-0.2 3,-0.1 3,-0.1 3,-0.1 3.1,-0.1 3,-0.2 3,-0.1 3,-0.2 3.1,-0.1 3,-0.2 3,-0.2 3,-0.1 3.1,-0.2 3,-0.2 3,-0.2 3.1,-0.2 3,-0.2 3,-0.3 3,-0.2 3.1,-0.2 3,-0.3 3,-0.3 3,-0.2 3.1,-0.3 3,-0.3 3,-0.3 3,-0.4 3.1,-0.3 3,-0.3 3,-0.4 3.1,-0.4 3,-0.4 3,-0.4 3,-0.4 3.1,-0.4 3,-0.5 3,-0.5 3,-0.4 3.1,-0.6 3,-0.5 3,-0.5 3,-0.6 3.1,-0.6 3,-0.6 3,-0.6 3,-0.7 3.1,-0.6 3,-0.7 3,-0.7 3.1,-0.8 3,-0.7 3,-0.8 3,-0.8 3.1,-0.9 3,-0.8 3,-0.9 3,-0.9 3.1,-1 3,-0.9 3,-1 3,-1 3.1,-1 3,-1.1 3,-1.1 3.1,-1.1 3,-1.1 3,-1.2 3,-1.2 3.1,-1.2 3,-1.2 3,-1.2 3,-1.3 3.1,-1.2 3,-1.3 3,-1.3 3,-1.3 3.1,-1.3 3,-1.4 3,-1.3 3,-1.3 3.1,-1.3 3,-1.4 3,-1.3 3.1,-1.3 3,-1.3 3,-1.3 3,-1.3 3.1,-1.2 3,-1.2 3,-1.2 3,-1.2 3.1,-1.1 3,-1.1 3,-1.1 3,-1 3.1,-0.9 3,-0.9 3,-0.9 3.1,-0.8 3,-0.7 3,-0.7 3,-0.6 3.1,-0.5 3,-0.4 3,-0.4 3,-0.3 3.1,-0.3 3,-0.1 3,-0.1 h 3 3.1 l 3,0.2 3,0.2 3,0.3 3.1,0.4 3,0.5 3,0.5 3.1,0.6 3,0.6 3,0.8 3,0.8 3.1,0.8 3,0.9 3,1 3,1 3.1,1.1 3,1.1 3,1.1 3,1.2 3.1,1.2 3,1.3 3,1.3 3.1,1.3 3,1.3 3,1.3 3,1.4 3.1,1.3 3,1.4 3,1.3 3,1.4 3.1,1.4 3,1.3 3,1.4 3,1.3 3.1,1.4 3,1.3 3,1.3 3,1.2 3.1,1.3 3,1.3 3,1.2 3.1,1.2 3,1.2 3,1.1 3,1.1 3.1,1.1 3,1.1 3,1.1 3,1 3.1,1 3,1 3,0.9 3,0.9 3.1,0.9 3,0.9 3,0.8 3,0.8 3.1,0.8 3,0.8 3,0.7 3.1,0.7 3,0.7 3,0.7 3,0.6 3.1,0.6 3,0.6 3,0.6 3,0.6 3.1,0.5 3,0.5 3,0.5 3,0.5 3.1,0.4 3,0.5 3,0.4 3.1,0.4 3,0.4 3,0.4 3,0.4 3.1,0.3 3,0.3 3,0.4 3,0.3 3.1,0.3 3,0.2 3,0.3 3,0.3 3.1,0.2 3,0.3 3,0.2 3,0.2 3.1,0.2 3,0.2 3,0.2 3.1,0.2 3,0.2 3,0.2 3,0.1 3.1,0.2 3,0.1 3,0.2 3,0.1 3.1,0.1 3,0.2 3,0.1 3,0.1 3.1,0.1 3,0.1 3,0.1 3.1,0.1 3,0.1 3,0.1 3,0.1 h 3.1 l 3,0.1 3,0.1 3,0.1 h 3.1 l 3,0.1 3,0.1 h 3 l 3.1,0.1 h 3 l 3,0.1 h 3 l 3.1,0.1 h 3 l 3,0.1 h 3.1 3 l 3,0.1 h 3 l 3.1,0.1 h 3 3 l 3,0.1 h 3.1 3 3 l 3,0.1 h 3.1 3 3 3.1 l 3,0.1 h 3 3 3.1 3 l 3,0.1 h 3 3.1 3 1.2" />
+    </g>
+  </g>
+  <g
+     style="color:#ffffff;fill:none;stroke:#008000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter"
+     id="g303" />
+  <g
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter"
+     id="g305" />
+  <g
+     style="color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+     id="g307" />
+  <g
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+     id="g311">
+    <path
+       style="stroke:#000000"
+       inkscape:connector-curvature="0"
+       id="path309"
+       d="m 230.1,36.5 v 738.7 h 915.2 V 36.5 Z" />
+  </g>
+  <g
+     style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+     id="g313" />
+</svg>
