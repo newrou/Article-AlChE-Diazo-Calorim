@@ -23,9 +23,9 @@ set label "ArN_2^+ BF_4^-" at 7.94,5.0 font "Arial Bold,32" tc rgb "red"
 set label "ArN_2^+ TsO^-" at 5.48,32.0 font "Arial Bold,32" tc rgb "brown"
 set label "ArN_2^+ TfO^-" at 54.8,4.0 font "Arial Bold,32" tc rgb "green"
 set label "Increased Stability" at 55,30 center font "Arial Bold,32" tc rgb "#005500"
-set label "Increased Safety" at 35,21 center font "Arial Bold,32" tc rgb "#005500" rotate by -90
+set label "Increased Safety" at 85,16 center font "Arial Bold,32" tc rgb "#005500" rotate by -90
 set arrow from 30,32 to 80,32 lw 4 lc rgb "#005500"
-set arrow from 30,32 to 30,10 lw 4 lc rgb "#005500"
+set arrow from 90,27 to 90,5 lw 4 lc rgb "#005500"
 set key samplen -1 spacing 1.3 font ",26" box lw 0
 unset key
 unset xtics
