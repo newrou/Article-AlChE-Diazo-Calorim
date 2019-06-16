@@ -42,14 +42,14 @@ set xrange [0:15]
 set style line 1 lt 1 lw 3 pt 6 linecolor rgb "black"
 set style line 2 lt 2 lw 3 pt 7 linecolor rgb "black"
 set style line 3 lt 3 lw 3 pt 8 linecolor rgb "black"
-set label "(3)" at 2.2,70
-set label "(1c)" at 4.7,100
-set label "(2)" at 6.5,60
+set label "{/:Bold 3}" at 2.2,70
+set label "{/:Bold 1c}" at 4.7,100
+set label "{/:Bold 2}" at 6.5,60
 
 set key samplen -1 spacing 1.3 font ",26" box lw 0
-plot "Ampoule (2-9-16) NO2-Ph-N2-OTf-85.dat" using (($1)/3600):(1000*($5)) with lines linestyle 3 ti " 4-NO_2C_6H_4N@_2^+ TfO^- (1c)", \
- "Ampoule (2-1-16) NO2-Ph-N2-OTs-85.dat" using (($1)/3600):(1000*($5)) with lines linestyle 2 ti " 4-NO_2C_6H_4N@_2^+ TsO^- (2)", \
- "Ampoule (1-21-16) NO2-Ph-N2-BF4-85.dat" using (($1)/3600):(1000*($5)) with lines linestyle 1 ti " 4-NO_2C_6H_4N@_2^+ BF_4^- (3)"
+plot "Ampoule (2-9-16) NO2-Ph-N2-OTf-85.dat" using (($1)/3600):(1000*($5)) with lines linestyle 3 ti " 4-NO_2C_6H_4N@_2^+ TfO^-  {/:Bold 1c}", \
+ "Ampoule (2-1-16) NO2-Ph-N2-OTs-85.dat" using (($1)/3600):(1000*($5)) with lines linestyle 2 ti " 4-NO_2C_6H_4N@_2^+ TsO^-  {/:Bold 2}", \
+ "Ampoule (1-21-16) NO2-Ph-N2-BF4-85.dat" using (($1)/3600):(1000*($5)) with lines linestyle 1 ti " 4-NO_2C_6H_4N@_2^+ BF_4^-  {/:Bold 3}"
 
 #set nokey
 #set label " 4-NO_2C_6H_4N_2^+ BF_4^- (3)" at 10.5,115 font ",22"

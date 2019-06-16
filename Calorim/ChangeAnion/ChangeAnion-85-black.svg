@@ -122,13 +122,13 @@
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='black'  d='M157.3,36.5 L157.3,775.2 L1145.3,775.2 L1145.3,36.5 L157.3,36.5 Z  '/>	<g transform="translate(302.2,352.8)" stroke="none" fill="black" font-family="Helvetica" font-size="26.00"  text-anchor="start">
-		<text><tspan font-family="Helvetica" >(3)</tspan></text>
+		<text><tspan font-family="Helvetica"  font-weight="bold" >3</tspan></text>
 	</g>
 	<g transform="translate(466.9,168.1)" stroke="none" fill="black" font-family="Helvetica" font-size="26.00"  text-anchor="start">
-		<text><tspan font-family="Helvetica" >(1c)</tspan></text>
+		<text><tspan font-family="Helvetica"  font-weight="bold" >1c</tspan></text>
 	</g>
 	<g transform="translate(585.4,414.3)" stroke="none" fill="black" font-family="Helvetica" font-size="26.00"  text-anchor="start">
-		<text><tspan font-family="Helvetica" >(2)</tspan></text>
+		<text><tspan font-family="Helvetica"  font-weight="bold" >2</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -146,13 +146,13 @@
 <g fill="none" color="black" stroke="currentColor" stroke-width="0.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="0.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M708.5,208.1 L708.5,56.0 L1127.1,56.0 L1127.1,208.1 L708.5,208.1 Z  '/></g>
-	<g id="gnuplot_plot_1" ><title> 4-NO2C6H4N2+ TfO- (1c)</title>
+	<path stroke='black'  d='M726.7,208.1 L726.7,56.0 L1127.1,56.0 L1127.1,208.1 L726.7,208.1 Z  '/></g>
+	<g id="gnuplot_plot_1" ><title> 4-NO2C6H4N2+ TfO-  1c</title>
 <g fill="none" color="white" stroke="black" stroke-width="3.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="3.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g transform="translate(1090.7,89.9)" stroke="none" fill="black" font-family="Helvetica" font-size="26.00"  text-anchor="end">
-		<text><tspan font-family="Helvetica" > 4-NO</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px">2</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="-7.80px">C</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px">6</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="-7.80px">H</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px">4</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="-7.80px">N</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px">2</tspan><tspan font-family="Helvetica"  dx="-0.50em" dy="-20.80px">+</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="13.00px"> TfO</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="-13.00px">-</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="13.00px"> (1c)</tspan></text>
+		<text xml:space="preserve"><tspan font-family="Helvetica"  xml:space="preserve"> 4-NO</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px" xml:space="preserve">2</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="-7.80px" xml:space="preserve">C</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px" xml:space="preserve">6</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="-7.80px" xml:space="preserve">H</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px" xml:space="preserve">4</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="-7.80px" xml:space="preserve">N</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px" xml:space="preserve">2</tspan><tspan font-family="Helvetica"  dx="-0.50em" dy="-20.80px" xml:space="preserve">+</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="13.00px" xml:space="preserve"> TfO</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="-13.00px" xml:space="preserve">-</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="13.00px" xml:space="preserve">  </tspan><tspan font-family="Helvetica"  font-weight="bold"  xml:space="preserve">1c</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="3.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -722,10 +722,10 @@
 		L1143.0,767.3 L1143.2,767.3 L1143.4,767.3 L1143.6,767.3 L1143.8,767.3 L1144.0,767.3 L1144.2,767.3 L1144.4,767.3
 		L1144.6,767.3 L1144.8,767.3 L1145.0,767.3 L1145.2,767.3 L1145.3,767.3  '/></g>
 	</g>
-	<g id="gnuplot_plot_2" ><title> 4-NO2C6H4N2+ TsO- (2)</title>
+	<g id="gnuplot_plot_2" ><title> 4-NO2C6H4N2+ TsO-  2</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="3.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g transform="translate(1090.7,140.6)" stroke="none" fill="black" font-family="Helvetica" font-size="26.00"  text-anchor="end">
-		<text><tspan font-family="Helvetica" > 4-NO</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px">2</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="-7.80px">C</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px">6</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="-7.80px">H</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px">4</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="-7.80px">N</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px">2</tspan><tspan font-family="Helvetica"  dx="-0.50em" dy="-20.80px">+</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="13.00px"> TsO</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="-13.00px">-</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="13.00px"> (2)</tspan></text>
+		<text xml:space="preserve"><tspan font-family="Helvetica"  xml:space="preserve"> 4-NO</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px" xml:space="preserve">2</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="-7.80px" xml:space="preserve">C</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px" xml:space="preserve">6</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="-7.80px" xml:space="preserve">H</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px" xml:space="preserve">4</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="-7.80px" xml:space="preserve">N</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px" xml:space="preserve">2</tspan><tspan font-family="Helvetica"  dx="-0.50em" dy="-20.80px" xml:space="preserve">+</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="13.00px" xml:space="preserve"> TsO</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="-13.00px" xml:space="preserve">-</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="13.00px" xml:space="preserve">  </tspan><tspan font-family="Helvetica"  font-weight="bold"  xml:space="preserve">2</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="3.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -852,10 +852,10 @@
 		L1132.3,770.7 L1133.3,770.7 L1134.2,770.7 L1135.2,770.7 L1136.1,770.7 L1137.1,770.7 L1138.1,770.7 L1139.0,770.7
 		L1140.0,770.7 L1140.9,770.7 L1141.9,770.7 L1142.8,770.7 L1143.8,770.7 L1144.8,770.7 L1145.3,770.7  '/></g>
 	</g>
-	<g id="gnuplot_plot_3" ><title> 4-NO2C6H4N2+ BF4- (3)</title>
+	<g id="gnuplot_plot_3" ><title> 4-NO2C6H4N2+ BF4-  3</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="3.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g transform="translate(1090.7,191.3)" stroke="none" fill="black" font-family="Helvetica" font-size="26.00"  text-anchor="end">
-		<text><tspan font-family="Helvetica" > 4-NO</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px">2</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="-7.80px">C</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px">6</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="-7.80px">H</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px">4</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="-7.80px">N</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px">2</tspan><tspan font-family="Helvetica"  dx="-0.50em" dy="-20.80px">+</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="13.00px"> BF</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px">4</tspan><tspan font-family="Helvetica"  dy="-20.80px">-</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="13.00px"> (3)</tspan></text>
+		<text xml:space="preserve"><tspan font-family="Helvetica"  xml:space="preserve"> 4-NO</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px" xml:space="preserve">2</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="-7.80px" xml:space="preserve">C</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px" xml:space="preserve">6</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="-7.80px" xml:space="preserve">H</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px" xml:space="preserve">4</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="-7.80px" xml:space="preserve">N</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px" xml:space="preserve">2</tspan><tspan font-family="Helvetica"  dx="-0.50em" dy="-20.80px" xml:space="preserve">+</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="13.00px" xml:space="preserve"> BF</tspan><tspan font-family="Helvetica"  font-size="20.8" dy="7.80px" xml:space="preserve">4</tspan><tspan font-family="Helvetica"  dy="-20.80px" xml:space="preserve">-</tspan><tspan font-family="Helvetica"  font-size="26.0" dy="13.00px" xml:space="preserve">  </tspan><tspan font-family="Helvetica"  font-weight="bold"  xml:space="preserve">3</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="3.00" stroke-linecap="butt" stroke-linejoin="miter">
