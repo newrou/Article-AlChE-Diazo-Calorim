@@ -66,4 +66,31 @@ plot "Arrhenius.dat" using 1:7 with points linestyle 6 ti " 2-NO_2C_6H_4N@_2^+ T
  "Arrhenius.dat" using 1:3 with points linestyle 2 ti " 4-NO_2C_6H_4N@_2^+ TsO^-  {/:Bold 2}", f2(x) with line linestyle 2, \
  "Arrhenius.dat" using 1:2 with points linestyle 1 ti " 4-NO_2C_6H_4N@_2^+ BF@_4^-  {/:Bold 3}", f1(x) with line linestyle 1
 
+
+set nolabel
+set output "Arrhenius-black-nokey.svg"
+set xrange [0.00278:0.00288]
+set yrange [1:9]
+set linestyle 1 lt 1 lw 3 lc rgb "black" dashtype 1 pt 1
+set linestyle 2 lt 2 lw 3 lc rgb "black" dashtype 1 pt 2
+set linestyle 3 lt 3 lw 3 lc rgb "black" dashtype 1 pt 3
+set linestyle 4 lt 4 lw 3 lc rgb "black" dashtype 1 pt 4
+set linestyle 5 lt 5 lw 3 lc rgb "black" dashtype 1 pt 5
+set linestyle 6 lt 6 lw 3 lc rgb "black" dashtype 1 pt 6
+set label "{/:Bold 3}" at 0.00286,4.0
+set label "{/:Bold 2}" at 0.00286,3.5
+set label "{/:Bold 1c}" at 0.0028,1.7
+set label "{/:Bold 1b}" at 0.0028,3.6
+set label "{/:Bold 1a}" at 0.0028,7.5
+set label "{/:Bold 1d}" at 0.0028,4.9
+#set key samplen -1 spacing 1.3 font ",26" box lw 0
+set nokey
+plot "Arrhenius.dat" using 1:7 with points linestyle 6 ti " 2-NO_2C_6H_4N@_2^+ TfO^-  {/:Bold 1a}", f6(x) with line linestyle 6, \
+ "Arrhenius.dat" using 1:6 with points linestyle 5 ti " 3-NO_2C_6H_4N@_2^+ TfO^-  {/:Bold 1b}", f5(x) with line linestyle 5, \
+ "Arrhenius.dat" using 1:4 with points linestyle 3 ti " 4-NO_2C_6H_4N@_2^+ TfO^-  {/:Bold 1c}", f3(x) with line linestyle 3, \
+ "Arrhenius.dat" using 1:5 with points linestyle 4 ti " 4-CH_3OC_6H_4N@_2^+ TfO^-  {/:Bold 1d}", f4(x) with line linestyle 4, \
+ "Arrhenius.dat" using 1:3 with points linestyle 2 ti " 4-NO_2C_6H_4N@_2^+ TsO^-  {/:Bold 2}", f2(x) with line linestyle 2, \
+ "Arrhenius.dat" using 1:2 with points linestyle 1 ti " 4-NO_2C_6H_4N@_2^+ BF@_4^-  {/:Bold 3}", f1(x) with line linestyle 1
+
+
 quit

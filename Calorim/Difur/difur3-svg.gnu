@@ -73,6 +73,24 @@ plot "eval-p-NO2-Ph-N2-OTf.csv" using (($1)/86400/365.25):(1e12*($2)) with lines
  "eval-p-NO2-Ph-N2-OTs.csv" using (($1)/86400/365.25):(1e12*($2)) with lines linestyle 2 ti "4-NO_2C_6H_4N@_2^+ ^-OTs  {/:Bold 2}", \
  "eval-p-NO2-Ph-N2-BF4.csv" using (($1)/86400/365.25):(1e12*($2)) with lines linestyle 1 ti "4-NO_2C_6H_4N@_2^+ BF@_4^-  {/:Bold 3}"
 
+set xrange [0:96]
+set output "eval-p-NO2-Ph-N2-Ax-black-nokey.svg"
+set style line 1 lt 1 lw 3 pt 6 linecolor rgb "black"
+set style line 2 lt 2 lw 3 pt 7 linecolor rgb "black"
+set style line 3 lt 3 lw 3 pt 8 linecolor rgb "black"
+unset label
+set label "{/:Bold 3}" at 7.94,5.0
+set label "{/:Bold 2}" at 5.48,32.0
+set label "{/:Bold 1c}" at 54.8,4.0
+#set key samplen -1 spacing 1.3 font ",26" box lw 0
+set nokey
+plot "eval-p-NO2-Ph-N2-OTf.csv" using (($1)/86400/365.25):(1e12*($2)) with lines linestyle 3 ti "4-NO_2C_6H_4N@_2^+ ^-OTf  {/:Bold 1c}", \
+ "eval-p-NO2-Ph-N2-OTs.csv" using (($1)/86400/365.25):(1e12*($2)) with lines linestyle 2 ti "4-NO_2C_6H_4N@_2^+ ^-OTs  {/:Bold 2}", \
+ "eval-p-NO2-Ph-N2-BF4.csv" using (($1)/86400/365.25):(1e12*($2)) with lines linestyle 1 ti "4-NO_2C_6H_4N@_2^+ BF@_4^-  {/:Bold 3}"
+
+
+
+
 set xrange [0:164]
 set output "eval-omp-NO2-Ph-N2-OTf-black.svg"
 unset label
@@ -80,6 +98,18 @@ set label "{/:Bold 1a}" at 21.9,2.3
 set label "{/:Bold 1b}" at 109.5,1.1
 set label "{/:Bold 1c}" at 54.7,3.3
 set key samplen -1 spacing 1.3 font ",26" box lw 0
+plot  "eval-o-NO2-Ph-N2-OTf.csv" using (($1)/86400/365.25):(1e12*($2)) with lines linestyle 1 ti "2-NO_2C_6H_4N@_2^+ ^-OTf  {/:Bold 1a}", \
+ "eval-m-NO2-Ph-N2-OTf.csv" using (($1)/86400/365.25):(1e12*($2)) with lines linestyle 2 ti "3-NO_2C_6H_4N@_2^+ ^-OTf  {/:Bold 1b}", \
+ "eval-p-NO2-Ph-N2-OTf.csv" using (($1)/86400/365.25):(1e12*($2)) with lines linestyle 3 ti "4-NO_2C_6H_4N@_2^+ ^-OTf  {/:Bold 1c}"
+
+set xrange [0:164]
+set output "eval-omp-NO2-Ph-N2-OTf-black-nokey.svg"
+unset label
+set label "{/:Bold 1a}" at 21.9,2.3
+set label "{/:Bold 1b}" at 109.5,1.1
+set label "{/:Bold 1c}" at 54.7,3.3
+#set key samplen -1 spacing 1.3 font ",26" box lw 0
+set nokey
 plot  "eval-o-NO2-Ph-N2-OTf.csv" using (($1)/86400/365.25):(1e12*($2)) with lines linestyle 1 ti "2-NO_2C_6H_4N@_2^+ ^-OTf  {/:Bold 1a}", \
  "eval-m-NO2-Ph-N2-OTf.csv" using (($1)/86400/365.25):(1e12*($2)) with lines linestyle 2 ti "3-NO_2C_6H_4N@_2^+ ^-OTf  {/:Bold 1b}", \
  "eval-p-NO2-Ph-N2-OTf.csv" using (($1)/86400/365.25):(1e12*($2)) with lines linestyle 3 ti "4-NO_2C_6H_4N@_2^+ ^-OTf  {/:Bold 1c}"
