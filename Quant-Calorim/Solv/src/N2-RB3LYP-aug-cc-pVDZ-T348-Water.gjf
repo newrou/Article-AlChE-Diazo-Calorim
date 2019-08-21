@@ -1,0 +1,12 @@
+%mem=500MW
+%nproc=7
+#p  scrf=(cpcm,solvent=water) opt Temperature=348.15 int=(grid=ultrafine) CPHF=(grid=fine) freq rb3lyp/aug-cc-pvdz
+
+N2-RB3LYP-aug-cc-pVDZ--
+
+0 1
+N           0.00000         0.00000         0.55220
+N           0.00000         0.00000        -0.55220
+
+
+nprocshared=7
