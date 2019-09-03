@@ -10,6 +10,7 @@ set linestyle 3 lt 3 lw 3 lc rgb "green" dashtype 1
 
 set output "1a.svg"
 plot "1a.csv" using 2:($4) with lines linestyle 2 ti "Heat flow", \
-     "1a.csv" using 2:($6) with lines linestyle 1 ti " dT"
+     "1a.csv" using 2:($5*12) with lines linestyle 1 ti " dT", \
+     "1a.csv" using 2:($6) with lines linestyle 3 ti " uV"
 
 quit
